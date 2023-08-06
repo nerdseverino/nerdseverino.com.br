@@ -13,7 +13,7 @@ disqusShortname = "https-nerdseverino-com-br"
   post = "/:year/:month/:day/:slug"
 
 [params]
-  avatar = "img/nerdserverino.png"
+  avatar = "imgages/nerdserverino.png"
   author = "Nerd Severino"
   description = "Compartilhar o conhecimento é multiplicar o seu próprio!"
 
