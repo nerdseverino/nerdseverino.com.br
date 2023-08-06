@@ -39,6 +39,6 @@ disqusShortname = "https-nerdseverino-com-br"
   url = "/blog/"
 [[menu.main]]
   name = "About"
-  weight = 100
+  weight = 200
   identifier = "about"
   url = "/about/"
