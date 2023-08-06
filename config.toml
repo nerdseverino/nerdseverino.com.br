@@ -1,10 +1,10 @@
-baseURL = "https://gomex.me/"
+baseurl = "https://www.nerdseverino.com.br/"
 languageCode = "en-US"
-title = "Rafael Gomex"
+title = "Nerd Severino"
 # Enable comments by entering your Disqus shortname
-disqusShortname = "gomex-me-1"
+disqusShortname = "https-nerdseverino-com-br"
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = "UA-111345881-1"
+#googleAnalytics = "UA-111345881-1"
 
 [[module.imports]]
   path = "github.com/suyundukov/hugo-sustain"
@@ -13,22 +13,22 @@ googleAnalytics = "UA-111345881-1"
   post = "/:year/:month/:day/:slug"
 
 [params]
-  avatar = "img/profile.jpeg"
-  author = "Gomex"
-  description = "Conhecimento retido é conhecimento perdido"
+  avatar = "img/nerdserverino.png"
+  author = "Nerd Severino"
+  description = "Compartilhar o conhecimento é multiplicar o seu próprio!"
 
   # Custom assets can be linked with their paths relative to static/
   custom_css = []
   custom_js  = []
 
 [params.social]
-  Github        = "gomex"
-  Email         = "me@gomex.me"
-  Twitter       = "gomex"
-  LinkedIn      = "rbgomes"
-  Stackoverflow = "gomex"
-  Medium        = "gomex"
-  Telegram      = "gomex"
+  Github        = "nerdseverino"
+  Email         = ""
+  Twitter       = ""
+  LinkedIn      = "fabriciomachado"
+  Stackoverflow = ""
+  Medium        = ""
+  Telegram      = ""
   RSS           = "/blog/index.xml"
 
 ## Main Menu
@@ -37,18 +37,3 @@ googleAnalytics = "UA-111345881-1"
   weight = 100
   identifier = "blog"
   url = "/blog/"
-[[menu.main]]
-  name = "mentoria devops"
-  identifier = "mentoriadevops"
-  weight = 200
-  url = "https://mentoriadevops.io/"
-[[menu.main]]
-  name = "about"
-  identifier = "about"
-  weight = 300
-  url = "/about/"
-[[menu.main]]
-  name = "resume"
-  identifier = "resume"
-  weight = 300
-  url = "https://gomex.github.io/"
