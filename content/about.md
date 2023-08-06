@@ -4,28 +4,16 @@ date = "2017-12-17"
 sidemenu = "true"
 description = "About"
 +++
+## Linux System Administrator | Devops enthusiast | Sysadmin
+
 ## English
-TBD
+I'm Sysadmin, Free software, Devops tools and culture professional. Learning about cloud providers and your tools. Backup, maintenence operations systems, security are parts of my regular day job.
+I'm really apretiate IOT and mobile computing and like my 3 Raspberry PI.
 
-## Portuguese
-Soteropolitano, hacker urbano e consultor de infraestrutura, formado na Universidade de Salvador no curso de Gestão de Redes.
+## Português
+Sou um Sysadmin com expertise em software livre, ferramentas de DevOps, Cloud providers. Tarefas como manutenção de sistemas operacionais e backup e segurança de sistemas, fazem parte da rotina de trabalho.
+Entusiasta de computação portátil e Internet das coisas, tenho alguns Raspberry Pi pra brincar e soltar a imaginação em projetos do tipo faça você mesmo. 
 
-Trabalho atualmente na DNSFilter, focado em infraestrutura como código. Organizador e Autor dos seguintes livros:
-
- - "Docker para desenvolvedores": https://leanpub.com/dockerparadesenvolvedores
- - "Deploy em produção para desenvolvedores:" https://leanpub.com/deployemprodparadevs
-
-Faço parte do Core Organizer do DevOpsDays, HashiCorp Ambassador e Docker Captain.
-
-<form method="POST" action="http://formspree.io/linux@gmail.com">
-  <p>
-  <input type="name" name="name" placeholder="Your name" size="40">
-  </p>
-  <p>
-  <input type="email" name="email" placeholder="Your email" size="40">
-  </p>
-  <p>
-  <textarea name="message" placeholder="Your message" cols="70" rows=10></textarea>
-  </p>
-  <button type="submit">Send</button>
-</form>
+<p align="center">
+<img src="/images/uploads/raspberry-pi-logo.png" width="150" title="Raspberry pi logo">
+</p>
