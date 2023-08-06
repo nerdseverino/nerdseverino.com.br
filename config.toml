@@ -37,3 +37,8 @@ disqusShortname = "https-nerdseverino-com-br"
   weight = 100
   identifier = "blog"
   url = "/blog/"
+[[menu.main]]
+  name = "About"
+  weight = 100
+  identifier = "about"
+  url = "/about/"
