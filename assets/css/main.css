@@ -156,7 +156,7 @@ h5 a:hover {
 }
 
 .social-links li a:hover {
-  color: #000;
+  rgba(0,0,0,.5);
 }
 
 .avatar {
