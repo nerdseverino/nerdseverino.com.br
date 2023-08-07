@@ -1,4 +1,4 @@
-* SRE 
-* Devops enthusiast 
-* Sysadmin 
-* OCI Foundations
+SRE 
+Devops enthusiast 
+Sysadmin 
+OCI Foundations
