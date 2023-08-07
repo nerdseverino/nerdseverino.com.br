@@ -8,7 +8,7 @@ disqusShortname = "https-nerdseverino-com-br"
 
 [[module.imports]]
   path = "github.com/suyundukov/hugo-sustain"
-
+ 
 [permalinks]
   post = "/:year/:month/:day/:slug"
 
@@ -30,6 +30,9 @@ disqusShortname = "https-nerdseverino-com-br"
   Medium        = ""
   Telegram      = ""
   RSS           = "/blog/index.xml"
+
+[markup.goldmark.renderer]
+unsafe = true
 
 ## Main Menu
 [[menu.main]]
