@@ -27,29 +27,28 @@ Uma das maneiras mais comuns de instalar o Linux é criar uma mídia de instala�
 
 Outra opção é instalar o Linux a partir de uma máquina virtual. Isso permite que você execute o Linux em um ambiente de software separado, sem precisar alterar a configuração do seu sistema operacional atual. Existem vários programas de máquina virtual disponíveis, como o VirtualBox e o VMware, que podem ser usados para instalar o Linux.
 
-S﻿eparei alguns vídeos sobre a instalação do sistema: 
+Separei alguns vídeos sobre a instalação do sistema: 
 
--﻿ Os dois primeiros é sobre como instalar no virtualbox:
+- Os dois primeiros é sobre como instalar no virtualbox:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eKAkOxSi4Cs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/7FCYFy0J4NQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-I﻿nstalando o Debian: 
+Instalando o Debian: 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/liMJ6Krv4ss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-I﻿nstalando o Ubuntu:
+Instalando o Ubuntu:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qSwWlqQYTko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-I﻿nstalando o POP OS:
+Instalando o POP OS:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1oKAWwHN-30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-I﻿nstalando o Fedora:
+Instalando o Fedora:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/H04oqCvi8DA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-I﻿nstalando o Alpine:
+Instalando o Alpine:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/p2OeunawIP0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
