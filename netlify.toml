@@ -5,5 +5,4 @@
   HUGO_VERSION = "0.116.1"
 
 [[plugins]]
-package = "@netlify/plugin-sitemap"
 package = "netlify-plugin-amp-server-side-rendering"
