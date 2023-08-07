@@ -6,9 +6,4 @@
 
 [[plugins]]
 package = "@netlify/plugin-sitemap"
-
-  [plugins.inputs]
-  buildDir = "public"
-  filePath = "/sitemap.xml"
-
 package = "netlify-plugin-amp-server-side-rendering"
