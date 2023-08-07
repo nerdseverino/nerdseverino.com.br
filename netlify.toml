@@ -3,4 +3,12 @@
 [build.environment]
   GO_VERSION = "1.20"
   HUGO_VERSION = "0.116.1"
-  
+
+[[plugins]]
+package = "@netlify/plugin-sitemap"
+
+  [plugins.inputs]
+  buildDir = "public"
+  filePath = "/sitemap.xml"
+
+package = "netlify-plugin-amp-server-side-rendering"
