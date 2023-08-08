@@ -52,6 +52,6 @@ unsafe = true
   url = "/blog/index.xml"
 [[menu.main]]
   name = "Linux"
-  weight = 300
+  weight = 400
   identifier = "linux"
   url = "/linux"
