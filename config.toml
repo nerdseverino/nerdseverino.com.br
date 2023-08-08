@@ -50,3 +50,8 @@ unsafe = true
   weight = 300
   identifier = "feed"
   url = "/blog/index.xml"
+[[menu.main]]
+  name = "Linux"
+  weight = 300
+  identifier = "linux"
+  url = "/linux"
