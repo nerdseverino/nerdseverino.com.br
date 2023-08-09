@@ -18,6 +18,8 @@ thumbnailImagePosition: top
 thumbnailImage: ""
 coverImage: ""
 ---
+
+
 ![yum logo](/images/uploads/yum.png "yum logo")
 
 Estamos acostumados com o **Yum**, mas geralmente usamos apenas a opção install do mesmo, mas existem outros parâmetros bem interessantes do **Yum** que podem ser úteis no seu dia-a-dia.
