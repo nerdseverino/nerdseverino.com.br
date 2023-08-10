@@ -42,7 +42,7 @@ unsafe = true
   url = "/blog/"
 [[menu.main]]
   name = "About"
-  weight = 200
+  weight = 400
   identifier = "about"
   url = "/about/"
 [[menu.main]]
@@ -52,6 +52,7 @@ unsafe = true
   url = "/blog/index.xml"
 [[menu.main]]
   name = "Linux"
-  weight = 400
+  weight = 200
   identifier = "linux"
   url = "/linux"
+
