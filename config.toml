@@ -36,23 +36,22 @@ unsafe = true
 
 ## Main Menu
 [[menu.main]]
-  name = "blog"
+  name = "Blog"
   weight = 100
   identifier = "blog"
   url = "/blog/"
 [[menu.main]]
-  name = "About"
-  weight = 400
-  identifier = "about"
-  url = "/about/"
+  name = "Linux"
+  weight = 200
+  identifier = "linux"
+  url = "/linux"
 [[menu.main]]
   name = "Feed"
   weight = 300
   identifier = "feed"
   url = "/blog/index.xml"
 [[menu.main]]
-  name = "Linux"
-  weight = 200
-  identifier = "linux"
-  url = "/linux"
-
+  name = "About"
+  weight = 400
+  identifier = "about"
+  url = "/about/"
