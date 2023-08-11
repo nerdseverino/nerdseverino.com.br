@@ -1,17 +1,18 @@
-+++
-title = "About"
-date = "2017-12-17"
-sidemenu = "true"
-description = "About"
-+++
+---
+title: About
+date: 2017-12-17
+sidemenu: "true"
+description: About
+---
 ## Linux System Administrator | Devops enthusiast | Sysadmin
 
 ## English
-I'm Sysadmin, Free software, Devops tools and culture professional. Learning about cloud providers and your tools. Backup, maintenence operations systems, security are parts of my regular day job.
-I'm really apretiate IOT and mobile computing and like my 3 Raspberry PI.
+
+I'm a Sysadmin with experience in open-source software, DevOps tools, and Cloud providers. Tasks such as maintaining operating systems, system backup and security are part of my daily work routine. Passionate about portable computing and Internet of Things, I have a few Raspberry Pi devices to play around with and unleash my imagination in do-it-yourself type projects.
 
 ## Português
-Sou um Sysadmin com expertise em software livre, ferramentas de DevOps, Cloud providers. Tarefas como manutenção de sistemas operacionais e backup e segurança de sistemas, fazem parte da rotina de trabalho.
+
+Sou um Sysadmin com experiência em software livre, ferramentas de DevOps, Cloud providers. Tarefas como manutenção de sistemas operacionais e backup e segurança de sistemas, fazem parte da minha rotina de trabalho.
 Entusiasta de computação portátil e Internet das coisas, tenho alguns Raspberry Pi pra brincar e soltar a imaginação em projetos do tipo faça você mesmo. 
 
 <p align="center">
