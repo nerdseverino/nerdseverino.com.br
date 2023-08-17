@@ -18,3 +18,7 @@ Entusiasta de computação portátil e Internet das coisas, tenho alguns Raspber
 <p align="center">
 <img src="/images/uploads/raspberry-pi-logo.png" width="150" title="Raspberry pi logo">
 </p>
+
+
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="9c3ff36e-07c4-46df-aa80-4c208e39ced4" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
