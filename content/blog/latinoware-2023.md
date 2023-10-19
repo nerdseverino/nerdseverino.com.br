@@ -21,3 +21,9 @@ M﻿eu obrigado ao [Marcos Siriaco](https://www.linkedin.com/in/marcos-siriaco-3
 E  esse foi apenas o primeiro dia, bora pro restante do evento, voltaremos!
 
 P﻿S.: Se quiserem me convidar novamente estamos aqui pra essa jornada novamente!  :D
+
+P﻿ra quem ficou curioso seguem os links para os slides:
+
+[Conhecendo_a_Arquiterura_ARM.pdf](https://nerdseverino.com.br/blog/anexos/Conhecendo_a_Arquiterura_ARM.pdf)
+
+[Nextcloud_em_casa(selfhosted).pdf](https://nerdseverino.com.br/blog/anexos/Nextcloud_em_casa(selfhosted).pdf)
