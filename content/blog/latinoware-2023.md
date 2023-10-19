@@ -8,8 +8,6 @@ autoThumbnailImage: false
 thumbnailImagePosition: top
 coverImage: /images/uploads/latinoware.jpg
 ---
-
-
 H﻿oje tive a honra de participar e falar em um dos maiores eventos de software livre do Brasil a Latinoware que está completando seus 20 anos de existência.
 
 D﻿esde que recebi o convite até o momento que comecei a aprensentar todo o caminho foi bastante desafiador, mas está trazendo bastante recompensa como eu esperava que fosse. 
