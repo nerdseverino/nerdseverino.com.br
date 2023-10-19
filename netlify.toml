@@ -1,4 +1,7 @@
 # https://gohugo.io/hosting-and-deployment/hosting-on-netlify/
+[build]
+  command = "hugo"
+  publish = "public"
 
 [build.environment]
   GO_VERSION = "1.20"
