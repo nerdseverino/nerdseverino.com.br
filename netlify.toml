@@ -1,6 +1,6 @@
 # https://gohugo.io/hosting-and-deployment/hosting-on-netlify/
 [build]
-  command = "hugo"
+  command = "hugo server"
   publish = "public"
 
 [build.environment]
