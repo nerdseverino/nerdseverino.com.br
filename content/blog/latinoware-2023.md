@@ -1,13 +1,25 @@
 ---
-title: Latinoware 2023
-date: 2023-10-19T02:55:44.739Z
+title: Latinoware 2023 - 20 Anos
+date: 2023-10-24T20:57:40.955Z
 categories:
   - Eventos
 tags:
+  - Nextcloud
+  - ARM
+  - 20 anos
   - linux
   - software
   - livre
   - latinoware
+keywords:
+  - Nextcloud
+  - ARM
+  - 20 anos
+  - linux
+  - software
+  - livre
+  - latinoware
+thumbnailImagePosition: top
 coverImage: /images/uploads/latinoware.jpg
 ---
 H﻿oje tive a honra de participar e falar em um dos maiores eventos de software livre do Brasil a Latinoware que está completando seus 20 anos de existência.
@@ -24,8 +36,14 @@ E  esse foi apenas o primeiro dia, bora pro restante do evento, voltaremos!
 
 P﻿S.: Se quiserem me convidar novamente estamos aqui pra essa jornada novamente!  :D
 
-P﻿ra quem ficou curioso seguem os links para os slides:
+P﻿ra quem ficou curioso seguem os links para os vídeos e slides:
+
+[﻿Confira no Youtube]
+(https://www.youtube.com/watch?v=cxNL4xFmvng)
 
 [Conhecendo_a_Arquiterura_ARM.pdf](https://arm.nerdseverino.com.br/s/Hn7JPC8HC3HkrtG)
+
+[﻿Confira no Youtube]
+(﻿https://www.youtube.com/watch?v=n6F0bw-dHIo)
 
 [Nextcloud_em_casa(selfhosted).pdf](https://arm.nerdseverino.com.br/s/KnXCg4iRAXcWHDZ)
