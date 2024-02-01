@@ -1,6 +1,8 @@
 ---
 title: Post de Teste
 date: 2020-02-04T15:30:32.000Z
+categories:
+  - teste
 tags:
   - english
   - portugues
