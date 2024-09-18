@@ -37,18 +37,44 @@ email = "machado.disk@gmail.com"
   custom_css = []
   custom_js  = []
 
-[params.social]
-  Github        = "nerdseverino"
-  Email         = ""
-  Twitter       = ""
-  LinkedIn      = "fabriciomachado"
-  Stackoverflow = ""
-  Medium        = ""
-  Telegram      = ""
-  RSS           = "/blog/index.xml"
+#[params.social]
+#  Github        = "nerdseverino"
+#  Email         = ""
+#  Twitter       = ""
+#  LinkedIn      = "fabriciomachado"
+#  Stackoverflow = ""
+#  Medium        = ""
+#  Telegram      = ""
+#  RSS           = "/blog/index.xml"
 
-[markup.goldmark.renderer]
-unsafe = true
+[[params.social]]
+key = 0
+name = "github"
+url = "https://github.com/nerdseverino"
+icon = "fa-brands fa-github"  # Add link to your icon font to `layouts/partials/custom-head.html`
+target = "_blank" # Defines your target option in a-href. _blank for a new Tab for example.
+aria = "GitHub Profile" # Define the aria label for accessibility like page reader - this is better for your SEO
+
+[[params.social]]
+key = 1
+name = "twitter"
+url = ""
+
+[[params.social]]
+key = 2
+name = "mastodon"
+url = ""
+rel = "me"  # You can also add rel to social link
+
+[[params.social]]
+key = 3
+name = "email"
+url = "mailto:machado.disk@gmail.com"
+
+
+
+#[markup.goldmark.renderer]
+#unsafe = true
 
 ## Main Menu
 [[menu.main]]
