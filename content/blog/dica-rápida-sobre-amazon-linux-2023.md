@@ -24,17 +24,17 @@ B﻿om me deparei subindo uma nova EC2 recentemente que a AMI do Amazon Linux 20
 
 \- C﻿rontab e Rsyslog -  Mesmo sabendo que o SystemD pode gerenciar agendamentos muitas vezes queremos optar pelo bom e velho Cron para isso  é necessário fazer a instalação dos serviço. Junto com ele recomendo o Rsyslog também 
 
-`sudo yum install cronie rsyslog -y`
-`sudo systemctl enable crond.service`
-`sudo systemctl enable rsyslogd.service`
-`sudo systemctl start crond.service`
-`sudo systemctl start rsyslogd.service`
-`sudo systemctl status crond.service`
-`sudo systemctl status rsyslogd.service`
+sudo yum install cronie rsyslog -y
+sudo systemctl enable crond.service\
+sudo systemctl enable rsyslogd.service\
+sudo systemctl start crond.service\
+sudo systemctl start rsyslogd.service\
+sudo systemctl status crond.service\
+sudo systemctl status rsyslogd.service
 
 B﻿ônus Track:
 
-#docker-compose (latest version)
+\#docker-compose (latest version)
 curl -L https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
 #Fix permissions after download
 chmod +x /usr/local/bin/docker-compose
