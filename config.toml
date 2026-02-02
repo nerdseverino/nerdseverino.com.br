@@ -1,65 +1,160 @@
 baseurl = "https://www.nerdseverino.com.br/"
 languageCode = "pt-BR"
 title = "Nerd Severino"
-# Enable comments by entering your Disqus shortname
-disqusShortname = "https-nerdseverino-com-br"
-# Enable Google Analytics by entering your tracking code
-#googleAnalytics = "UA-111345881-1"
 
-#[[module.imports]]
-#  path = "github.com/derme302/triple-hyde"
-
+# Module imports
 [[module.imports]]
   path = "github.com/adityatelange/hugo-PaperMod"
 
-#[[module.imports]]
-#  path = "github.com/nerdseverino/hugo-sustain"
+[params]
+  author = "Fabrício Machado"
+  description = "Senior SRE/DevOps | AWS | Linux | Compartilhar o conhecimento é multiplicar o próprio!"
+  
+  # Analytics
+  plausibleDataDomain = "nerdseverino.com.br"
+  
+  # SEO
+  keywords = ["Linux", "AWS", "DevOps", "SRE", "Cloud", "Infraestrutura", "Kubernetes", "Docker"]
+  images = ["images/nerdserverino.png"]
+  
+  # 1. Modo escuro automático
+  defaultTheme = "auto"  # auto, light, dark
+  disableThemeToggle = false
+  
+  # 2. Busca no site
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ["title", "permalink", "summary", "content"]
+  
+  # 3. Ícones sociais na home
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/nerdseverino"
+  
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/fabriciomachado"
+  
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/blog/index.xml"
+  
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:machado.computer@gmail.com"
+  
+  # Home page info
+  [params.homeInfoParams]
+    Title = "Olá! 👋"
+    Content = """
+Sou **Fabrício Machado**, Senior SRE/DevOps com 20 anos de experiência em TI.
 
+Compartilho conhecimento sobre **Linux**, **AWS**, **DevOps** e **SRE**.
+
+Atualmente trabalho na **Flexa Cloud** apoiando clientes em migração, sustentação e evolução de ambientes AWS.
+    """
+  
+  # 4. Syntax highlighting melhorado
+  [params.assets]
+    disableHLJS = false
+  
+  # 5. Metadados dos posts
+  ShowReadingTime = true          # 7. Tempo de leitura
+  ShowShareButtons = true         # 6. Botão de compartilhamento
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  
+  # Table of Contents
+  ShowToc = true
+  TocOpen = false
+  
+  # Cover images
+  [params.cover]
+    linkFullImages = true
+    responsiveImages = true
+  
+  # Edit link (GitHub)
+  [params.editPost]
+    URL = "https://github.com/nerdseverino/nerdseverino.com.br/tree/main/content"
+    Text = "Sugerir alteração"
+    appendFilePath = true
+
+# Permalinks
 [permalinks]
   post = "/:year/:month/:day/:slug"
 
-[params]
-  avatar = "images/nerdserverino.png"
-  author = "Nerd Severino"
-  description = "Compartilhar o conhecimento é multiplicar o seu próprio!"
+# 2. Outputs (necessário para busca)
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
 
+# 4. Syntax highlighting melhorado
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+    style = "monokai"
+    tabWidth = 4
 
-  # Custom assets can be linked with their paths relative to static/
-  custom_css = []
-  custom_js  = []
-
-[params.social]
-  Github        = "nerdseverino"
-  Email         = ""
-  Twitter       = ""
-  LinkedIn      = "fabriciomachado"
-  Stackoverflow = ""
-  Medium        = ""
-  Telegram      = ""
-  RSS           = "/blog/index.xml"
-
-
-[markup.goldmark.renderer]
-unsafe = true
-
-## Main Menu
+# 5. Menu (com Tags e Categorias)
 [[menu.main]]
   name = "Blog"
   weight = 100
   identifier = "blog"
   url = "/blog/"
+
 [[menu.main]]
   name = "Linux"
   weight = 200
   identifier = "linux"
-  url = "/linux"
+  url = "/linux/"
+
 [[menu.main]]
-  name = "Feed"
+  name = "Tags"
   weight = 300
-  identifier = "feed"
-  url = "/blog/index.xml"
+  identifier = "tags"
+  url = "/tags/"
+
+[[menu.main]]
+  name = "Categorias"
+  weight = 350
+  identifier = "categories"
+  url = "/categories/"
+
+[[menu.main]]
+  name = "Busca"
+  weight = 400
+  identifier = "search"
+  url = "/search/"
+
 [[menu.main]]
   name = "About"
-  weight = 400
+  weight = 500
   identifier = "about"
   url = "/about/"
+
+# Minify
+[minify]
+  disableXML = true
+  minifyOutput = true
+  
+  [minify.tdewolff.html]
+    keepWhitespace = false
+
+# Disqus
+disqusShortname = "https-nerdseverino-com-br"
