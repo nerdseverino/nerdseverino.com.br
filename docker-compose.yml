@@ -1,0 +1,21 @@
+services:
+  hugo:
+    build: .
+    container_name: nerdseverino-blog
+    ports:
+      - "1313:1313"
+    networks:
+      - reverse-proxy
+    environment:
+      - HUGO_ENV=production
+      - VIRTUAL_HOST=nerdseverino.com.br,www.nerdseverino.com.br
+      - VIRTUAL_PORT=1313
+      - LETSENCRYPT_HOST=nerdseverino.com.br,www.nerdseverino.com.br
+      - LETSENCRYPT_EMAIL=machado.computer@gmail.com
+    command: hugo server --bind 0.0.0.0 --baseURL https://nerdseverino.com.br --appendPort=false
+    restart: unless-stopped
+
+networks:
+  reverse-proxy:
+    external: true
+    name: reverse-proxy

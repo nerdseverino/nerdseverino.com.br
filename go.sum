@@ -1,2 +1,6 @@
+github.com/adityatelange/hugo-PaperMod v0.0.0-20260125152547-3bb0ca281fd1 h1:nS0GAIWJZIxy1YWwGce18ePQHB7v1Y1sxUTOOrBAIeA=
+github.com/adityatelange/hugo-PaperMod v0.0.0-20260125152547-3bb0ca281fd1/go.mod h1:HCHxNMKYdGafUYjVV3ICiAqznZK2yH0iI53jqcDFDdQ=
+github.com/lxndrblz/anatole v1.18.0 h1:1ECGwdF1xsL0Q8yuN9bThth3WpcBoW7ZU6Gy1z5Rn24=
+github.com/lxndrblz/anatole v1.18.0/go.mod h1:hy61SRyUDKaWw2P+cERt9UPde5guWyVKgtjdzRF5bfI=
 github.com/suyundukov/hugo-sustain v0.0.0-20230524192148-21d9f8f53692 h1:M+7tqD0hINhijqUvZ8eYUu3Cg9/e5d2qTmWQw8MRp+w=
 github.com/suyundukov/hugo-sustain v0.0.0-20230524192148-21d9f8f53692/go.mod h1:n2QydvFaCpM+jiAoKZZcfFitO6s/hhCAul8XxG9UinY=

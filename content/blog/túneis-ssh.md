@@ -104,7 +104,7 @@ O segundo caso não difere muito do primeiro, pois o procedimento é o mesmo, ma
 
 Para este segundo caso a situação é um pouco diferente, onde você precisa acessar um serviço, seja no servidor ssh, ou em uma máquina interna.
 
-Esse serviço normalmente foi bloqueado pelo firewall iptables (veja mais em http://www.stato.blog.br/wordpress/?page_id=364), ou seja, não existe a porta aberta, pois o firewall está bloqueado.
+<!-- Link comentado para verificação: http://www.stato.blog.br/wordpress/?page_id=364 -->
 
 Imagine a situação do banco de dados rodando no próprio servidor SSH, na porta 3306 (Mysql), ou ainda um cliente interno , onde é necessário acessar o Terminal Service, mas não existe um regra DNAT iptables para redirecionar o trafego. Neste dois caso é possível criar uma conexão até o servidor ssh, e posteriormente criar um túnel para o serviço desejado.
 

@@ -18,7 +18,7 @@ autoThumbnailImage: true
 thumbnailImagePosition: top
 coverImage: ''
 ---
-Fonte: http://web.mit.edu/rhel-doc/4/RH-DOCS/rhel-sg-pt_br-4/s1-server-ports.html
+<!-- Link comentado para verificação: http://web.mit.edu/rhel-doc/4/RH-DOCS/rhel-sg-pt_br-4/s1-server-ports.html -->
 
 <p align="center">
 <img src="/images/uploads/network_logo1.png" width="240" title="Network logo">

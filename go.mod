@@ -1,5 +1,5 @@
-module github.com/gomex/gomex.me
+module github.com/nerdseverino/nerdseverino.com.br
 
-go 1.20
+go 1.21
 
-require github.com/suyundukov/hugo-sustain v0.0.0-20230524192148-21d9f8f53692 // indirect
+require github.com/adityatelange/hugo-PaperMod v0.0.0-20260125152547-3bb0ca281fd1 // indirect

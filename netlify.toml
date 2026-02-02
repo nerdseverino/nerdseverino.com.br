@@ -1,8 +1,7 @@
-# https://gohugo.io/hosting-and-deployment/hosting-on-netlify/
-#[build]
-#  command = "hugo server"
-#  publish = "public"
+[build]
+  command = "hugo --minify"
+  publish = "public"
 
 [build.environment]
-  GO_VERSION = "1.20"
-  HUGO_VERSION = "0.119.0"
+  GO_VERSION = "1.21"
+  HUGO_VERSION = "0.139.2"

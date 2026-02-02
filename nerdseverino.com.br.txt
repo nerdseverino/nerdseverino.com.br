@@ -1,0 +1,74 @@
+;;
+;; Domain:     nerdseverino.com.br.
+;; Exported:   2026-02-02 08:24:32
+;;
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;;
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;;
+;; http://www.isc.org/
+;;
+;; And RFC 1035:
+;;
+;; http://www.ietf.org/rfc/rfc1035.txt
+;;
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;;
+;; Use at your own risk.
+;; SOA Record
+nerdseverino.com.br	3600	IN	SOA	alice.ns.cloudflare.com. dns.cloudflare.com. 2052168727 10000 2400 604800 3600
+
+;; NS Records
+nerdseverino.com.br.	86400	IN	NS	alice.ns.cloudflare.com.
+nerdseverino.com.br.	86400	IN	NS	noel.ns.cloudflare.com.
+
+;; A Records
+arm.nerdseverino.com.br.	1	IN	A	130.61.161.166 ; cf_tags=cf-proxied:false
+armoo.nerdseverino.com.br.	1	IN	A	130.61.161.166 ; cf_tags=cf-proxied:true
+clouddev.nerdseverino.com.br.	1	IN	A	144.22.174.138 ; cf_tags=cf-proxied:true
+code.nerdseverino.com.br.	1	IN	A	130.61.161.166 ; cf_tags=cf-proxied:true
+container3.nerdseverino.com.br.	1	IN	A	144.22.221.3 ; cf_tags=cf-proxied:true
+containers2.nerdseverino.com.br.	1	IN	A	130.61.161.166 ; cf_tags=cf-proxied:true
+devoracle.nerdseverino.com.br.	1	IN	A	144.22.174.138 ; cf_tags=cf-proxied:true
+mail.nerdseverino.com.br.	1	IN	A	130.61.161.166 ; cf_tags=cf-proxied:true
+n8n.nerdseverino.com.br.	1	IN	A	130.61.161.166 ; cf_tags=cf-proxied:true
+zabbix.nerdseverino.com.br.	1	IN	A	130.61.161.166 ; cf_tags=cf-proxied:true
+
+;; CNAME Records
+22784006.nerdseverino.com.br.	120	IN	CNAME	sendgrid.net. ; cf_tags=cf-proxied:false
+autoconfig.nerdseverino.com.br.	1	IN	CNAME	mailserver.nerdseverino.com.br. ; cf_tags=cf-proxied:true
+autodiscover.nerdseverino.com.br.	1	IN	CNAME	mail.nerdseverino.com.br. ; cf_tags=cf-proxied:true
+docu.nerdseverino.com.br.	1	IN	CNAME	container3.nerdseverino.com.br. ; cf_tags=cf-proxied:true
+em343.nerdseverino.com.br.	120	IN	CNAME	u22784006.wl007.sendgrid.net. ; cf_tags=cf-proxied:false
+imap.nerdseverino.com.br.	1	IN	CNAME	mailserver.nerdseverino.com.br. ; cf_tags=cf-proxied:true
+mailserver.nerdseverino.com.br.	1	IN	CNAME	mail.nerdseverino.com.br. ; cf_tags=cf-proxied:true
+maxkb.nerdseverino.com.br.	1	IN	CNAME	container3.nerdseverino.com.br. ; cf_tags=cf-proxied:true
+memos.nerdseverino.com.br.	1	IN	CNAME	devoracle.nerdseverino.com.br. ; cf_tags=cf-proxied:false
+nerdseverino.com.br.	1	IN	CNAME	nerdseverino.netlify.app. ; cf_tags=cf-proxied:true
+ollama.nerdseverino.com.br.	1	IN	CNAME	container3.nerdseverino.com.br. ; cf_tags=cf-proxied:true
+phpmyadmin.nerdseverino.com.br.	1	IN	CNAME	arm.nerdseverino.com.br. ; cf_tags=cf-proxied:true
+pihole.nerdseverino.com.br.	1	IN	CNAME	systemcrash.no-ip.org. ; cf_tags=cf-proxied:true
+raspberry.nerdseverino.com.br.	1	IN	CNAME	systemcrash.no-ip.org. ; cf_tags=cf-proxied:true
+s1._domainkey.nerdseverino.com.br.	120	IN	CNAME	s1.domainkey.u22784006.wl007.sendgrid.net. ; cf_tags=cf-proxied:false
+s2._domainkey.nerdseverino.com.br.	120	IN	CNAME	s2.domainkey.u22784006.wl007.sendgrid.net. ; cf_tags=cf-proxied:false
+smtp.nerdseverino.com.br.	1	IN	CNAME	mailserver.nerdseverino.com.br. ; cf_tags=cf-proxied:true
+url4912.nerdseverino.com.br.	120	IN	CNAME	sendgrid.net. ; cf_tags=cf-proxied:false
+webmail.nerdseverino.com.br.	1	IN	CNAME	mail.nerdseverino.com.br. ; cf_tags=cf-proxied:true
+www.nerdseverino.com.br.	1	IN	CNAME	nerdseverino.netlify.app. ; cf_tags=cf-proxied:true
+
+;; MX Records
+nerdseverino.com.br.	60	IN	MX	5 arm.nerdseverino.com.br.
+
+;; TXT Records
+cf2024-1._domainkey.nerdseverino.com.br.	1	IN	TXT	"v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiweykoi+o48IOGuP7GR3X0MOExCUDY/BCRHoWBnh3rChl7WhdyCxW3jgq1daEjPPqoi7sJvdg5hEQVsgVRQP4DcnQDVjGMbASQtrY4WmB1VebF+RPJB2ECPsEDTpeiI5ZyUAwJaVX7r6bznU67g7LvFq35yIo4sdlmtZGV+i0H4cpYH9+3JJ78k" "m4KXwaf9xUJCWF6nxeD+qG6Fyruw1Qlbds2r85U9dkNDVAS3gioCvELryh1TxKGiVTkg4wqHTyHfWsp7KD3WQHYJn0RyfJJu6YEmL77zonn7p2SRMvTMP3ZEXibnC9gz3nnhR6wcYL8Q7zXypKTMD58bTixDSJwIDAQAB"
+_dmarc.nerdseverino.com.br.	120	IN	TXT	"v=DMARC1; p=none; rua=mailto:systemcrash@nerdseverino.com.br;"
+nerdseverino.com.br.	120	IN	TXT	"v=spf1 mx include:mailserver.nerdseverino.com.br include:sendgrid.net ~all"
+nerdseverino.com.br.	60	IN	TXT	"google-site-verification=wU10lGU3vJ5v9kQ3Hcjx30Xew20LKIEOI3m4-ay2oBM"
