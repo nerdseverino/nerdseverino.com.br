@@ -28,4 +28,8 @@ jobs:
           docker-compose down
           docker build --no-cache -t nerdseverino-blog .
           docker-compose up -d hugo
+          # Workaround: copiar admin manualmente
+          docker cp /home/ubuntu/nerdseverino.com.br/static/admin nerdseverino-blog:/src/static/
+          docker restart nerdseverino-blog
+          sleep 3
           docker-compose ps
