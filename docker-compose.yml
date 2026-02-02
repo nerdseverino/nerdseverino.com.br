@@ -4,6 +4,9 @@ services:
     container_name: nerdseverino-blog
     ports:
       - "1313:1313"
+    volumes:
+      - ./content:/src/content:ro
+      - ./static:/src/static:ro
     networks:
       - reverse-proxy
     environment:
