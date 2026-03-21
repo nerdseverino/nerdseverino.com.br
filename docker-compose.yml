@@ -15,7 +15,12 @@ services:
       - VIRTUAL_PORT=1313
       - LETSENCRYPT_HOST=nerdseverino.com.br,www.nerdseverino.com.br
       - LETSENCRYPT_EMAIL=machado.computer@gmail.com
-    command: hugo server --bind 0.0.0.0 --baseURL https://nerdseverino.com.br --appendPort=false
+    command: hugo server --bind 0.0.0.0 --baseURL https://nerdseverino.com.br --appendPort=false --disableLiveReload
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://localhost:1313"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
     restart: unless-stopped
 
 networks:
