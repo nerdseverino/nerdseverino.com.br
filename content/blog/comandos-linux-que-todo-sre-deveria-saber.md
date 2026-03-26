@@ -1,6 +1,6 @@
 ---
 title: "Comandos Linux que Todo SRE Deveria Saber"
-date: 2026-03-26T09:00:00-03:00
+date: 2026-03-26T08:50:00-03:00
 categories:
   - Linux
   - SRE
