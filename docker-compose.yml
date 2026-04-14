@@ -7,6 +7,7 @@ services:
     volumes:
       - ./content:/src/content:ro
       - ./static:/src/static:ro
+      - ./config.toml:/src/config.toml:ro
     networks:
       - reverse-proxy
     environment:
