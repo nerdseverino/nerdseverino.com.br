@@ -234,6 +234,115 @@ sudo dd if=ubuntu.iso of=/dev/sdX bs=4M status=progress && sync
 
 Após a instalação, você verá o menu GRUB ao ligar o computador, permitindo escolher entre Linux e Windows.
 
+## Configuração do GRUB2
+
+O GRUB2 (GRand Unified Bootloader) é o gerenciador de boot padrão da maioria das distribuições Linux. Ele é responsável por carregar o kernel do sistema operacional na memória durante o processo de inicialização.
+
+### Arquivo de Configuração
+
+O arquivo principal é `/boot/grub/grub.cfg`, mas ele é gerado automaticamente. As configurações editáveis ficam em:
+
+```bash
+# Configurações gerais do GRUB
+sudo nano /etc/default/grub
+```
+
+Parâmetros mais importantes:
+
+| Parâmetro | Descrição | Exemplo |
+|-----------|-----------|---------|
+| GRUB_DEFAULT | Sistema padrão para boot | `0` (primeiro da lista) |
+| GRUB_TIMEOUT | Tempo de espera em segundos | `5` |
+| GRUB_CMDLINE_LINUX_DEFAULT | Parâmetros do kernel | `"quiet splash"` |
+| GRUB_DISABLE_OS_PROBER | Detectar outros SOs | `false` |
+
+### Alterar Tempo de Espera
+
+```bash
+# Editar configuração
+sudo nano /etc/default/grub
+
+# Mudar GRUB_TIMEOUT para 3 segundos
+GRUB_TIMEOUT=3
+
+# Regenerar configuração
+sudo update-grub          # Ubuntu/Debian
+sudo grub2-mkconfig -o /boot/grub2/grub.cfg  # Fedora/RHEL
+```
+
+### Alterar Sistema Padrão
+
+```bash
+# Ver entradas disponíveis
+grep menuentry /boot/grub/grub.cfg | head -10
+
+# Definir por número (0 = primeiro)
+GRUB_DEFAULT=0
+
+# Ou por nome exato
+GRUB_DEFAULT="Ubuntu"
+
+# Lembrar última escolha
+GRUB_DEFAULT=saved
+GRUB_SAVEDEFAULT=true
+```
+
+### Adicionar Parâmetros ao Kernel
+
+```bash
+# Modo silencioso (padrão)
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
+
+# Modo verbose (útil para debug)
+GRUB_CMDLINE_LINUX_DEFAULT=""
+
+# Desabilitar IPv6
+GRUB_CMDLINE_LINUX="ipv6.disable=1"
+```
+
+### Detectar Outros Sistemas (Dual Boot)
+
+```bash
+# Habilitar detecção de outros SOs
+sudo nano /etc/default/grub
+GRUB_DISABLE_OS_PROBER=false
+
+# Instalar os-prober se necessário
+sudo apt install os-prober    # Ubuntu/Debian
+sudo dnf install os-prober    # Fedora
+
+# Regenerar
+sudo update-grub
+```
+
+### Proteger GRUB com Senha
+
+```bash
+# Gerar hash da senha
+grub-mkpasswd-pbkdf2
+
+# Adicionar em /etc/grub.d/40_custom
+set superusers="admin"
+password_pbkdf2 admin grub.pbkdf2.sha512.10000.<hash>
+
+# Regenerar
+sudo update-grub
+```
+
+### Recuperar GRUB (quando não aparece após instalar Windows)
+
+```bash
+# Bootar pelo USB do Linux e abrir terminal
+sudo mount /dev/sda2 /mnt          # Partição raiz do Linux
+sudo mount /dev/sda1 /mnt/boot/efi # Partição EFI (se UEFI)
+sudo grub-install --root-directory=/mnt /dev/sda
+sudo update-grub
+```
+
+### Edição Temporária no Boot
+
+Pressione `e` no menu do GRUB para editar parâmetros temporariamente (útil para troubleshooting). As mudanças valem apenas para aquele boot.
+
 ## Instalação Completa (Substituindo Sistema Atual)
 
 ### ⚠️ ATENÇÃO: Isso apagará TODOS os dados!

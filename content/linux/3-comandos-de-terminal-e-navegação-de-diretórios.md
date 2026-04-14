@@ -714,6 +714,59 @@ ps aux | grep python
 find ~ -name "*.txt" -type f | wc -l
 ```
 
+## O Comando man
+
+O `man` (manual) é a documentação embutida do Linux. Praticamente todo comando tem uma página de manual detalhada.
+
+### Uso Básico
+
+```bash
+man ls                   # Manual do ls
+man 5 passwd             # Seção 5 (formato de arquivo) do passwd
+man -k "copy files"      # Buscar por palavra-chave
+man -f ls                # Descrição curta (equivale a whatis ls)
+```
+
+### Seções do Manual
+
+| Seção | Conteúdo |
+|-------|----------|
+| 1 | Comandos de usuário |
+| 2 | Chamadas de sistema (kernel) |
+| 3 | Funções de biblioteca (C) |
+| 4 | Arquivos especiais (/dev) |
+| 5 | Formatos de arquivo (/etc/passwd, /etc/fstab) |
+| 7 | Miscelânea (protocolos, convenções) |
+| 8 | Comandos de administração (root) |
+
+Exemplo: `passwd` existe na seção 1 (comando) e na seção 5 (formato do arquivo):
+
+```bash
+man 1 passwd             # Como usar o comando passwd
+man 5 passwd             # Formato do arquivo /etc/passwd
+```
+
+### Navegação dentro do man
+
+| Tecla | Função |
+|-------|--------|
+| Espaço | Próxima página |
+| b | Página anterior |
+| /texto | Buscar texto |
+| n | Próxima ocorrência |
+| N | Ocorrência anterior |
+| g | Ir para início |
+| G | Ir para fim |
+| q | Sair |
+
+### Alternativas ao man
+
+```bash
+ls --help                # Ajuda rápida (resumida)
+info ls                  # Documentação GNU (mais detalhada que man)
+tldr ls                  # Exemplos práticos (instalar: sudo apt install tldr)
+```
+
 ## Recursos Adicionais
 
 ### Documentação

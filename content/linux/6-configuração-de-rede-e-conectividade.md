@@ -288,6 +288,26 @@ nmcli connection modify eth0 ipv4.method auto
 nmcli connection up eth0
 ```
 
+### nmtui - Interface Gráfica no Terminal
+
+O `nmtui` (NetworkManager Text User Interface) é uma interface interativa para configurar rede sem precisar decorar comandos do `nmcli`:
+
+```bash
+nmtui
+```
+
+Ele apresenta um menu com três opções:
+
+| Opção | Função |
+|-------|--------|
+| Edit a connection | Configurar IP, DNS, gateway, Wi-Fi |
+| Activate a connection | Ativar/desativar interfaces |
+| Set system hostname | Alterar nome da máquina |
+
+Navegação: setas para mover, Enter para selecionar, Esc para voltar.
+
+O `nmtui` é especialmente útil em servidores sem interface gráfica onde você precisa configurar rede rapidamente sem lembrar a sintaxe do `nmcli`.
+
 ### Netplan (Ubuntu 18.04+)
 
 ```bash

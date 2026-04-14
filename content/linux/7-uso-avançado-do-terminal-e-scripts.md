@@ -428,6 +428,194 @@ comando | tee arquivo.txt
 diff <(ls dir1) <(ls dir2)
 ```
 
+## Editores de Texto no Terminal
+
+### vim - Editor Avançado
+
+O vim é o editor padrão em praticamente todo servidor Linux. Tem curva de aprendizado, mas é extremamente produtivo depois que você aprende os modos.
+
+**Modos do vim:**
+
+| Modo | Tecla | Função |
+|------|-------|--------|
+| Normal | `Esc` | Navegação e comandos |
+| Inserção | `i` | Digitar texto |
+| Visual | `v` | Selecionar texto |
+| Comando | `:` | Executar comandos |
+
+**Comandos essenciais:**
+
+```bash
+vim arquivo.txt          # Abrir arquivo
+
+# Modo Normal (navegação)
+h j k l                  # Esquerda, baixo, cima, direita
+gg                       # Ir para início do arquivo
+G                        # Ir para fim do arquivo
+:42                      # Ir para linha 42
+w                        # Pular para próxima palavra
+b                        # Voltar uma palavra
+0                        # Início da linha
+$                        # Fim da linha
+
+# Entrar em modo de inserção
+i                        # Inserir antes do cursor
+a                        # Inserir depois do cursor
+o                        # Nova linha abaixo
+O                        # Nova linha acima
+A                        # Inserir no fim da linha
+
+# Edição no modo Normal
+dd                       # Deletar linha
+yy                       # Copiar linha
+p                        # Colar
+u                        # Desfazer
+Ctrl+r                   # Refazer
+x                        # Deletar caractere
+dw                       # Deletar palavra
+d$                       # Deletar até fim da linha
+.                        # Repetir último comando
+
+# Busca
+/texto                   # Buscar para frente
+?texto                   # Buscar para trás
+n                        # Próxima ocorrência
+N                        # Ocorrência anterior
+
+# Substituir
+:%s/antigo/novo/g        # Substituir todas ocorrências
+:%s/antigo/novo/gc       # Substituir com confirmação
+
+# Salvar e sair
+:w                       # Salvar
+:q                       # Sair
+:wq                      # Salvar e sair
+:q!                      # Sair sem salvar
+ZZ                       # Salvar e sair (atalho)
+```
+
+### nano - Editor Simples
+
+O nano é mais intuitivo que o vim. Ideal para edições rápidas:
+
+```bash
+nano arquivo.txt         # Abrir arquivo
+```
+
+**Atalhos principais (^ = Ctrl):**
+
+| Atalho | Função |
+|--------|--------|
+| Ctrl+O | Salvar |
+| Ctrl+X | Sair |
+| Ctrl+K | Recortar linha |
+| Ctrl+U | Colar |
+| Ctrl+W | Buscar |
+| Ctrl+\ | Buscar e substituir |
+| Ctrl+G | Ajuda |
+| Alt+U | Desfazer |
+| Ctrl+_ | Ir para linha |
+
+### top e htop - Monitoramento de Processos
+
+O `top` mostra processos em tempo real:
+
+```bash
+top                      # Iniciar monitor
+```
+
+**Comandos dentro do top:**
+
+| Tecla | Função |
+|-------|--------|
+| P | Ordenar por CPU |
+| M | Ordenar por memória |
+| k | Matar processo (digitar PID) |
+| r | Alterar prioridade (renice) |
+| c | Mostrar comando completo |
+| 1 | Mostrar cada CPU individual |
+| q | Sair |
+
+**htop** é uma versão melhorada:
+
+```bash
+sudo apt install htop    # Instalar
+htop                     # Executar
+```
+
+Diferenças do htop:
+- Interface colorida e mais legível
+- Scroll horizontal e vertical
+- Mouse funciona
+- F2 para configurar, F3 buscar, F5 árvore, F9 matar
+
+## Expressões Regulares
+
+Expressões regulares (regex) são padrões para buscar e manipular texto. São usadas em `grep`, `sed`, `awk` e muitas outras ferramentas.
+
+### Metacaracteres Básicos
+
+| Caractere | Significado | Exemplo |
+|-----------|-------------|---------|
+| `.` | Qualquer caractere | `a.c` casa "abc", "a1c" |
+| `*` | Zero ou mais do anterior | `ab*c` casa "ac", "abc", "abbc" |
+| `+` | Um ou mais do anterior | `ab+c` casa "abc", "abbc" (não "ac") |
+| `?` | Zero ou um do anterior | `ab?c` casa "ac", "abc" |
+| `^` | Início da linha | `^root` linhas que começam com "root" |
+| `$` | Fim da linha | `bash$` linhas que terminam com "bash" |
+| `[]` | Conjunto de caracteres | `[aeiou]` qualquer vogal |
+| `[^]` | Negação do conjunto | `[^0-9]` qualquer coisa que não seja número |
+| `\|` | OU lógico | `cat\|dog` casa "cat" ou "dog" |
+| `()` | Agrupamento | `(ab)+` casa "ab", "abab" |
+| `\b` | Limite de palavra | `\broot\b` casa "root" mas não "rooted" |
+
+### Classes de Caracteres
+
+| Classe | Equivalente | Significado |
+|--------|-------------|-------------|
+| `[0-9]` | `\d` | Dígitos |
+| `[a-zA-Z]` | `\w` (com dígitos) | Letras |
+| `[[:space:]]` | `\s` | Espaços em branco |
+| `[[:upper:]]` | `[A-Z]` | Maiúsculas |
+| `[[:lower:]]` | `[a-z]` | Minúsculas |
+
+### Exemplos Práticos
+
+```bash
+# Linhas que começam com # (comentários)
+grep "^#" /etc/ssh/sshd_config
+
+# Linhas que NÃO são comentários nem vazias
+grep -v "^#\|^$" /etc/ssh/sshd_config
+
+# Endereços IP
+grep -oE "[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}" /var/log/auth.log
+
+# Emails
+grep -oE "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" arquivo.txt
+
+# Linhas com números de telefone (formato BR)
+grep -E "\([0-9]{2}\) [0-9]{4,5}-[0-9]{4}" contatos.txt
+
+# Palavras duplicadas
+grep -E "\b(\w+)\s+\1\b" texto.txt
+
+# Usar com sed para substituir
+sed -E 's/[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}/***CPF***/g' dados.txt
+```
+
+### Regex no grep: BRE vs ERE
+
+```bash
+# BRE (Basic Regular Expression) - padrão do grep
+grep "ab\+c" arquivo       # Precisa escapar +
+
+# ERE (Extended Regular Expression) - grep -E ou egrep
+grep -E "ab+c" arquivo     # Não precisa escapar
+```
+
+Use `grep -E` (ou `egrep`) para evitar escapar metacaracteres.
+
 ## Processamento de Texto
 
 ### grep - Buscar Padrões
@@ -548,6 +736,110 @@ uniq -d arquivo.txt
 
 # Mostrar apenas únicos
 uniq -u arquivo.txt
+```
+
+## Compactação e Compressão
+
+### Conceitos
+
+- **Compactação (tar)**: Agrupa vários arquivos em um só (sem reduzir tamanho)
+- **Compressão (gzip, bzip2, xz)**: Reduz o tamanho do arquivo
+- Na prática, usamos os dois juntos: `tar` agrupa + compressor reduz
+
+### tar - Tape Archive
+
+```bash
+# Criar arquivo tar (sem compressão)
+tar -cf backup.tar /diretorio/
+
+# Extrair
+tar -xf backup.tar
+
+# Listar conteúdo
+tar -tf backup.tar
+
+# Verbose (mostrar arquivos)
+tar -cvf backup.tar /diretorio/
+```
+
+### tar + gzip (.tar.gz ou .tgz)
+
+Compressão mais rápida, tamanho médio. O mais usado no dia a dia:
+
+```bash
+# Compactar
+tar -czf backup.tar.gz /diretorio/
+
+# Extrair
+tar -xzf backup.tar.gz
+
+# Extrair em diretório específico
+tar -xzf backup.tar.gz -C /destino/
+```
+
+### tar + bzip2 (.tar.bz2)
+
+Compressão melhor que gzip, mais lento:
+
+```bash
+# Compactar
+tar -cjf backup.tar.bz2 /diretorio/
+
+# Extrair
+tar -xjf backup.tar.bz2
+```
+
+### tar + xz (.tar.xz)
+
+Melhor compressão, mais lento. Ideal para distribuição de arquivos:
+
+```bash
+# Compactar
+tar -cJf backup.tar.xz /diretorio/
+
+# Extrair
+tar -xJf backup.tar.xz
+```
+
+### Comparação
+
+| Formato | Flag tar | Velocidade | Compressão |
+|---------|----------|-----------|------------|
+| gzip (.tar.gz) | `-z` | Rápido | Boa |
+| bzip2 (.tar.bz2) | `-j` | Médio | Melhor |
+| xz (.tar.xz) | `-J` | Lento | Excelente |
+
+### Comandos individuais de compressão
+
+```bash
+# gzip (substitui o arquivo original)
+gzip arquivo.txt              # Cria arquivo.txt.gz
+gunzip arquivo.txt.gz         # Descomprime
+
+# bzip2
+bzip2 arquivo.txt             # Cria arquivo.txt.bz2
+bunzip2 arquivo.txt.bz2       # Descomprime
+
+# xz
+xz arquivo.txt                # Cria arquivo.txt.xz
+unxz arquivo.txt.xz           # Descomprime
+
+# Manter original (-k)
+gzip -k arquivo.txt           # Mantém arquivo.txt e cria .gz
+xz -k arquivo.txt             # Mantém arquivo.txt e cria .xz
+```
+
+### zip/unzip (compatibilidade com Windows)
+
+```bash
+# Compactar
+zip -r backup.zip /diretorio/
+
+# Extrair
+unzip backup.zip
+
+# Listar conteúdo
+unzip -l backup.zip
 ```
 
 ## Scripts Práticos
