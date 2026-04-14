@@ -594,6 +594,110 @@ rsync -av --dry-run origem/ destino/
 rsync -av --link-dest=/backup/anterior origem/ /backup/novo/
 ```
 
+## Ferramentas de Teste de Conectividade
+
+### nc (netcat) - Canivete Suíço da Rede
+
+O `netcat` é uma das ferramentas mais versáteis para diagnóstico de rede. Permite testar portas, transferir dados e criar conexões TCP/UDP.
+
+```bash
+# Instalar
+sudo apt install netcat-openbsd    # Ubuntu/Debian
+sudo dnf install nmap-ncat         # Fedora/RHEL
+```
+
+**Testar se uma porta está aberta:**
+
+```bash
+# Testar porta TCP (modo mais comum)
+nc -zv 192.168.1.100 22
+# Connection to 192.168.1.100 22 port [tcp/ssh] succeeded!
+
+# Testar range de portas
+nc -zv 192.168.1.100 20-25
+
+# Timeout de 3 segundos
+nc -zv -w3 192.168.1.100 443
+```
+
+**Transferir arquivos entre máquinas:**
+
+```bash
+# No receptor (escuta na porta 9999)
+nc -l 9999 > arquivo_recebido.txt
+
+# No emissor
+nc 192.168.1.100 9999 < arquivo.txt
+```
+
+**Criar um chat simples:**
+
+```bash
+# Máquina A (escuta)
+nc -l 5000
+
+# Máquina B (conecta)
+nc 192.168.1.100 5000
+# Tudo que digitar aparece no outro lado
+```
+
+**Testar serviços HTTP:**
+
+```bash
+# Requisição HTTP manual
+echo -e "GET / HTTP/1.1\r\nHost: exemplo.com\r\n\r\n" | nc exemplo.com 80
+```
+
+### telnet - Teste de Conectividade TCP
+
+O `telnet` é mais antigo que o netcat, mas ainda é muito usado para testar conectividade TCP em portas específicas.
+
+```bash
+# Instalar
+sudo apt install telnet             # Ubuntu/Debian
+sudo dnf install telnet             # Fedora/RHEL
+```
+
+**Testar porta:**
+
+```bash
+# Testar se porta está acessível
+telnet 192.168.1.100 22
+# Trying 192.168.1.100...
+# Connected to 192.168.1.100.    ← porta aberta
+# Escape character is '^]'.
+
+# Se a porta estiver fechada:
+# Trying 192.168.1.100...
+# telnet: Unable to connect to remote host: Connection refused
+
+# Sair: Ctrl+] depois quit
+```
+
+**Testar serviços:**
+
+```bash
+# Testar SMTP
+telnet mail.exemplo.com 25
+
+# Testar HTTP
+telnet www.exemplo.com 80
+GET / HTTP/1.1
+Host: www.exemplo.com
+```
+
+### nc vs telnet
+
+| Recurso | nc (netcat) | telnet |
+|---------|-------------|--------|
+| Testar porta TCP | ✅ | ✅ |
+| Testar porta UDP | ✅ (`-u`) | ❌ |
+| Transferir arquivos | ✅ | ❌ |
+| Escutar porta | ✅ (`-l`) | ❌ |
+| Scripting | ✅ | Limitado |
+
+Na prática: use `nc` quando disponível, `telnet` como fallback.
+
 ## Firewall
 
 ### UFW - Uncomplicated Firewall (Ubuntu)

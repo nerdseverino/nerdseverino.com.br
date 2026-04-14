@@ -21,6 +21,74 @@ thumbnailImagePosition: top
 coverImage: /images/uploads/9cbzwmsn.png
 ---
 
+## Processo de Boot do Linux
+
+Entender o processo de boot é essencial para troubleshooting de servidores que não iniciam corretamente.
+
+### Sequência de Boot
+
+| Etapa | Componente | Função |
+|-------|-----------|--------|
+| 1 | BIOS/UEFI | Testa hardware (POST), encontra dispositivo de boot |
+| 2 | Bootloader (GRUB2) | Carrega o kernel e initramfs na memória |
+| 3 | Kernel | Inicializa hardware, monta root filesystem |
+| 4 | initramfs | Sistema de arquivos temporário para carregar drivers |
+| 5 | systemd (PID 1) | Primeiro processo, inicia todos os serviços |
+| 6 | Target | Estado final (multi-user, graphical) |
+
+### Analisar o Boot
+
+```bash
+# Tempo total de boot
+systemd-analyze
+
+# Tempo de cada serviço (mais lentos primeiro)
+systemd-analyze blame
+
+# Gráfico de boot (gera SVG)
+systemd-analyze plot > boot.svg
+
+# Cadeia crítica (o que atrasou o boot)
+systemd-analyze critical-chain
+```
+
+### Logs de Boot
+
+```bash
+# Logs do boot atual
+journalctl -b
+
+# Logs do boot anterior (útil após crash)
+journalctl -b -1
+
+# Apenas erros do boot
+journalctl -b -p err
+
+# Mensagens do kernel
+dmesg -T | head -50
+```
+
+### Targets (antigos Runlevels)
+
+| Target | Runlevel | Descrição |
+|--------|----------|-----------|
+| poweroff.target | 0 | Desligar |
+| rescue.target | 1 | Modo de recuperação (single user) |
+| multi-user.target | 3 | Modo texto com rede |
+| graphical.target | 5 | Modo gráfico |
+| reboot.target | 6 | Reiniciar |
+
+```bash
+# Ver target atual
+systemctl get-default
+
+# Mudar target padrão
+sudo systemctl set-default multi-user.target
+
+# Mudar target agora (sem reiniciar)
+sudo systemctl isolate rescue.target
+```
+
 ## Gerenciamento de Processos
 
 ### ps - Process Status
@@ -338,6 +406,51 @@ sudo mount -a
 
 # Ver UUID
 sudo blkid
+```
+
+### FSCK - Verificar e Reparar Sistemas de Arquivos
+
+O `fsck` (File System Check) verifica e repara inconsistências em sistemas de arquivos. Essencial quando o sistema não monta uma partição corretamente.
+
+**Regra importante:** Nunca execute fsck em uma partição montada!
+
+```bash
+# Verificar partição (sem corrigir)
+sudo fsck -n /dev/sdb1
+
+# Verificar e corrigir automaticamente
+sudo fsck -y /dev/sdb1
+
+# Verificar ext4 especificamente
+sudo e2fsck -f /dev/sdb1
+
+# Verificar XFS (precisa estar desmontada)
+sudo xfs_repair /dev/sdb1
+
+# Forçar verificação no próximo boot
+sudo touch /forcefsck
+```
+
+**Quando usar:**
+- Sistema não monta partição após queda de energia
+- Erros de I/O nos logs (`dmesg | grep -i error`)
+- `df` mostra valores inconsistentes
+- Arquivos corrompidos ou desaparecendo
+
+**Para verificar a partição raiz (/):**
+
+```bash
+# Não dá para desmontar / com sistema rodando
+# Opção 1: Forçar fsck no próximo boot
+sudo touch /forcefsck
+sudo reboot
+
+# Opção 2: Bootar em modo rescue e rodar fsck
+# No GRUB, editar (e) e adicionar ao kernel: init=/bin/bash
+# Depois:
+mount -o remount,ro /
+fsck -y /dev/sda1
+reboot -f
 ```
 
 ### LVM - Logical Volume Manager

@@ -21,6 +21,107 @@ thumbnailImagePosition: top
 coverImage: /images/uploads/9cbzwmsn.png
 ---
 
+## Arquivos de Inicialização do Bash
+
+Quando você abre um terminal, o Bash lê uma sequência de arquivos de configuração. Entender quais são e quando são lidos é fundamental para configurar variáveis de ambiente, aliases e PATH corretamente.
+
+### Login Shell vs Non-Login Shell
+
+| Tipo | Quando | Arquivos lidos |
+|------|--------|---------------|
+| Login shell | SSH, console, `su -` | `/etc/profile` → `~/.bash_profile` → `~/.bash_login` → `~/.profile` |
+| Non-login shell | Abrir terminal no desktop | `/etc/bash.bashrc` → `~/.bashrc` |
+
+### Arquivos Principais
+
+```bash
+# /etc/profile — Global, executado em login shells (todos os usuários)
+# /etc/bash.bashrc — Global, executado em non-login shells
+
+# ~/.bash_profile — Pessoal, login shell (lê ~/.bashrc geralmente)
+# ~/.bashrc — Pessoal, non-login shell (aliases, funções, prompt)
+# ~/.bash_logout — Executado ao sair de login shell
+```
+
+### Onde colocar o quê
+
+| O que configurar | Onde colocar |
+|-----------------|-------------|
+| Variáveis de ambiente (PATH, EDITOR) | `~/.bash_profile` ou `~/.profile` |
+| Aliases e funções | `~/.bashrc` |
+| Configurações globais | `/etc/profile.d/*.sh` |
+| Prompt (PS1) | `~/.bashrc` |
+
+### Exemplo prático
+
+```bash
+# ~/.bashrc — carregado em todo terminal novo
+export EDITOR=vim
+export PATH="$HOME/.local/bin:$PATH"
+
+alias ll='ls -lah'
+alias gs='git status'
+alias k='kubectl'
+
+# Prompt colorido
+PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+```
+
+```bash
+# ~/.bash_profile — garante que .bashrc é lido em login shells
+if [ -f ~/.bashrc ]; then
+    source ~/.bashrc
+fi
+```
+
+### Recarregar sem fechar o terminal
+
+```bash
+source ~/.bashrc
+# ou
+. ~/.bashrc
+```
+
+## Aspas Simples e Duplas
+
+A diferença entre aspas simples e duplas é uma das fontes mais comuns de bugs em shell scripts.
+
+### Aspas Duplas `" "` — Interpretam variáveis
+
+```bash
+nome="Linux"
+echo "Bem-vindo ao $nome"     # Saída: Bem-vindo ao Linux
+echo "Home: $HOME"            # Saída: Home: /home/usuario
+echo "Data: $(date)"          # Saída: Data: Mon Apr 14 15:30:00 2026
+```
+
+### Aspas Simples `' '` — Texto literal
+
+```bash
+nome="Linux"
+echo 'Bem-vindo ao $nome'     # Saída: Bem-vindo ao $nome
+echo 'Home: $HOME'            # Saída: Home: $HOME
+echo 'Data: $(date)'          # Saída: Data: $(date)
+```
+
+### Sem aspas — Perigoso
+
+```bash
+arquivo="meu arquivo.txt"
+cat $arquivo                   # ERRO: tenta abrir "meu" e "arquivo.txt"
+cat "$arquivo"                 # CORRETO: abre "meu arquivo.txt"
+```
+
+### Resumo
+
+| Tipo | Variáveis | Comandos `$()` | Espaços | Uso |
+|------|-----------|----------------|---------|-----|
+| `"duplas"` | ✅ Expande | ✅ Executa | ✅ Preserva | Maioria dos casos |
+| `'simples'` | ❌ Literal | ❌ Literal | ✅ Preserva | Texto exato, sem interpretação |
+| Sem aspas | ✅ Expande | ✅ Executa | ❌ Quebra | Evitar |
+
+**Regra prática:** Na dúvida, use aspas duplas. Use aspas simples quando quiser que nada seja interpretado.
+
 ## Bash Scripting Básico
 
 ### Primeiro Script
@@ -841,6 +942,100 @@ unzip backup.zip
 # Listar conteúdo
 unzip -l backup.zip
 ```
+
+## Agendar Tarefas com Cron
+
+O `cron` executa comandos automaticamente em horários programados. É a base de automação em servidores Linux.
+
+### Editar Crontab
+
+```bash
+# Editar crontab do usuário atual
+crontab -e
+
+# Listar tarefas agendadas
+crontab -l
+
+# Editar crontab de outro usuário (root)
+sudo crontab -u usuario -e
+
+# Remover todas as tarefas
+crontab -r
+```
+
+### Formato do Crontab
+
+```
+┌───────────── minuto (0-59)
+│ ┌───────────── hora (0-23)
+│ │ ┌───────────── dia do mês (1-31)
+│ │ │ ┌───────────── mês (1-12)
+│ │ │ │ ┌───────────── dia da semana (0-7, 0 e 7 = domingo)
+│ │ │ │ │
+* * * * * comando
+```
+
+### Exemplos
+
+```bash
+# A cada minuto
+* * * * * /scripts/check.sh
+
+# Todo dia às 3h da manhã
+0 3 * * * /scripts/backup.sh
+
+# De segunda a sexta às 8h
+0 8 * * 1-5 /scripts/relatorio.sh
+
+# A cada 15 minutos
+*/15 * * * * /scripts/monitor.sh
+
+# Primeiro dia de cada mês às 6h
+0 6 1 * * /scripts/mensal.sh
+
+# Todo domingo às 2h
+0 2 * * 0 /scripts/limpeza.sh
+
+# A cada 2 horas
+0 */2 * * * /scripts/sync.sh
+```
+
+### Atalhos Especiais
+
+| Atalho | Equivalente | Significado |
+|--------|-------------|-------------|
+| `@reboot` | | Ao iniciar o sistema |
+| `@hourly` | `0 * * * *` | A cada hora |
+| `@daily` | `0 0 * * *` | Todo dia à meia-noite |
+| `@weekly` | `0 0 * * 0` | Todo domingo |
+| `@monthly` | `0 0 1 * *` | Primeiro dia do mês |
+| `@yearly` | `0 0 1 1 *` | 1 de janeiro |
+
+### Dicas Importantes
+
+```bash
+# Redirecionar saída para log
+0 3 * * * /scripts/backup.sh >> /var/log/backup.log 2>&1
+
+# Descartar saída (evitar emails do cron)
+*/5 * * * * /scripts/check.sh > /dev/null 2>&1
+
+# Usar PATH completo (cron tem PATH limitado)
+0 3 * * * /usr/bin/python3 /scripts/relatorio.py
+```
+
+### Cron do Sistema
+
+```bash
+# Diretórios para scripts do sistema
+/etc/cron.d/          # Arquivos crontab individuais
+/etc/cron.daily/      # Executados diariamente
+/etc/cron.hourly/     # Executados a cada hora
+/etc/cron.weekly/     # Executados semanalmente
+/etc/cron.monthly/    # Executados mensalmente
+```
+
+Para colocar um script em `/etc/cron.daily/`, basta copiar o script (sem extensão, com permissão de execução).
 
 ## Scripts Práticos
 
