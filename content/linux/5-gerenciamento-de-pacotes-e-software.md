@@ -1,6 +1,7 @@
 ---
 title: 5 - Gerenciamento de Pacotes e Software
-date: 2026-02-02T04:22:00.000Z
+weight: 5
+date: 2026-02-02T04:25:00.000Z
 categories:
   - Curso
 tags:

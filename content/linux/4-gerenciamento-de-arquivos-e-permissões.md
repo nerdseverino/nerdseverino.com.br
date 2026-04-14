@@ -1,6 +1,7 @@
 ---
 title: 4 - Gerenciamento de Arquivos e Permissões
-date: 2026-02-02T04:22:00.000Z
+weight: 4
+date: 2026-02-02T04:26:00.000Z
 categories:
   - Curso
 tags:

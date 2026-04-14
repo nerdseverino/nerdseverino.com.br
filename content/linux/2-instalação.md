@@ -1,6 +1,7 @@
 ---
 title: 2 - Instalação do Linux
-date: 2023-05-09T02:59:29.755Z
+weight: 2
+date: 2026-02-02T04:28:00.000Z
 categories:
   - Curso
 tags:

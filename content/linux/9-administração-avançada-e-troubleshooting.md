@@ -1,6 +1,7 @@
 ---
 title: 9 - Administração Avançada e Troubleshooting
-date: 2026-02-02T04:24:00.000Z
+weight: 9
+date: 2026-02-02T04:21:00.000Z
 categories:
   - Curso
 tags:

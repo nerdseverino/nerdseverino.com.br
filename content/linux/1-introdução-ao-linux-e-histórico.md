@@ -1,6 +1,7 @@
 ---
 title: "1 - Introdução ao Linux e Histórico"
-date: 2023-05-03T15:55:25.154Z
+weight: 1
+date: 2026-02-02T04:29:00.000Z
 categories:
   - Curso
 tags:

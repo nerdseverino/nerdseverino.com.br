@@ -1,6 +1,7 @@
 ---
 title: 3 - Comandos de Terminal e Navegação de Diretórios
-date: 2024-03-09T14:06:38.443Z
+weight: 3
+date: 2026-02-02T04:27:00.000Z
 categories: 
   - Curso
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 7 - Uso Avançado do Terminal e Scripts
-date: 2026-02-02T04:24:00.000Z
+weight: 7
+date: 2026-02-02T04:23:00.000Z
 categories:
   - Curso
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 8 - Segurança no Linux
-date: 2026-02-02T04:24:00.000Z
+weight: 8
+date: 2026-02-02T04:22:00.000Z
 categories:
   - Curso
 tags:

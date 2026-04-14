@@ -1,5 +1,6 @@
 ---
 title: 6 - Configuração de Rede e Conectividade
+weight: 6
 date: 2026-02-02T04:24:00.000Z
 categories:
   - Curso
