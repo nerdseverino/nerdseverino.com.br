@@ -125,6 +125,12 @@ Atualmente trabalho na **Flexa Cloud** apoiando clientes em migração, sustenta
   url = "/linux/"
 
 [[menu.main]]
+  name = "Quiz"
+  weight = 250
+  identifier = "quiz"
+  url = "/quiz/"
+
+[[menu.main]]
   name = "Tags"
   weight = 300
   identifier = "tags"
