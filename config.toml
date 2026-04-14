@@ -83,7 +83,7 @@ Atualmente trabalho na **Flexa Cloud** apoiando clientes em migração, sustenta
   
   # Edit link (GitHub)
   [params.editPost]
-    URL = "https://github.com/nerdseverino/nerdseverino.com.br/tree/main/content"
+    URL = "https://github.com/nerdseverino/nerdseverino.com.br/tree/master/content"
     Text = "Sugerir alteração"
     appendFilePath = true
 
