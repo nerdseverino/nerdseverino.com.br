@@ -24,12 +24,12 @@ coverImage: /images/uploads/9cbzwmsn.png
 
 ### Modelo TCP/IP
 
-```
-Aplicação    → HTTP, SSH, FTP, DNS
-Transporte   → TCP, UDP
-Internet     → IP, ICMP
-Enlace       → Ethernet, Wi-Fi
-```
+| Camada | Protocolos |
+|--------|-----------|
+| Aplicação | HTTP, SSH, FTP, DNS |
+| Transporte | TCP, UDP |
+| Internet | IP, ICMP |
+| Enlace | Ethernet, Wi-Fi |
 
 ### Endereçamento IP
 
@@ -43,16 +43,16 @@ Enlace       → Ethernet, Wi-Fi
 
 ### Portas Comuns
 
-```
-22   → SSH
-80   → HTTP
-443  → HTTPS
-21   → FTP
-25   → SMTP (email)
-53   → DNS
-3306 → MySQL
-5432 → PostgreSQL
-```
+| Porta | Serviço |
+|-------|---------|
+| 22 | SSH |
+| 80 | HTTP |
+| 443 | HTTPS |
+| 21 | FTP |
+| 25 | SMTP (email) |
+| 53 | DNS |
+| 3306 | MySQL |
+| 5432 | PostgreSQL |
 
 ## Comandos de Diagnóstico
 
