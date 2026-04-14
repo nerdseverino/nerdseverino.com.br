@@ -1,5 +1,9 @@
 ---
 title: Centos 8 - Adicionando o Servidor ao Domínio (Samba4 ou AD-MS)
+description: |
+  Olá Pessoal lembram do tutorial anterior onde criamos um controlador de domínio usando o Centos 8 e o  Samba 4, provisionando um Domínio para as estações Windows e Linux da Rede.
+
+  🔗 https://nerdseverino.com.br/blog/centos-8-samba-file-server/
 date: '2020-08-25T03:24:50-03:00'
 categories:
   - Tutoriais

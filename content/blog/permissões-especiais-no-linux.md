@@ -1,5 +1,9 @@
 ---
 title: Permissões especiais no Linux
+description: |
+  Fonte: <https://www.vivaolinux.com.br/artigo/Atributos-de-arquivos-no-Linux>
+
+  🔗 https://nerdseverino.com.br/blog/permissões-especiais-no-linux/
 date: '2022-12-15T12:37:06-03:00'
 categories:
   - Dicas

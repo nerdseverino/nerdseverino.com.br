@@ -1,5 +1,9 @@
 ---
 title: Instalando samba 4 no Raspberry Pi 3 Model B Rev 1.2
+description: |
+  Vamos começar essa jornada com uma instalação limpa do Raspbian e logo em seguida liberando algum espaço adicional no disco:
+
+  🔗 https://nerdseverino.com.br/blog/instalando-samba-4-no-raspberry-pi-3-model-b-rev-1-2/
 date: '2020-10-06T05:05:47-03:00'
 categories:
   - Tutoriais

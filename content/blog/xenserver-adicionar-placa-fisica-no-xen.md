@@ -1,5 +1,9 @@
 ---
 title: 'Xenserver: adicionar placa fisica no xen'
+description: |
+  1 - Logue no Console do xenserver e rode o seguinte comando:
+
+  🔗 https://nerdseverino.com.br/blog/xenserver-adicionar-placa-fisica-no-xen/
 date: '2020-02-04T16:06:41-03:00'
 categories:
   - Dicas

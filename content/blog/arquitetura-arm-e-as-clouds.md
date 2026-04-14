@@ -1,5 +1,9 @@
 ---
 title: Arquitetura ARM e as Clouds
+description: |
+  Continuando a explicação sobre a arquitetura ARM, os principais provedores de serviços em nuvem oferecem instâncias de máquinas virtuais baseadas na arquitetura ARM. Abaixo, segue uma lista alguns dos tipos de máquinas ARM oferecidos por alguns provedores de nuvem populares.
+
+  🔗 https://nerdseverino.com.br/blog/arquitetura-arm-e-as-clouds/
 date: 2023-09-13T22:22:34.809Z
 categories:
   - Artigo

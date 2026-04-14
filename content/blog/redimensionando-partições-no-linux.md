@@ -1,5 +1,9 @@
 ---
 title: Redimensionando partições no Linux
+description: |
+  Uma dúvida recorrente e também uma tarefa cotidiana do Sysadmin é ajustar (geralmetne aumentar) partições no Linux para evitar a interrupção de serviços.
+
+  🔗 https://nerdseverino.com.br/blog/redimensionando-partições-no-linux/
 date: '2021-02-15T09:33:55-03:00'
 categories:
   - Dicas

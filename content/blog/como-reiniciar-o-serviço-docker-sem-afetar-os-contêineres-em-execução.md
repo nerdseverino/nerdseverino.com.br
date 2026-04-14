@@ -1,5 +1,9 @@
 ---
 title: Como reiniciar o serviço docker sem afetar os contêineres em execução
+description: |
+  Reinicie o serviço docker sem afetar os contêineres em execução usando a funcionalidade de Live Restore. M﻿uito útil para quando você precisa alterar ou mesmo atualizar o binário do Docker no seu sistema operacional.
+
+  🔗 https://nerdseverino.com.br/blog/como-reiniciar-o-serviço-docker-sem-afetar-os-contêineres-em-execução/
 date: 2023-08-11T13:59:40.675Z
 categories: Dicas
 tags:

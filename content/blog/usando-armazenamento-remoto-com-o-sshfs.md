@@ -1,5 +1,9 @@
 ---
 title: Usando armazenamento remoto com o SSHFS
+description: |
+  Eu estava aqui pensando em como fazer o backup do sistema do meu Raspberry PI Zero W que tem um cartão micro ssd de 32 Gb.
+
+  🔗 https://nerdseverino.com.br/blog/usando-armazenamento-remoto-com-o-sshfs/
 date: '2020-06-22T08:36:31-03:00'
 categories:
   - Dicas
@@ -28,12 +32,15 @@ Sendo assim eu lembrei que o ssh possui uma ferramenta que permite montar um Fil
 
 Para instalar o SSHFS no Debian/Ubuntu ou no CentOS seguem os comandos:
 
-**sudo apt-get install sshfs**\
-**yum install fuse-sshfs **
+**sudo apt-get install sshfs
+**\
+**
+yum install fuse-sshfs **
 
 Depois de instalado para efetuar a montagem do File System você precisa executar a linha abaixo:
 
-**sshfs -o allow_other,default_permissions root@xxx.xxx.xxx.xxx:/ /mnt/remote**
+**sshfs -o allow_other,default_permissions root@xxx.xxx.xxx.xxx:/ /mnt/remote
+**
 
 Caso você tenha uma chave RSA configurada no servidor 
 

@@ -1,5 +1,9 @@
 ---
 title: "Arquitetura ARM: A Base da Tecnologia Móvel e Além"
+description: |
+  A arquitetura ARM (Advanced RISC Machine) é um dos pilares da computação moderna, desempenhando um papel fundamental em uma vasta gama de dispositivos, desde smartphones e tablets até servidores de alto desempenho.
+
+  🔗 https://nerdseverino.com.br/blog/arquitetura-arm-a-base-da-tecnologia-móvel-e-além/
 date: 2023-09-05T13:05:01.503Z
 categories:
   - Editorial

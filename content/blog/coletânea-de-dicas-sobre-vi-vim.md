@@ -1,5 +1,9 @@
 ---
 title: Coletânea de Dicas sobre VI/VIM (Atualizado 30/07/2020)
+description: |
+  O VI/VIM é um dos mais antigos e tradicionais editores de textos do ambiente linux, todos os usuários mais antigos sejam DEV's ou Sysadmin's em um momento da vida teve que dar um :wq!
+
+  🔗 https://nerdseverino.com.br/blog/coletânea-de-dicas-sobre-vi-vim/
 date: '2020-07-18T09:37:32-03:00'
 categories:
   - Dicas

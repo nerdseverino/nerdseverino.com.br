@@ -1,5 +1,9 @@
 ---
 title: Como ver o Crontab de todos os usuários Rapidamente
+description: |
+  Nesta dica mostro como com um comando simples podemos ver crontab de todos os usuários. Tanto no Linux, como MAC OS X
+
+  🔗 https://nerdseverino.com.br/blog/como-ver-o-crontab-de-todos-os-usuários-rapidamente/
 date: '2022-12-09T08:33:53-03:00'
 categories:
   - Dicas

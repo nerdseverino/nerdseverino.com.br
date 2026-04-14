@@ -1,5 +1,9 @@
 ---
 title: 'Fail2ban: Troca de REJECT para DROP '
+description: |
+  \#blocktype = REJECT --reject-with icmp-port-unreachable\ blocktype = DROP
+
+  🔗 https://nerdseverino.com.br/blog/fail2ban-troca-de-reject-para-drop/
 date: '2020-02-04T15:49:27-03:00'
 categories:
   - Dicas

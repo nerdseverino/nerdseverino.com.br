@@ -1,5 +1,9 @@
 ---
 title: Tar.xz outra opção de compactação para seus backups.
+description: |
+  O formato mais popular de compactação no Linux é de longe o tar.gz que vem sendo adotado a muitos anos por várias pessoas. Porém existem outros formatos de compactação no linux que são capazes de aproveitar melhor os recursos de multiprocessamento.
+
+  🔗 https://nerdseverino.com.br/blog/tar-xz-outra-opção-de-compactação-para-seus-backups/
 date: '2020-06-22T07:08:58-03:00'
 categories:
   - Dicas

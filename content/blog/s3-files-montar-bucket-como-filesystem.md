@@ -1,5 +1,9 @@
 ---
 title: "S3 Files: Agora Você Pode Montar um Bucket S3 como Filesystem"
+description: |
+  A AWS acabou de lançar o S3 Files — e se você é SRE, isso muda bastante coisa. Em resumo: agora você pode montar um bucket S3 como filesystem NFS em qualquer compute da AWS. Sem gambiarras, sem FUSE, sem sync manual.
+
+  🔗 https://nerdseverino.com.br/blog/s3-files-montar-bucket-como-filesystem/
 date: 2026-04-08T08:40:00-03:00
 categories:
   - AWS

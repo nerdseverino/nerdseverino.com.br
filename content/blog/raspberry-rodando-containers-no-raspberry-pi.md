@@ -1,5 +1,9 @@
 ---
 title: Raspberry - Rodando containers no Raspberry pi - Atualizado 10/09/2020
+description: |
+  Olá pessoal, estava tentando testar algumas aplicações no Raspberry PI, então eu pensei: Por quê não em contêiner?
+
+  🔗 https://nerdseverino.com.br/blog/raspberry-rodando-containers-no-raspberry-pi/
 date: '2020-08-19T07:14:03-03:00'
 categories:
   - Dicas

@@ -1,5 +1,9 @@
 ---
 title: Raspberry - Pi Zero W direto na USB
+description: |
+  Apesar de seu tamanho reduzido o Raspberry pi zero w é bem popular para projetos onde o tamanho seja um fator determinante.
+
+  🔗 https://nerdseverino.com.br/blog/raspberry-pi-zero-w-direto-na-usb/
 date: '2020-07-04T15:20:57-03:00'
 categories:
   - Dicas

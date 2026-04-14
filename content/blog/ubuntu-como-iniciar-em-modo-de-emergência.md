@@ -1,5 +1,9 @@
 ---
 title: Ubuntu - COMO Iniciar em modo de emergência
+description: |
+  Existem algumas situações quando você esquece a senha do seu usuário ou mesmo precisa efetuar uma manutenção de disco você pode recorrer ao modo de inicialização de recuperação do ubuntu para efetuar esses procedimentos.
+
+  🔗 https://nerdseverino.com.br/blog/ubuntu-como-iniciar-em-modo-de-emergência/
 date: '2020-06-28T21:18:42-03:00'
 categories:
   - Dicas
@@ -33,13 +37,15 @@ _Modo de recuperação (Single User Mode) _
 
 
 
-_Modo de emergnecia (Emergency Mode)_
+_Modo de emergnecia (Emergency Mode)
+_
 
 
 
 1) Reinicie o sistema e espere a tela de bootloader do grub e pressione "**ESC**", escolha Ubuntu e pressione "**E**".
 
-2) Na linha que começa com linux, adicione no final da linha : **systemd.unit=emergency.target **
+2) Na linha que começa com linux, adicione no final da linha : **systemd.unit=emergency.target 
+**
 
 3) Depois pressione "**CTRL + X**" ou "**F10**" para o sistema reiniciar em Emergence Mode
 

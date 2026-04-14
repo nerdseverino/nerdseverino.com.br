@@ -1,5 +1,9 @@
 ---
 title: 'Comando df retorna disco cheio, mesmo não estando'
+description: |
+  Já presenciei alguns casos onde o disco reporta no comando df que está cheio e na verdade ainda possui um pouco de espaço livre.
+
+  🔗 https://nerdseverino.com.br/blog/dica-comando-df-retorna-disco-cheio-mesmo-não-estando/
 date: '2020-02-05T11:16:41-03:00'
 categories:
   - Dicas
@@ -37,35 +41,50 @@ O resultado vai trazer todas as informações sobre a partição, nesse caso est
 
 **tune2fs -l /dev/sdX**
 
-`tune2fs 1.42.9 (28-Dec-2013)`
+`tune2fs 1.42.9 (28-Dec-2013)
+`
 
-`Filesystem volume name:   <none>`
+`Filesystem volume name:   <none>
+`
 
-`Last mounted on:          /`
+`Last mounted on:          /
+`
 
-`Filesystem UUID:          25e77052-3e2f-47a0-ba1d-4e3b5c698ac7`
+`Filesystem UUID:          25e77052-3e2f-47a0-ba1d-4e3b5c698ac7
+`
 
-`Filesystem magic number:  0xEF53`
+`Filesystem magic number:  0xEF53
+`
 
-`Filesystem revision #:    1 (dynamic)`
+`Filesystem revision #:    1 (dynamic)
+`
 
-`Filesystem features:      has_journal ext_attr resize_inode dir_index filetype needs_recovery extent 64bit flex_bg sparse_super large_file huge_file uninit_bg dir_nlink extra_isize`
+`Filesystem features:      has_journal ext_attr resize_inode dir_index filetype needs_recovery extent 64bit flex_bg sparse_super large_file huge_file uninit_bg dir_nlink extra_isize
+`
 
-`Filesystem flags:         signed_directory_hash`
+`Filesystem flags:         signed_directory_hash
+`
 
-`Default mount options:    user_xattr acl`
+`Default mount options:    user_xattr acl
+`
 
-`Filesystem state:         clean`
+`Filesystem state:         clean
+`
 
-`Errors behavior:          Continue`
+`Errors behavior:          Continue
+`
 
-`Filesystem OS type:       Linux`
+`Filesystem OS type:       Linux
+`
 
-`Inode count:              15728640`
+`Inode count:              15728640
+`
 
-`Block count:              62914560`
+`Block count:              62914560
+`
 
-# **`Reserved block count:     629145`**
+# **`Reserved block count:     629145
+`**
 
 
 

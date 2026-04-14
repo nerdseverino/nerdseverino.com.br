@@ -1,5 +1,9 @@
 ---
 title: Centos 8 + AD-DC
+description: |
+  O Samba 4.x compreende um servidor de diretório LDAP, um servidor de autenticação Heimdal Kerberos, um servidor DNS dinâmico e implementações de todas as chamadas de procedimento remoto necessários para o Active Directory.
+
+  🔗 https://nerdseverino.com.br/blog/centos-8-ad-dc/
 date: '2020-08-25T02:04:20-03:00'
 categories:
   - Tutorial

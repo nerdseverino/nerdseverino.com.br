@@ -1,5 +1,9 @@
 ---
 title: Nextcloud na OCI com Wasabi como Storage principal.
+description: |
+  Pessoal, fiz alguns testes aqui e queria compartilhar o resultado com vocês:
+
+  🔗 https://nerdseverino.com.br/blog/nextcloud-na-oci-com-wasabi-como-storage-principal/
 date: '2022-02-26T03:28:24-03:00'
 categories:
   - Dicas

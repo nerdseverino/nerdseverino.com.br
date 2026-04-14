@@ -1,5 +1,9 @@
 ---
 title: Raspberry - Sistemas operacionais
+description: |
+  Um fato interessante, é que existem centenas de sistemas operacionais para o Raspberry Pi, e que ao menos, por baixo, 80 destes sistemas são baseados em Linux por isso é possível fazer muita coisa com essa pequena placa.
+
+  🔗 https://nerdseverino.com.br/blog/raspberry-sistemas-operacionais/
 date: '2020-07-04T14:11:44-03:00'
 categories:
   - Dicas

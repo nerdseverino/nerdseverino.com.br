@@ -1,5 +1,9 @@
 ---
 title: Verificando bateria de Fones Bluetooth no Ubuntu
+description: |
+  Olá pessoal, hoje a dica é sobre uma coisa que pode parecer inútil para vocês , mas pra mim estava causando algum aborrecimento.
+
+  🔗 https://nerdseverino.com.br/blog/verificando-bateria-de-fones-bluetooth-no-ubuntu/
 date: '2021-02-22T04:03:06-03:00'
 categories:
   - Dicas

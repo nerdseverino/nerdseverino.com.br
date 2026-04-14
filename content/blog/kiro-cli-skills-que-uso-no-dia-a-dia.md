@@ -1,5 +1,9 @@
 ---
 title: "Kiro CLI Skills: As 8 Skills que Uso no Dia a Dia como SRE"
+description: |
+  Se você usa o Kiro CLI e ainda não explorou o sistema de skills, está deixando poder na mesa. Skills são como "módulos de conhecimento especializado" que o Kiro carrega sob demanda — ele sabe quando ativar cada uma com base no que você pede. Neste artigo, compartilho as 8 skills que fazem parte do meu setup diário como SRE.
+
+  🔗 https://nerdseverino.com.br/blog/kiro-cli-skills-que-uso-no-dia-a-dia/
 date: 2026-03-29T21:26:00-03:00
 categories:
   - DevOps

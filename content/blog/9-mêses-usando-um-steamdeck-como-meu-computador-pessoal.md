@@ -1,5 +1,9 @@
 ---
 title: "10 Mêses usando um Steamdeck como meu computador pessoal "
+description: |
+  Olá pessoal em novembro de 2023 eu comprei um steamdeck para usar como meu computador principal no lugar de um Latitude E6330. De lá pra cá ele é a máquina que eu trabalho todo dia e queria compartilhar algumas coisas sobre ele.
+
+  🔗 https://nerdseverino.com.br/blog/9-mêses-usando-um-steamdeck-como-meu-computador-pessoal/
 date: 2024-06-28T11:57:55.098Z
 categories: Dicas
 tags: linux,software, livre

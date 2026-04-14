@@ -1,5 +1,9 @@
 ---
 title: "Dica Rápida sobre Amazon Linux 2023 "
+description: |
+  B﻿om me deparei subindo uma nova EC2 recentemente que a AMI do Amazon Linux 2023 tem algumas diferenças que vou deixar anotado aqui abaixo:
+
+  🔗 https://nerdseverino.com.br/blog/dica-rápida-sobre-amazon-linux-2023/
 date: 2024-10-09T16:26:49.115Z
 categories: Dicas
 tags:

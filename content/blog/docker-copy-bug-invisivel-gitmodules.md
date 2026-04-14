@@ -1,5 +1,9 @@
 ---
 title: "Como um assistente de IA me ajudou a debugar um bug invisível no Docker COPY"
+description: |
+  Você já passou horas tentando entender por que um comando simples como COPY static/ ./static/ simplesmente não copia todos os arquivos? Eu passei. E a resposta estava em um arquivo fantasma que ninguém lembrava que existia.
+
+  🔗 https://nerdseverino.com.br/blog/docker-copy-bug-invisivel-gitmodules/
 date: 2026-03-21T00:57:00-03:00
 categories: DevOps
 tags:

@@ -1,5 +1,9 @@
 ---
 title: Samba 4 em um Raspberry PI 3
+description: |
+  Bom depois de fazer o tutorial do Samba 4 e depois de mexer com Docker no pequeno PI, eu pensei porque não tentar colocar o Samba4 no Debian que é a base do Raspbian.
+
+  🔗 https://nerdseverino.com.br/blog/samba-4-em-um-raspberry-pi-3/
 date: '2020-12-03T18:08:37-03:00'
 categories:
   - Dicas

@@ -1,5 +1,9 @@
 ---
 title: Túneis SSH
+description: |
+  Vou reproduzir um post de um blog que não está mais disponível, mas o conteúdo me ajudou bastante na época:
+
+  🔗 https://nerdseverino.com.br/blog/túneis-ssh/
 date: '2022-12-07T09:01:46-03:00'
 categories:
   - Dicas

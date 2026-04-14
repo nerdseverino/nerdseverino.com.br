@@ -1,5 +1,9 @@
 ---
 title: Verificar quais portas tem servicos escutando no Linux
+description: |
+  <!-- Link comentado para verificação: http://web.mit.edu/rhel-doc/4/RH-DOCS/rhel-sg-ptbr-4/s1-server-ports.html -->
+
+  🔗 https://nerdseverino.com.br/blog/verificar-quais-portas-tem-servicos-escutando-no-linux/
 date: '2022-12-02T20:12:35-03:00'
 categories:
   - Dicas

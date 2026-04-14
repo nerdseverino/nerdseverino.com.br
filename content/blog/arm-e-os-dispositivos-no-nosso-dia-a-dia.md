@@ -1,5 +1,9 @@
 ---
 title: ARM e os dispositivos no nosso dia-a-dia
+description: |
+  C﻿ontinuando a nossa jornada pelo mundo ARM, além de servidores em nuvem. Aqui estão algumas informações sobre a presença da arquitetura ARM em diferentes em vários tipos de dispositivos que estão pertinho de nós no nosso dia-a-dia:
+
+  🔗 https://nerdseverino.com.br/blog/arm-e-os-dispositivos-no-nosso-dia-a-dia/
 date: 2023-09-19T17:37:49.472Z
 categories:
   - Artigo

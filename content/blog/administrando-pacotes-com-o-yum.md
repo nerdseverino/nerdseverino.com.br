@@ -1,5 +1,9 @@
 ---
 title: Administrando pacotes com o Yum
+description: |
+  Estamos acostumados com o Yum, mas geralmente usamos apenas a opção install do mesmo, mas existem outros parâmetros bem interessantes do Yum que podem ser úteis no seu dia-a-dia.
+
+  🔗 https://nerdseverino.com.br/blog/administrando-pacotes-com-o-yum/
 date: 2020-06-22T04:25:08-03:00
 categories:
   - Dicas

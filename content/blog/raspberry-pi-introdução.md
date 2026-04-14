@@ -1,5 +1,9 @@
 ---
 title: 'Raspberry PI - Introdução '
+description: |
+  Existem no mercado uma categoria de equipamentos que chamamos de SBC (Single Board Computer) que traduzindo literalmente seria um Computador de placa única, que como o nome sugere tem todos os seus componentes em uma única placa para desempenhar as suas funções.\ Eles geralmente são chamados também de sistemas embarcados, placas de IoT, e outros.
+
+  🔗 https://nerdseverino.com.br/blog/raspberry-pi-introdução/
 date: '2020-07-04T07:40:23-03:00'
 categories:
   - Dicas

@@ -1,5 +1,9 @@
 ---
 title: Latinoware 2023 - 20 Anos
+description: |
+  H﻿oje tive a honra de participar e falar em um dos maiores eventos de software livre do Brasil a Latinoware que está completando seus 20 anos de existência.
+
+  🔗 https://nerdseverino.com.br/blog/latinoware-2023/
 date: 2023-10-24T20:57:40.955Z
 categories:
   - Eventos

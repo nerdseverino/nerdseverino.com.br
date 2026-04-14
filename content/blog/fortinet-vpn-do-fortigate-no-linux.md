@@ -1,5 +1,9 @@
 ---
 title: Fortinet - VPN do Fortigate no Linux
+description: |
+  Olá pessoal essa é uma dica rápida, se você como eu nessa pandemia estava usando o Windows apenas porque não conseguia conectar na VPN da empresa porque não achava um cliente forticlient para linux, seus problemas acabaram :D
+
+  🔗 https://nerdseverino.com.br/blog/fortinet-vpn-do-fortigate-no-linux/
 date: '2020-07-09T09:21:39-03:00'
 categories:
   - Dicas

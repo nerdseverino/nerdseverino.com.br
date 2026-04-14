@@ -1,5 +1,9 @@
 ---
 title: 'Linux: File System Hierarchy'
+description: |
+  O FSH (File System Hierarchy) é a estrutura de diretórios utilizada pelo sistema operacional Linux. Ele é composto por uma série de diretórios e arquivos organizados de maneira lógica, que permitem que os usuários e o sistema acessem e gerenciem os arquivos de maneira eficiente.
+
+  🔗 https://nerdseverino.com.br/blog/linux-file-system-hierarchy/
 date: '2023-01-20T17:35:11-03:00'
 categories:
   - Dicas

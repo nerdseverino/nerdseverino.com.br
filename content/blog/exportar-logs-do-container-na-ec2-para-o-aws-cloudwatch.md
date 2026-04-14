@@ -1,5 +1,9 @@
 ---
 title: Exportar Logs do Container na Ec2 para o AWS CloudWatch
+description: |
+  Imaginamos que você tem sua instância do EC2 executando contêineres docker. Você provavelmente está usando docker-compose para orquestração de contêiner (eu sei que existem soluções melhores).
+
+  🔗 https://nerdseverino.com.br/blog/exportar-logs-do-container-na-ec2-para-o-aws-cloudwatch/
 date: '2022-12-01T16:17:49-03:00'
 categories:
   - Dicas
