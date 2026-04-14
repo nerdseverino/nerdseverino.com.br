@@ -187,6 +187,17 @@
     "correct": 2
   },
   {
+    "topic": "Comando MV",
+    "question": "O comando mv serve para:",
+    "options": [
+      "Copiar arquivos",
+      "Mover e renomear arquivos",
+      "Criar diretórios",
+      "Listar arquivos"
+    ],
+    "correct": 1
+  },
+  {
     "topic": "Comando MKDIR",
     "question": "Qual opção do mkdir cria diretórios pais se não existirem?",
     "options": [
@@ -227,6 +238,17 @@
       "Substitui 'old' por 'new' globalmente",
       "Adiciona linhas",
       "Lista o conteúdo"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Comando TOP",
+    "question": "O comando top mostra:",
+    "options": [
+      "Arquivos do diretório",
+      "Processos em execução em tempo real",
+      "Histórico de comandos",
+      "Configurações do sistema"
     ],
     "correct": 1
   },
@@ -286,6 +308,17 @@
     "correct": 1
   },
   {
+    "topic": "GZIP",
+    "question": "A extensão típica de arquivos comprimidos com gzip é:",
+    "options": [
+      ".zip",
+      ".gz",
+      ".bz2",
+      ".xz"
+    ],
+    "correct": 1
+  },
+  {
     "topic": "BZIP2",
     "question": "Qual comando descomprime um arquivo .bz2?",
     "options": [
@@ -293,6 +326,17 @@
       "bunzip2 arquivo.bz2",
       "unzip arquivo.bz2",
       "xz -d arquivo.bz2"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "XZ",
+    "question": "O comando xz oferece:",
+    "options": [
+      "Compressão mais rápida que gzip",
+      "Melhor taxa de compressão que gzip",
+      "Menor uso de CPU",
+      "Compatibilidade com ZIP"
     ],
     "correct": 1
   },
@@ -557,6 +601,17 @@
       "Debian",
       "SUSE",
       "Arch"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "File System Hierarchy - /var",
+    "question": "O diretório /var contém:",
+    "options": [
+      "Arquivos de configuração",
+      "Dados variáveis como logs e spool",
+      "Programas executáveis",
+      "Arquivos temporários"
     ],
     "correct": 1
   },
@@ -1089,6 +1144,17 @@
     "correct": 1
   },
   {
+    "topic": "NMTUI - Função",
+    "question": "O nmtui é usado para configurar:",
+    "options": [
+      "DNS",
+      "Interfaces de rede",
+      "Firewall",
+      "Routing"
+    ],
+    "correct": 1
+  },
+  {
     "topic": "PING - Contagem",
     "question": "Como limitar o ping a 5 pacotes?",
     "options": [
@@ -1129,6 +1195,17 @@
       "Red Hat Enterprise Linux",
       "SUSE",
       "Ubuntu"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "File System - /tmp",
+    "question": "O diretório /tmp é usado para:",
+    "options": [
+      "Arquivos de configuração",
+      "Arquivos temporários",
+      "Logs do sistema",
+      "Programas executáveis"
     ],
     "correct": 1
   },
