@@ -1,0 +1,1245 @@
+[
+  {
+    "topic": "Distribuições Linux",
+    "question": "Qual das seguintes é considerada uma das principais distribuições Linux corporativas?",
+    "options": [
+      "Windows Server",
+      "macOS",
+      "Red Hat Enterprise Linux",
+      "FreeBSD"
+    ],
+    "correct": 2
+  },
+  {
+    "topic": "File System Hierarchy",
+    "question": "Qual diretório contém os arquivos de configuração do sistema no Linux?",
+    "options": [
+      "/home",
+      "/etc",
+      "/var",
+      "/tmp"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Processo de Boot",
+    "question": "Qual é a primeira etapa do processo de boot do Linux?",
+    "options": [
+      "BIOS/UEFI",
+      "Kernel",
+      "Init",
+      "Shell"
+    ],
+    "correct": 0
+  },
+  {
+    "topic": "Grub2",
+    "question": "Qual arquivo é usado para configurar o GRUB2?",
+    "options": [
+      "/boot/grub.conf",
+      "/etc/default/grub",
+      "/etc/grub.cfg",
+      "/boot/menu.lst"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Systemd vs SysV",
+    "question": "Qual comando é usado no systemd para verificar o status de um serviço?",
+    "options": [
+      "service status",
+      "systemctl status",
+      "chkconfig --list",
+      "init status"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Systemctl",
+    "question": "Como iniciar um serviço usando systemctl?",
+    "options": [
+      "systemctl stop service",
+      "systemctl start service",
+      "systemctl disable service",
+      "systemctl reload service"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Partições",
+    "question": "Qual comando é usado para criar partições no Linux?",
+    "options": [
+      "mkfs",
+      "fdisk",
+      "mount",
+      "fsck"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Formatação",
+    "question": "Qual comando formata uma partição com sistema de arquivos ext4?",
+    "options": [
+      "fdisk /dev/sda1",
+      "mkfs.ext4 /dev/sda1",
+      "mount /dev/sda1",
+      "fsck /dev/sda1"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Montagem Automática",
+    "question": "Qual arquivo configura a montagem automática de partições no boot?",
+    "options": [
+      "/etc/passwd",
+      "/etc/fstab",
+      "/etc/hosts",
+      "/etc/crontab"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "FSCK",
+    "question": "Para que serve o comando fsck?",
+    "options": [
+      "Formatar partições",
+      "Criar partições",
+      "Verificar e reparar sistemas de arquivos",
+      "Montar partições"
+    ],
+    "correct": 2
+  },
+  {
+    "topic": "LVM",
+    "question": "Qual comando cria um Physical Volume no LVM?",
+    "options": [
+      "vgcreate",
+      "pvcreate",
+      "lvcreate",
+      "pvdisplay"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "YUM",
+    "question": "Qual comando instala um pacote usando yum?",
+    "options": [
+      "yum remove package",
+      "yum install package",
+      "yum search package",
+      "yum update package"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "RPM",
+    "question": "Qual comando lista todos os pacotes RPM instalados?",
+    "options": [
+      "rpm -i",
+      "rpm -qa",
+      "rpm -e",
+      "rpm -U"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Bash - Arquivos de Inicialização",
+    "question": "Qual arquivo é executado para todos os usuários no login?",
+    "options": [
+      "~/.bashrc",
+      "/etc/profile",
+      "~/.bash_profile",
+      "~/.bash_logout"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Aspas no Bash",
+    "question": "Qual a diferença entre aspas simples e duplas no bash?",
+    "options": [
+      "Não há diferença",
+      "Aspas duplas não expandem variáveis",
+      "Aspas simples não expandem variáveis",
+      "Aspas simples expandem comandos"
+    ],
+    "correct": 2
+  },
+  {
+    "topic": "Comando CP",
+    "question": "Qual opção do comando cp copia diretórios recursivamente?",
+    "options": [
+      "cp -l",
+      "cp -r",
+      "cp -u",
+      "cp -s"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Comando Touch",
+    "question": "Para que serve o comando touch?",
+    "options": [
+      "Copiar arquivos",
+      "Mover arquivos",
+      "Criar arquivos vazios ou atualizar timestamps",
+      "Deletar arquivos"
+    ],
+    "correct": 2
+  },
+  {
+    "topic": "Comando MKDIR",
+    "question": "Qual opção do mkdir cria diretórios pais se não existirem?",
+    "options": [
+      "mkdir -m",
+      "mkdir -p",
+      "mkdir -v",
+      "mkdir -r"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Editor VIM",
+    "question": "Como sair do vim sem salvar?",
+    "options": [
+      ":w",
+      ":q!",
+      ":wq",
+      ":x"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Editor Nano",
+    "question": "Qual combinação de teclas salva um arquivo no nano?",
+    "options": [
+      "Ctrl+X",
+      "Ctrl+O",
+      "Ctrl+W",
+      "Ctrl+R"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Comando SED",
+    "question": "O que faz o comando sed 's/old/new/g' file.txt?",
+    "options": [
+      "Deleta linhas",
+      "Substitui 'old' por 'new' globalmente",
+      "Adiciona linhas",
+      "Lista o conteúdo"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Expressões Regulares",
+    "question": "O que representa o caractere '.' em expressões regulares?",
+    "options": [
+      "Fim de linha",
+      "Qualquer caractere",
+      "Início de linha",
+      "Espaço em branco"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Redirecionamento",
+    "question": "O que faz o operador '>>' ?",
+    "options": [
+      "Redireciona entrada",
+      "Anexa saída ao final do arquivo",
+      "Sobrescreve o arquivo",
+      "Redireciona erro"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Comando MAN",
+    "question": "Qual seção do manual contém comandos de usuário?",
+    "options": [
+      "Seção 1",
+      "Seção 2",
+      "Seção 3",
+      "Seção 8"
+    ],
+    "correct": 0
+  },
+  {
+    "topic": "Compactação",
+    "question": "Qual a diferença entre compactação e compressão?",
+    "options": [
+      "São a mesma coisa",
+      "Compactação agrupa arquivos, compressão reduz tamanho",
+      "Compressão agrupa arquivos",
+      "Não existe diferença prática"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Comando TAR",
+    "question": "Qual comando extrai um arquivo tar.gz?",
+    "options": [
+      "tar -cf arquivo.tar.gz",
+      "tar -xzf arquivo.tar.gz",
+      "tar -tzf arquivo.tar.gz",
+      "tar -czf arquivo.tar.gz"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "BZIP2",
+    "question": "Qual comando descomprime um arquivo .bz2?",
+    "options": [
+      "gzip -d arquivo.bz2",
+      "bunzip2 arquivo.bz2",
+      "unzip arquivo.bz2",
+      "xz -d arquivo.bz2"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Processos - Teoria",
+    "question": "O que é um processo no Linux?",
+    "options": [
+      "Um arquivo executável",
+      "Uma instância de programa em execução",
+      "Um diretório do sistema",
+      "Uma configuração do kernel"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Signals",
+    "question": "Qual signal termina um processo imediatamente?",
+    "options": [
+      "SIGTERM (15)",
+      "SIGKILL (9)",
+      "SIGHUP (1)",
+      "SIGSTOP (19)"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Comando KILL",
+    "question": "Como enviar o signal TERM para o processo PID 1234?",
+    "options": [
+      "kill -9 1234",
+      "kill -15 1234",
+      "kill -1 1234",
+      "kill -19 1234"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Comando PS",
+    "question": "Qual comando mostra todos os processos do sistema?",
+    "options": [
+      "ps",
+      "ps aux",
+      "ps -l",
+      "ps -u"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Permissões Básicas",
+    "question": "Qual o valor octal para permissões rwxr-xr-x?",
+    "options": [
+      "644",
+      "755",
+      "777",
+      "700"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "UMASK",
+    "question": "Se umask é 022, qual será a permissão padrão de um arquivo criado?",
+    "options": [
+      "755",
+      "644",
+      "777",
+      "600"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Links Simbólicos",
+    "question": "Qual comando cria um link simbólico?",
+    "options": [
+      "ln arquivo link",
+      "ln -s arquivo link",
+      "cp -l arquivo link",
+      "mv arquivo link"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Inodes",
+    "question": "O que são inodes?",
+    "options": [
+      "Arquivos de configuração",
+      "Estruturas que armazenam metadados de arquivos",
+      "Diretórios especiais",
+      "Comandos do sistema"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Comando FIND",
+    "question": "Como encontrar arquivos modificados nos últimos 7 dias?",
+    "options": [
+      "find . -name \"*\" -7",
+      "find . -mtime -7",
+      "find . -size -7",
+      "find . -type f -7"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Shell Script - Variáveis",
+    "question": "Como declarar uma variável em shell script?",
+    "options": [
+      "var = \"valor\"",
+      "var=\"valor\"",
+      "$var = \"valor\"",
+      "declare var = \"valor\""
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Shell Script - Condicionais",
+    "question": "Qual a sintaxe correta para um if em shell script?",
+    "options": [
+      "if condition: then",
+      "if [ condition ]; then",
+      "if (condition) then",
+      "if condition then"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Shell Script - Loops",
+    "question": "Como criar um loop for que itera de 1 a 10?",
+    "options": [
+      "for i in 1..10; do",
+      "for i in {1..10}; do",
+      "for (i=1; i<=10; i++); do",
+      "for i from 1 to 10; do"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Cron",
+    "question": "Qual entrada do crontab executa um script todo dia às 2:30?",
+    "options": [
+      "2 30 * * * script",
+      "30 2 * * * script",
+      "* 2 30 * * script",
+      "30 * 2 * * script"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Gerenciamento de Usuários",
+    "question": "Qual comando adiciona um novo usuário?",
+    "options": [
+      "addgroup",
+      "useradd",
+      "usermod",
+      "passwd"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "SUDO",
+    "question": "Qual arquivo configura as permissões do sudo?",
+    "options": [
+      "/etc/passwd",
+      "/etc/sudoers",
+      "/etc/shadow",
+      "/etc/group"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Gerenciamento de Grupos",
+    "question": "Como adicionar um usuário a um grupo existente?",
+    "options": [
+      "useradd -g grupo usuario",
+      "usermod -aG grupo usuario",
+      "groupadd usuario grupo",
+      "passwd -g grupo usuario"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Fundamentos de Redes",
+    "question": "Qual camada do modelo OSI o protocolo TCP opera?",
+    "options": [
+      "Camada 3 (Rede)",
+      "Camada 4 (Transporte)",
+      "Camada 2 (Enlace)",
+      "Camada 7 (Aplicação)"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Comando NC (Netcat)",
+    "question": "Para que serve o comando nc?",
+    "options": [
+      "Configurar rede",
+      "Testar conectividade TCP/UDP",
+      "Monitorar tráfego",
+      "Configurar DNS"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Comando SS",
+    "question": "O comando ss substitui qual comando tradicional?",
+    "options": [
+      "ping",
+      "netstat",
+      "ifconfig",
+      "route"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "NMTUI",
+    "question": "O que é o nmtui?",
+    "options": [
+      "Editor de texto",
+      "Interface gráfica para NetworkManager",
+      "Comando de rede",
+      "Serviço de DNS"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Comando PING",
+    "question": "Qual protocolo o comando ping utiliza?",
+    "options": [
+      "TCP",
+      "ICMP",
+      "UDP",
+      "HTTP"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Comando TELNET",
+    "question": "Qual a principal desvantagem do telnet?",
+    "options": [
+      "Lentidão",
+      "Transmissão em texto claro (não criptografado)",
+      "Uso de muita memória",
+      "Incompatibilidade"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "OpenSSH",
+    "question": "Qual porta padrão o SSH utiliza?",
+    "options": [
+      "21",
+      "22",
+      "23",
+      "80"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Distribuições - Ubuntu",
+    "question": "Ubuntu é baseada em qual distribuição?",
+    "options": [
+      "Red Hat",
+      "Debian",
+      "SUSE",
+      "Arch"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Processo de Boot - Init",
+    "question": "Qual é o PID do processo init?",
+    "options": [
+      "1",
+      "0",
+      "2",
+      "100"
+    ],
+    "correct": 0
+  },
+  {
+    "topic": "Grub2 - Atualização",
+    "question": "Qual comando atualiza a configuração do GRUB2?",
+    "options": [
+      "grub-install",
+      "grub2-mkconfig -o /boot/grub2/grub.cfg",
+      "update-grub",
+      "grub-config"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Systemd - Target",
+    "question": "O que são targets no systemd?",
+    "options": [
+      "Arquivos de configuração",
+      "Grupos de serviços que definem estados do sistema",
+      "Comandos específicos",
+      "Processos em execução"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Systemctl - Enable",
+    "question": "O que faz o comando systemctl enable?",
+    "options": [
+      "Inicia o serviço",
+      "Habilita o serviço para iniciar no boot",
+      "Para o serviço",
+      "Recarrega a configuração"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Partições - Tipos",
+    "question": "Qual tipo de partição pode conter partições lógicas?",
+    "options": [
+      "Primária",
+      "Estendida",
+      "Swap",
+      "Boot"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Formatação - XFS",
+    "question": "Qual comando formata uma partição com XFS?",
+    "options": [
+      "mkfs.ext4",
+      "mkfs.xfs",
+      "mkfs.ntfs",
+      "mkfs.fat32"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Montagem - Opções",
+    "question": "Qual opção do mount monta um sistema de arquivos como somente leitura?",
+    "options": [
+      "-w",
+      "-r",
+      "-a",
+      "-t"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "FSCK - Opções",
+    "question": "Qual opção do fsck força a verificação mesmo se o sistema parecer limpo?",
+    "options": [
+      "-p",
+      "-f",
+      "-y",
+      "-n"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "LVM - Volume Group",
+    "question": "Qual comando cria um Volume Group?",
+    "options": [
+      "pvcreate",
+      "vgcreate",
+      "lvcreate",
+      "vgextend"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "YUM - Busca",
+    "question": "Como buscar por um pacote usando yum?",
+    "options": [
+      "yum find package",
+      "yum search package",
+      "yum locate package",
+      "yum query package"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "RPM - Informações",
+    "question": "Como ver informações detalhadas de um pacote RPM instalado?",
+    "options": [
+      "rpm -qa package",
+      "rpm -qi package",
+      "rpm -ql package",
+      "rpm -qf package"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Bash - ~/.bashrc",
+    "question": "Quando o arquivo ~/.bashrc é executado?",
+    "options": [
+      "No login",
+      "Ao abrir um shell não-login",
+      "No logout",
+      "No boot do sistema"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Aspas - Escape",
+    "question": "Como incluir uma aspa dupla dentro de aspas duplas?",
+    "options": [
+      "\"\"",
+      "\\\"",
+      "''",
+      "\\\\"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Comando CP - Preservar",
+    "question": "Qual opção do cp preserva atributos como timestamps?",
+    "options": [
+      "-r",
+      "-p",
+      "-u",
+      "-l"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Comando Touch - Timestamp",
+    "question": "Como definir um timestamp específico com touch?",
+    "options": [
+      "touch -d",
+      "touch -t",
+      "touch -m",
+      "touch -a"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Comando MV - Backup",
+    "question": "Qual opção do mv cria backup antes de sobrescrever?",
+    "options": [
+      "-i",
+      "-b",
+      "-u",
+      "-f"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Comando MKDIR - Permissões",
+    "question": "Como criar um diretório com permissões específicas?",
+    "options": [
+      "mkdir -p",
+      "mkdir -m 755",
+      "mkdir -v",
+      "mkdir -r"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "VIM - Modo Inserção",
+    "question": "Como entrar no modo de inserção no vim?",
+    "options": [
+      "i",
+      ":i",
+      "Ctrl+i",
+      "Alt+i"
+    ],
+    "correct": 0
+  },
+  {
+    "topic": "Nano - Buscar",
+    "question": "Como buscar texto no nano?",
+    "options": [
+      "Ctrl+F",
+      "Ctrl+W",
+      "Ctrl+S",
+      "Ctrl+B"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "SED - Deletar Linhas",
+    "question": "Como deletar a linha 5 de um arquivo com sed?",
+    "options": [
+      "sed '5s///' arquivo",
+      "sed '5d' arquivo",
+      "sed '5p' arquivo",
+      "sed '5i' arquivo"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "TOP - Ordenação",
+    "question": "Como ordenar processos por uso de CPU no top?",
+    "options": [
+      "Pressionar M",
+      "Pressionar P",
+      "Pressionar T",
+      "Pressionar N"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Expressões Regulares - Quantificadores",
+    "question": "O que significa '+' em expressões regulares?",
+    "options": [
+      "Zero ou mais ocorrências",
+      "Uma ou mais ocorrências",
+      "Zero ou uma ocorrência",
+      "Exatamente uma ocorrência"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Redirecionamento - Erro",
+    "question": "Como redirecionar apenas erros para um arquivo?",
+    "options": [
+      "comando > arquivo",
+      "comando 2> arquivo",
+      "comando >> arquivo",
+      "comando < arquivo"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "MAN - Busca",
+    "question": "Como buscar por uma palavra dentro de uma página do manual?",
+    "options": [
+      "Ctrl+F",
+      "/palavra",
+      "?palavra",
+      "grep palavra"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Compactação - Conceito",
+    "question": "Qual algoritmo oferece melhor compressão?",
+    "options": [
+      "gzip",
+      "xz",
+      "bzip2",
+      "compress"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "TAR - Listar",
+    "question": "Como listar o conteúdo de um arquivo tar sem extrair?",
+    "options": [
+      "tar -xf arquivo.tar",
+      "tar -tf arquivo.tar",
+      "tar -cf arquivo.tar",
+      "tar -zf arquivo.tar"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "GZIP - Descompressão",
+    "question": "Qual comando descomprime um arquivo .gz?",
+    "options": [
+      "gzip arquivo.gz",
+      "gunzip arquivo.gz",
+      "zip -d arquivo.gz",
+      "unzip arquivo.gz"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "BZIP2 - Compressão",
+    "question": "Como comprimir um arquivo com bzip2?",
+    "options": [
+      "gzip arquivo",
+      "bzip2 arquivo",
+      "zip arquivo",
+      "xz arquivo"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "XZ - Opções",
+    "question": "Qual opção do xz mantém o arquivo original?",
+    "options": [
+      "-d",
+      "-k",
+      "-z",
+      "-t"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Processos - Estados",
+    "question": "Qual estado indica que um processo está aguardando I/O?",
+    "options": [
+      "R (Running)",
+      "D (Uninterruptible sleep)",
+      "S (Sleeping)",
+      "Z (Zombie)"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Signals - SIGHUP",
+    "question": "O que geralmente faz o signal SIGHUP?",
+    "options": [
+      "Mata o processo",
+      "Recarrega configuração",
+      "Para o processo",
+      "Continua o processo"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "KILL - Killall",
+    "question": "Qual comando mata todos os processos com um nome específico?",
+    "options": [
+      "kill -9 nome",
+      "killall nome",
+      "pkill -f nome",
+      "ps aux | grep nome"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "PS - Formato",
+    "question": "Como mostrar processos em formato de árvore?",
+    "options": [
+      "ps aux",
+      "ps axjf",
+      "ps -ef",
+      "ps -l"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Permissões - SUID",
+    "question": "O que significa o bit SUID?",
+    "options": [
+      "Executa como grupo do arquivo",
+      "Executa como dono do arquivo",
+      "Arquivo é executável",
+      "Diretório é acessível"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "UMASK - Cálculo",
+    "question": "Com umask 027, qual permissão terá um diretório criado?",
+    "options": [
+      "640",
+      "750",
+      "755",
+      "777"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Links - Hard Link",
+    "question": "Qual comando cria um hard link?",
+    "options": [
+      "ln arquivo link",
+      "ln -s arquivo link",
+      "cp -l arquivo link",
+      "link arquivo link"
+    ],
+    "correct": 0
+  },
+  {
+    "topic": "Inodes - Verificação",
+    "question": "Como ver o número do inode de um arquivo?",
+    "options": [
+      "ls -l arquivo",
+      "ls -i arquivo",
+      "stat arquivo",
+      "file arquivo"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "FIND - Tipo",
+    "question": "Como encontrar apenas diretórios com find?",
+    "options": [
+      "find . -name \"*\"",
+      "find . -type d",
+      "find . -type f",
+      "find . -dir"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Shell Script - Parâmetros",
+    "question": "Como acessar o primeiro parâmetro em um script?",
+    "options": [
+      "$0",
+      "$1",
+      "$@",
+      "$#"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Shell Script - Teste",
+    "question": "Como testar se um arquivo existe em shell script?",
+    "options": [
+      "[ -d arquivo ]",
+      "[ -f arquivo ]",
+      "[ -x arquivo ]",
+      "[ -r arquivo ]"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Shell Script - While",
+    "question": "Qual a sintaxe correta para um loop while?",
+    "options": [
+      "while condition: do",
+      "while [ condition ]; do",
+      "while (condition) do",
+      "while condition then"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Cron - Variáveis",
+    "question": "Onde são definidas variáveis de ambiente para cron?",
+    "options": [
+      "~/.bashrc",
+      "No próprio crontab",
+      "/etc/environment",
+      "~/.profile"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Usuários - Informações",
+    "question": "Onde ficam armazenadas as informações básicas dos usuários?",
+    "options": [
+      "/etc/passwd",
+      "/etc/shadow",
+      "/etc/group",
+      "/etc/sudoers"
+    ],
+    "correct": 0
+  },
+  {
+    "topic": "SUDO - Execução",
+    "question": "Como executar um comando como outro usuário com sudo?",
+    "options": [
+      "sudo comando",
+      "sudo -u usuario comando",
+      "sudo -s comando",
+      "sudo -i comando"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Grupos - Criação",
+    "question": "Como criar um novo grupo?",
+    "options": [
+      "useradd -g grupo",
+      "groupadd grupo",
+      "addgroup grupo",
+      "newgrp grupo"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Redes - IP",
+    "question": "Qual comando mostra a configuração de rede atual?",
+    "options": [
+      "netstat",
+      "ip addr show",
+      "route",
+      "arp"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "NC - Porta",
+    "question": "Como testar se uma porta está aberta com nc?",
+    "options": [
+      "nc -l porta",
+      "nc -z host porta",
+      "nc -u host porta",
+      "nc -v host porta"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "SS - Listening",
+    "question": "Como mostrar apenas portas em listening com ss?",
+    "options": [
+      "ss -a",
+      "ss -l",
+      "ss -t",
+      "ss -u"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "PING - Contagem",
+    "question": "Como limitar o ping a 5 pacotes?",
+    "options": [
+      "ping -t 5 host",
+      "ping -c 5 host",
+      "ping -n 5 host",
+      "ping -l 5 host"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "TELNET - Porta",
+    "question": "Como conectar em uma porta específica com telnet?",
+    "options": [
+      "telnet host:porta",
+      "telnet host porta",
+      "telnet -p porta host",
+      "telnet -port porta host"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "SSH - Chave Pública",
+    "question": "Onde fica armazenada a chave pública SSH do usuário?",
+    "options": [
+      "~/.ssh/id_rsa",
+      "~/.ssh/id_rsa.pub",
+      "~/.ssh/authorized_keys",
+      "~/.ssh/known_hosts"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Distribuições - CentOS",
+    "question": "CentOS é baseada em qual distribuição?",
+    "options": [
+      "Debian",
+      "Red Hat Enterprise Linux",
+      "SUSE",
+      "Ubuntu"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Boot - Runlevels",
+    "question": "Qual runlevel tradicionalmente representa modo multiusuário com rede?",
+    "options": [
+      "1",
+      "3",
+      "5",
+      "6"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "GRUB2 - Menu",
+    "question": "Como editar temporariamente uma entrada do GRUB durante o boot?",
+    "options": [
+      "Pressionar F2",
+      "Pressionar 'e'",
+      "Pressionar Tab",
+      "Pressionar Esc"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Systemd - Journal",
+    "question": "Como ver logs do systemd?",
+    "options": [
+      "tail /var/log/messages",
+      "journalctl",
+      "dmesg",
+      "cat /var/log/syslog"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Systemctl - Reload",
+    "question": "Qual a diferença entre restart e reload?",
+    "options": [
+      "Não há diferença",
+      "Reload recarrega configuração sem parar o serviço",
+      "Restart é mais rápido",
+      "Reload para o serviço"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "LVM - Logical Volume",
+    "question": "Como criar um Logical Volume?",
+    "options": [
+      "pvcreate",
+      "vgcreate",
+      "lvcreate",
+      "lvextend"
+    ],
+    "correct": 2
+  },
+  {
+    "topic": "YUM - Histórico",
+    "question": "Como ver o histórico de instalações do yum?",
+    "options": [
+      "yum list",
+      "yum history",
+      "yum log",
+      "yum info"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Expressões Regulares - Âncoras",
+    "question": "O que representa '$' em expressões regulares?",
+    "options": [
+      "Início da linha",
+      "Fim da linha",
+      "Qualquer caractere",
+      "Um ou mais caracteres"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "SSH - Configuração",
+    "question": "Onde fica o arquivo de configuração do servidor SSH?",
+    "options": [
+      "~/.ssh/config",
+      "/etc/ssh/sshd_config",
+      "/etc/ssh/ssh_config",
+      "/var/log/ssh/config"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Processos - Prioridade",
+    "question": "Como executar um comando com prioridade baixa?",
+    "options": [
+      "low comando",
+      "nice comando",
+      "priority comando",
+      "slow comando"
+    ],
+    "correct": 1
+  },
+  {
+    "topic": "Redes - Rota",
+    "question": "Como adicionar uma rota estática?",
+    "options": [
+      "route add",
+      "ip route add",
+      "netstat -r",
+      "ifconfig route"
+    ],
+    "correct": 1
+  }
+]
