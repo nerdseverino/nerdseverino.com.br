@@ -26,17 +26,17 @@ O FSH (File System Hierarchy) é a estrutura de diretórios utilizada pelo siste
 
 A raiz do FSH é representada pelo diretório '/', a partir do qual todos os outros diretórios e arquivos são acessados. Abaixo estão alguns dos principais diretórios do FSH:
 
-```
-/bin: Contém os comandos básicos e binários essenciais do sistema, como ls, cp, mv, etc.
-/sbin: Contém os comandos administrativos e binários essenciais do sistema, como init, shutdown, etc.
-/etc: Contém arquivos de configuração do sistema, como arquivos de inicialização, arquivos de senhas, etc.
-/usr: Contém programas, bibliotecas e documentação instalados pelo usuário.
-/var: Contém arquivos que mudam com o tempo, como arquivos de log, arquivos temporários, etc.
-/home: Contém os diretórios pessoais de cada usuário do sistema.
-/root: Diretório pessoal do usuário root (administrador do sistema).
-/dev: Contém arquivos de dispositivos, como discos rígidos, unidades de CD-ROM, etc.
-/proc: Contém informações sobre os processos em execução no sistema, como uso de memória, etc.
-/tmp: Contém arquivos temporários criados pelo sistema e pelos usuários.\
-```
+| Diretório | Descrição |
+|-----------|-----------|
+| /bin | Comandos básicos e binários essenciais do sistema, como ls, cp, mv, etc. |
+| /sbin | Comandos administrativos e binários essenciais do sistema, como init, shutdown, etc. |
+| /etc | Arquivos de configuração do sistema, como arquivos de inicialização, arquivos de senhas, etc. |
+| /usr | Programas, bibliotecas e documentação instalados pelo usuário. |
+| /var | Arquivos que mudam com o tempo, como arquivos de log, arquivos temporários, etc. |
+| /home | Diretórios pessoais de cada usuário do sistema. |
+| /root | Diretório pessoal do usuário root (administrador do sistema). |
+| /dev | Arquivos de dispositivos, como discos rígidos, unidades de CD-ROM, etc. |
+| /proc | Informações sobre os processos em execução no sistema, como uso de memória, etc. |
+| /tmp | Arquivos temporários criados pelo sistema e pelos usuários. |
 
 É importante notar que esta estrutura de diretórios pode variar dependendo da distribuição Linux utilizada, mas os diretórios listados acima são comuns em todas as distribuições. Conhecer a estrutura de diretórios do FSH é fundamental para entender como o sistema operacional Linux funciona e para gerenciar arquivos e pastas de maneira eficiente.
