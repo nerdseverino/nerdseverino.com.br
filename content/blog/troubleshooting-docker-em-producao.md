@@ -19,6 +19,8 @@ description: |
 
   Qual o problema mais chato que você já teve com Docker em produção?
 
+  🔗 https://nerdseverino.com.br/blog/troubleshooting-docker-em-producao/
+
   #Docker #DevOps #Containers #SRE #Troubleshooting
 categories:
   - DevOps

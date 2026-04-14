@@ -18,6 +18,8 @@ description: |
 
   E você, qual é o primeiro comando que roda quando entra num servidor com problema?
 
+  🔗 https://nerdseverino.com.br/blog/comandos-linux-que-todo-sre-deveria-saber/
+
   #Linux #SRE #DevOps #Troubleshooting #OnCall
 categories:
   - Linux

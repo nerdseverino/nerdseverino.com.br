@@ -18,6 +18,8 @@ description: |
 
   Você usa algum sistema para manter contexto entre sessões de AI?
 
+  🔗 https://nerdseverino.com.br/blog/memoria-persistente-no-kiro-cli/
+
   #KiroCLI #AI #DevTools #Produtividade #SRE
 categories:
   - DevOps

@@ -19,6 +19,8 @@ description: |
 
   Como você personaliza suas ferramentas de AI para o seu workflow?
 
+  🔗 https://nerdseverino.com.br/blog/steering-files-no-kiro-cli/
+
   #KiroCLI #AI #DevTools #Produtividade #SRE
 categories:
   - DevOps
