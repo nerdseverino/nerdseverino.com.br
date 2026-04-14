@@ -1,6 +1,24 @@
 ---
 title: "Memória Persistente no Kiro CLI: Contexto que Sobrevive Entre Sessões"
 date: 2026-03-30T16:30:00-03:00
+description: |
+  O maior problema de assistentes AI no terminal: cada sessão começa do zero.
+
+  Você explica o contexto, trabalha por 1 hora, fecha o terminal. Na próxima vez? Explica tudo de novo.
+
+  Resolvi com um sistema de memória em duas camadas:
+
+  🧠 Hot Memory → arquivo local com contexto dos últimos 7 dias
+  📦 Cold Memory → arquivo permanente no Obsidian para busca futura
+  📋 Runbook Pessoal → soluções de problemas que o Kiro lembra por mim
+
+  Agora quando abro o Kiro, ele já sabe quais projetos estou tocando, quais tarefas estão pendentes e soluções de problemas anteriores.
+
+  Assistente AI sem memória é como um colega brilhante com amnésia.
+
+  Você usa algum sistema para manter contexto entre sessões de AI?
+
+  #KiroCLI #AI #DevTools #Produtividade #SRE
 categories:
   - DevOps
   - Ferramentas

@@ -1,6 +1,24 @@
 ---
 title: "Comandos Linux que Todo SRE Deveria Saber"
 date: 2026-03-26T08:50:00-03:00
+description: |
+  O alerta toca às 3h da manhã. Você entra no servidor. O que roda primeiro?
+
+  Depois de mais de uma década resolvendo incidentes, esses são os primeiros 60 segundos:
+
+  ⚡ uptime → load average e tempo de pé
+  ⚡ dmesg -T | tail -20 → kernel matou algo?
+  ⚡ free -h → swap estourado = problema
+  ⚡ df -h → disco cheio causa 30% dos incidentes
+  ⚡ ss -tlnp → portas abertas e quem ouve
+
+  Se o load está alto, o dmesg mostra OOM kill e o swap está cheio — diagnóstico em 30 segundos.
+
+  O post completo tem seções sobre strace, /proc, iotop e one-liners que já me salvaram.
+
+  E você, qual é o primeiro comando que roda quando entra num servidor com problema?
+
+  #Linux #SRE #DevOps #Troubleshooting #OnCall
 categories:
   - Linux
   - SRE

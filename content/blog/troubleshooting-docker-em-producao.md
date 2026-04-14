@@ -1,6 +1,25 @@
 ---
 title: "Troubleshooting Docker em Produção: Guia de Sobrevivência"
 date: 2026-03-27T13:00:00-03:00
+description: |
+  Container reiniciando em loop e você não sabe por quê?
+
+  O exit code te conta tudo:
+  🔴 137 → OOM killer matou (memória estourou)
+  🔴 139 → Segfault
+  🟡 1 → Erro da aplicação
+  🟢 0 → Saiu normal (mas não deveria)
+
+  Um comando que pouca gente conhece:
+  docker inspect <container> --format '{{.State.ExitCode}} - {{.State.OOMKilled}}'
+
+  Se OOMKilled = true, não adianta reiniciar — precisa aumentar o limite ou investigar memory leak.
+
+  Escrevi um guia completo: disco cheio fantasma, rede, overlay2, health checks.
+
+  Qual o problema mais chato que você já teve com Docker em produção?
+
+  #Docker #DevOps #Containers #SRE #Troubleshooting
 categories:
   - DevOps
   - SRE

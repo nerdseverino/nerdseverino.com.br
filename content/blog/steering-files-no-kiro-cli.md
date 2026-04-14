@@ -1,6 +1,25 @@
 ---
 title: "Steering Files no Kiro CLI: Personalizando a IA para Seu Workflow"
 date: 2026-04-01T10:30:00-03:00
+description: |
+  Toda vez que abro o ChatGPT preciso explicar: "responda em português, seja técnico, não explique o óbvio".
+
+  No Kiro CLI resolvi isso com um arquivo de 20 linhas.
+
+  Steering files são regras permanentes que o Kiro segue em TODA sessão:
+
+  ⚙️ Idioma e tom de resposta
+  ⚙️ Ferramentas do meu ambiente (aws-vault, Docker, Zabbix)
+  ⚙️ Regras de segurança (backup antes de modificar, nunca alterar permissões sem confirmar)
+  ⚙️ Mapa de skills (qual skill ativar para cada tipo de problema)
+
+  A parte mais poderosa: lições aprendidas automáticas. Se eu corrijo o Kiro, ele atualiza o próprio steering para não repetir o erro.
+
+  O assistente literalmente aprende com as correções e persiste entre sessões.
+
+  Como você personaliza suas ferramentas de AI para o seu workflow?
+
+  #KiroCLI #AI #DevTools #Produtividade #SRE
 categories:
   - DevOps
   - Ferramentas
