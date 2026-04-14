@@ -1,6 +1,6 @@
 ---
 title: 0 - Curso de Linux - Índice
-weight: 0
+weight: -1
 date: 2026-02-02T04:31:00.000Z
 categories:
   - Curso
