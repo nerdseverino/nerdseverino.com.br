@@ -11,7 +11,7 @@ description: About
 
 Sou Fabrício Machado, profissional de infraestrutura com 20 anos de experiência em TI, atuando nos últimos 4+ anos como **SRE / DevOps**, com foco em confiabilidade, automação e operação de ambientes cloud na AWS.
 
-Minha base é sólida em Linux e infraestrutura tradicional, com mais de 15 anos como sysadmin, o que me dá visão completa do stack e repertório para lidar com problemas reais de produção — daqueles que não aparecem em laboratório ou slide.
+Minha base é sólida em Linux e infraestrutura tradicional, com mais de 15 anos como sysadmin, o que me dá visão completa do stack e repertório para lidar com problemas reais de produção, daqueles que não aparecem em laboratório ou slide.
 
 ### Atuação Atual
 
@@ -21,14 +21,21 @@ Tenho experiência com automação, containers, monitoramento e troubleshooting,
 
 ### Sobre o Blog
 
-Compartilho aprendizados técnicos neste blog porque conhecimento só tem valor quando é usado — especialmente por quem está no plantão. Aqui você encontra conteúdo sobre Linux, AWS, DevOps, automação e soluções práticas para problemas reais.
+Compartilho aprendizados técnicos neste blog porque conhecimento só tem valor quando é usado, especialmente por quem está no plantão. Aqui você encontra conteúdo sobre Linux, AWS, DevOps, automação e soluções práticas para problemas reais.
 
 ### Certificações
 
-- AWS Certified Solutions Architect – Associate
+<p>
+<img src="/images/uploads/aws-certified-solutions-architect-associate.png" width="120" alt="AWS Solutions Architect Associate">
+<img src="/images/uploads/aws-certified-cloud-practitioner.png" width="120" alt="AWS Cloud Practitioner">
+<img src="/images/uploads/oracle_cloud_logo-600x350-1.jpg" width="120" alt="Oracle Cloud Infrastructure">
+</p>
+
+- AWS Certified Solutions Architect, Associate
 - AWS Certified Cloud Practitioner
+- Oracle Cloud Infrastructure Foundations Associate
 - DevOps Essentials Professional Certificate (DEPC)
-- Microsoft Certified Technology Specialist – Windows 7
+- Microsoft Certified Technology Specialist, Windows 7
 
 ### Formação
 
@@ -42,13 +49,11 @@ Compartilho aprendizados técnicos neste blog porque conhecimento só tem valor 
 - **GitHub**: [github.com/nerdseverino](https://github.com/nerdseverino)
 - **Email**: machado.computer@gmail.com
 
----
-
 ## English
 
 I'm Fabrício Machado, an infrastructure professional with 20 years of IT experience, working for the past 4+ years as **SRE / DevOps**, focusing on reliability, automation, and AWS cloud operations.
 
-My foundation is solid in Linux and traditional infrastructure, with over 15 years as a sysadmin, which gives me a complete stack view and the repertoire to handle real production problems — the kind that don't show up in labs or slides.
+My foundation is solid in Linux and traditional infrastructure, with over 15 years as a sysadmin, which gives me a complete stack view and the repertoire to handle real production problems, the kind that don't show up in labs or slides.
 
 ### Current Role
 
@@ -58,14 +63,21 @@ I have experience with automation, containers, monitoring, and troubleshooting, 
 
 ### About This Blog
 
-I share technical learnings on this blog because knowledge only has value when it's used — especially by those on call. Here you'll find content about Linux, AWS, DevOps, automation, and practical solutions to real problems.
+I share technical learnings on this blog because knowledge only has value when it's used, especially by those on call. Here you'll find content about Linux, AWS, DevOps, automation, and practical solutions to real problems.
 
 ### Certifications
 
-- AWS Certified Solutions Architect – Associate
+<p>
+<img src="/images/uploads/aws-certified-solutions-architect-associate.png" width="120" alt="AWS Solutions Architect Associate">
+<img src="/images/uploads/aws-certified-cloud-practitioner.png" width="120" alt="AWS Cloud Practitioner">
+<img src="/images/uploads/oracle_cloud_logo-600x350-1.jpg" width="120" alt="Oracle Cloud Infrastructure">
+</p>
+
+- AWS Certified Solutions Architect, Associate
 - AWS Certified Cloud Practitioner
+- Oracle Cloud Infrastructure Foundations Associate
 - DevOps Essentials Professional Certificate (DEPC)
-- Microsoft Certified Technology Specialist – Windows 7
+- Microsoft Certified Technology Specialist, Windows 7
 
 ### Education
 
@@ -78,7 +90,3 @@ I share technical learnings on this blog because knowledge only has value when i
 - **LinkedIn**: [linkedin.com/in/fabriciomachado](https://www.linkedin.com/in/fabriciomachado)
 - **GitHub**: [github.com/nerdseverino](https://github.com/nerdseverino)
 - **Email**: machado.computer@gmail.com
-
-<p align="center">
-<img src="/images/uploads/raspberry-pi-logo.png" width="150" title="Raspberry pi logo">
-</p>
