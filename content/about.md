@@ -25,15 +25,12 @@ Compartilho aprendizados técnicos neste blog porque conhecimento só tem valor 
 
 ### Certificações
 
-<p>
-<img src="/images/uploads/aws-certified-solutions-architect-associate.png" width="120" alt="AWS Solutions Architect Associate">
-<img src="/images/uploads/aws-certified-cloud-practitioner.png" width="120" alt="AWS Cloud Practitioner">
-<img src="/images/uploads/oracle_cloud_logo-600x350-1.jpg" width="120" alt="Oracle Cloud Infrastructure">
-</p>
+<img src="/images/uploads/aws-certified-solutions-architect-associate.png" width="40" style="vertical-align:middle"> AWS Certified Solutions Architect, Associate
 
-- AWS Certified Solutions Architect, Associate
-- AWS Certified Cloud Practitioner
-- Oracle Cloud Infrastructure Foundations Associate
+<img src="/images/uploads/aws-certified-cloud-practitioner.png" width="40" style="vertical-align:middle"> AWS Certified Cloud Practitioner
+
+<img src="/images/uploads/oracle_cloud_logo-600x350-1.jpg" width="40" style="vertical-align:middle"> Oracle Cloud Infrastructure Foundations Associate
+
 - DevOps Essentials Professional Certificate (DEPC)
 - Microsoft Certified Technology Specialist, Windows 7
 
@@ -67,15 +64,12 @@ I share technical learnings on this blog because knowledge only has value when i
 
 ### Certifications
 
-<p>
-<img src="/images/uploads/aws-certified-solutions-architect-associate.png" width="120" alt="AWS Solutions Architect Associate">
-<img src="/images/uploads/aws-certified-cloud-practitioner.png" width="120" alt="AWS Cloud Practitioner">
-<img src="/images/uploads/oracle_cloud_logo-600x350-1.jpg" width="120" alt="Oracle Cloud Infrastructure">
-</p>
+<img src="/images/uploads/aws-certified-solutions-architect-associate.png" width="40" style="vertical-align:middle"> AWS Certified Solutions Architect, Associate
 
-- AWS Certified Solutions Architect, Associate
-- AWS Certified Cloud Practitioner
-- Oracle Cloud Infrastructure Foundations Associate
+<img src="/images/uploads/aws-certified-cloud-practitioner.png" width="40" style="vertical-align:middle"> AWS Certified Cloud Practitioner
+
+<img src="/images/uploads/oracle_cloud_logo-600x350-1.jpg" width="40" style="vertical-align:middle"> Oracle Cloud Infrastructure Foundations Associate
+
 - DevOps Essentials Professional Certificate (DEPC)
 - Microsoft Certified Technology Specialist, Windows 7
 
