@@ -9,7 +9,10 @@ description: |
   🔗 https://nerdseverino.com.br/blog/zabbix-alertas-inteligentes/
 
   #Zabbix #Monitoramento #SRE #DevOps
-coverImage: /images/uploads/cover-zabbix-alertas.png
+cover:
+  image: "/images/uploads/cover-zabbix-alertas.png"
+  alt: "Cover"
+  relative: false
 categories:
   - SRE
   - Monitoramento
@@ -20,9 +23,11 @@ tags:
   - serie-zabbix-na-pratica
 keywords:
   - zabbix alertas triggers escalation
-coverImage: /images/uploads/cover-zabbix-alertas.png
+cover:
+  image: "/images/uploads/cover-zabbix-alertas.png"
+  alt: "Cover"
+  relative: false
 autoThumbnailImage: false
-coverImage: /images/uploads/cover-zabbix-alertas.png
 thumbnailImagePosition: top
 ---
 
