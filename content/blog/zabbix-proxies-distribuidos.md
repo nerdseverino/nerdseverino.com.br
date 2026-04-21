@@ -9,7 +9,10 @@ description: |
   🔗 https://nerdseverino.com.br/blog/zabbix-proxies-distribuidos/
 
   #Zabbix #Monitoramento #SRE #DevOps
-coverImage: /images/uploads/cover-zabbix-proxies.png
+cover:
+  image: "/images/uploads/cover-zabbix-proxies.png"
+  alt: "Cover"
+  relative: false
 categories:
   - SRE
   - Monitoramento
@@ -20,9 +23,11 @@ tags:
   - serie-zabbix-na-pratica
 keywords:
   - zabbix proxy distribuído multi-account
-coverImage: /images/uploads/cover-zabbix-proxies.png
+cover:
+  image: "/images/uploads/cover-zabbix-proxies.png"
+  alt: "Cover"
+  relative: false
 autoThumbnailImage: false
-coverImage: /images/uploads/cover-zabbix-proxies.png
 thumbnailImagePosition: top
 ---
 
