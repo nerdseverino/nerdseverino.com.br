@@ -17,6 +17,7 @@ description: |
   🔗 https://nerdseverino.com.br/blog/kiro-cli-2-0-windows-headless-terminal-ui/
 
   #KiroCLI #AI #DevTools #Windows #CICD #SRE
+coverImage: /images/uploads/cover-kiro-2.png
 categories:
   - DevOps
   - Ferramentas
@@ -33,7 +34,9 @@ keywords:
   - headless mode
   - terminal ui
   - subagents
+coverImage: /images/uploads/cover-kiro-2.png
 autoThumbnailImage: false
+coverImage: /images/uploads/cover-kiro-2.png
 thumbnailImagePosition: top
 ---
 
