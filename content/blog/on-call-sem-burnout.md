@@ -22,6 +22,7 @@ description: |
 categories:
   - SRE
 tags:
+  - serie-sre-na-pratica
   - sre
   - on-call
   - burnout
