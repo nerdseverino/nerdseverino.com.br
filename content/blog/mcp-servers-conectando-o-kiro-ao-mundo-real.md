@@ -22,6 +22,7 @@ categories:
   - DevOps
   - Ferramentas
 tags:
+  - serie-kiro-cli
   - kiro
   - mcp
   - ia
