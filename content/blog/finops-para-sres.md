@@ -20,7 +20,10 @@ description: |
   🔗 https://nerdseverino.com.br/blog/finops-para-sres/
 
   #FinOps #AWS #SRE #CloudCost #DevOps #Otimização
-coverImage: /images/uploads/cover-finops.png
+cover:
+  image: "/images/uploads/cover-finops.png"
+  alt: "Cover"
+  relative: false
 categories:
   - SRE
   - AWS
@@ -37,9 +40,11 @@ keywords:
   - rightsizing
   - savings plans
   - sre custos
-coverImage: /images/uploads/cover-finops.png
+cover:
+  image: "/images/uploads/cover-finops.png"
+  alt: "Cover"
+  relative: false
 autoThumbnailImage: false
-coverImage: /images/uploads/cover-finops.png
 thumbnailImagePosition: top
 ---
 
