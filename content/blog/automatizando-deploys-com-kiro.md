@@ -20,6 +20,7 @@ description: |
   🔗 https://nerdseverino.com.br/blog/automatizando-deploys-com-kiro/
 
   #KiroCLI #CICD #DevOps #GitHubActions #Automação #SRE
+coverImage: /images/uploads/cover-kiro-deploys.png
 categories:
   - DevOps
   - Ferramentas
@@ -35,7 +36,9 @@ keywords:
   - github actions
   - automação deploy
   - ci cd
+coverImage: /images/uploads/cover-kiro-deploys.png
 autoThumbnailImage: false
+coverImage: /images/uploads/cover-kiro-deploys.png
 thumbnailImagePosition: top
 ---
 
