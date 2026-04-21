@@ -19,6 +19,7 @@ description: |
   🔗 https://nerdseverino.com.br/blog/automacao-sre-eliminando-toil/
 
   #SRE #Automação #Toil #DevOps #Scripts #CICD
+coverImage: /images/uploads/cover-automacao-sre.png
 categories:
   - SRE
 tags:
@@ -32,7 +33,9 @@ keywords:
   - automação sre
   - eliminar toil
   - scripts operação
+coverImage: /images/uploads/cover-automacao-sre.png
 autoThumbnailImage: false
+coverImage: /images/uploads/cover-automacao-sre.png
 thumbnailImagePosition: top
 ---
 
