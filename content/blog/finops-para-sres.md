@@ -24,6 +24,7 @@ categories:
   - SRE
   - AWS
 tags:
+  - serie-sre-na-pratica
   - finops
   - aws
   - custos
