@@ -18,6 +18,7 @@ description: |
   🔗 https://nerdseverino.com.br/blog/arquitetura-aws-para-sustentacao/
 
   #AWS #Arquitetura #SRE #MultiAccount #VPC #DevOps
+coverImage: /images/uploads/cover-arquitetura-aws.png
 categories:
   - SRE
   - AWS
@@ -33,7 +34,9 @@ keywords:
   - multi account aws
   - vpc design
   - alta disponibilidade
+coverImage: /images/uploads/cover-arquitetura-aws.png
 autoThumbnailImage: false
+coverImage: /images/uploads/cover-arquitetura-aws.png
 thumbnailImagePosition: top
 ---
 
