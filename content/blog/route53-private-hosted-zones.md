@@ -23,6 +23,7 @@ categories:
   - SRE
   - AWS
 tags:
+  - serie-sre-na-pratica
   - aws
   - route53
   - dns
