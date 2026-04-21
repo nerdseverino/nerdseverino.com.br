@@ -20,7 +20,10 @@ description: |
   🔗 https://nerdseverino.com.br/blog/postmortem-blameless/
 
   #SRE #Postmortem #IncidentManagement #DevOps #Confiabilidade
-coverImage: /images/uploads/cover-postmortem.png
+cover:
+  image: "/images/uploads/cover-postmortem.png"
+  alt: "Cover"
+  relative: false
 categories:
   - SRE
 tags:
@@ -34,9 +37,11 @@ keywords:
   - incident management
   - root cause analysis
   - sre
-coverImage: /images/uploads/cover-postmortem.png
+cover:
+  image: "/images/uploads/cover-postmortem.png"
+  alt: "Cover"
+  relative: false
 autoThumbnailImage: false
-coverImage: /images/uploads/cover-postmortem.png
 thumbnailImagePosition: top
 ---
 
