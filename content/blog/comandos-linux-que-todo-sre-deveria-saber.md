@@ -39,6 +39,7 @@ keywords:
   - strace
   - ss
   - dmesg
+coverImage: /images/uploads/cover-linux-sre-commands.png
 autoThumbnailImage: false
 thumbnailImagePosition: top
 ---

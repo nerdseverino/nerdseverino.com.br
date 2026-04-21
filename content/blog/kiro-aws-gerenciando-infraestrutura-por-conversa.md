@@ -23,6 +23,7 @@ keywords:
   - cost explorer ia
   - gerenciar aws terminal
   - sre aws
+coverImage: /images/uploads/cover-kiro-aws.png
 autoThumbnailImage: false
 thumbnailImagePosition: top
 ---

@@ -38,6 +38,7 @@ keywords:
   - knowledge base
   - assistente terminal
   - sre
+coverImage: /images/uploads/cover-kiro-memoria.png
 autoThumbnailImage: false
 thumbnailImagePosition: top
 ---
