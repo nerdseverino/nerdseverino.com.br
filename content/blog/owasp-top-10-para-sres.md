@@ -22,6 +22,7 @@ categories:
   - SRE
   - Segurança
 tags:
+  - serie-sre-na-pratica
   - owasp
   - segurança
   - devsecops
