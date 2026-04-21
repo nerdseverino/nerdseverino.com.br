@@ -18,7 +18,10 @@ description: |
   🔗 https://nerdseverino.com.br/blog/owasp-top-10-para-sres/
 
   #OWASP #Segurança #SRE #DevSecOps #WebSecurity #AppSec
-coverImage: /images/uploads/cover-owasp.png
+cover:
+  image: "/images/uploads/cover-owasp.png"
+  alt: "Cover"
+  relative: false
 categories:
   - SRE
   - Segurança
@@ -34,9 +37,11 @@ keywords:
   - segurança aplicações
   - vulnerabilidades web
   - devsecops
-coverImage: /images/uploads/cover-owasp.png
+cover:
+  image: "/images/uploads/cover-owasp.png"
+  alt: "Cover"
+  relative: false
 autoThumbnailImage: false
-coverImage: /images/uploads/cover-owasp.png
 thumbnailImagePosition: top
 ---
 
