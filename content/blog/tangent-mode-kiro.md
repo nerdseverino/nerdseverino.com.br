@@ -17,6 +17,7 @@ description: |
   🔗 https://nerdseverino.com.br/blog/tangent-mode-kiro/
 
   #KiroCLI #AI #Produtividade #DevTools #SRE
+coverImage: /images/uploads/cover-tangent.png
 categories:
   - DevOps
   - Ferramentas
@@ -29,7 +30,9 @@ keywords:
   - kiro tangent mode
   - contexto ia
   - conversa paralela
+coverImage: /images/uploads/cover-tangent.png
 autoThumbnailImage: false
+coverImage: /images/uploads/cover-tangent.png
 thumbnailImagePosition: top
 ---
 
