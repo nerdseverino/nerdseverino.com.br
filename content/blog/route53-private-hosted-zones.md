@@ -19,6 +19,7 @@ description: |
   🔗 https://nerdseverino.com.br/blog/route53-private-hosted-zones/
 
   #AWS #Route53 #DNS #SRE #Infraestrutura #DevOps
+coverImage: /images/uploads/cover-route53.png
 categories:
   - SRE
   - AWS
@@ -33,7 +34,9 @@ keywords:
   - route53 private hosted zone
   - dns interno aws
   - dns local vpc
+coverImage: /images/uploads/cover-route53.png
 autoThumbnailImage: false
+coverImage: /images/uploads/cover-route53.png
 thumbnailImagePosition: top
 ---
 
