@@ -21,6 +21,7 @@ description: |
 categories:
   - SRE
 tags:
+  - serie-sre-na-pratica
   - backup
   - database
   - mysql
