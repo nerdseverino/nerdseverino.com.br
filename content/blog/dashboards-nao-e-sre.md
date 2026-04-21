@@ -20,6 +20,7 @@ description: |
   🔗 https://nerdseverino.com.br/blog/dashboards-nao-e-sre/
 
   #SRE #Confiabilidade #DevOps #Observabilidade #Engineering
+coverImage: /images/uploads/cover-dashboards-sre.png
 categories:
   - SRE
 tags:
@@ -33,7 +34,9 @@ keywords:
   - engenharia confiabilidade
   - toil
   - error budget
+coverImage: /images/uploads/cover-dashboards-sre.png
 autoThumbnailImage: false
+coverImage: /images/uploads/cover-dashboards-sre.png
 thumbnailImagePosition: top
 ---
 
