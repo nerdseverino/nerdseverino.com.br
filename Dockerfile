@@ -1,4 +1,4 @@
-FROM hugomods/hugo:exts-0.146.0
+FROM hugomods/hugo:exts
 
 WORKDIR /src
 
