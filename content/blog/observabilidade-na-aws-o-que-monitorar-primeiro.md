@@ -142,13 +142,13 @@ Comece pelos sintomas. Adicione causas para ajudar no diagnóstico, não como al
 
 ### Anatomia de um bom alarme
 
-```
-Nome: prod-api-error-rate-high
-Métrica: HTTPCode_Target_5XX_Count / RequestCount * 100
-Threshold: > 1% por 3 datapoints de 1 minuto
-Ação: SNS → PagerDuty/Telegram
-Runbook: link para procedimento de investigação
-```
+| Campo | Exemplo |
+|-------|---------|
+| Nome | prod-api-error-rate-high |
+| Métrica | HTTPCode_Target_5XX_Count / RequestCount * 100 |
+| Threshold | > 1% por 3 datapoints de 1 minuto |
+| Ação | SNS → PagerDuty/Telegram |
+| Runbook | link para procedimento de investigação |
 
 Cada alarme deve ter:
 - Nome descritivo (ambiente + serviço + problema)
