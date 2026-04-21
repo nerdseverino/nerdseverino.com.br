@@ -39,7 +39,10 @@ keywords:
   - docker logs
   - docker exec
   - overlay2
-coverImage: /images/uploads/cover-docker-troubleshooting.png
+cover:
+  image: "/images/uploads/cover-docker-troubleshooting.png"
+  alt: "Cover"
+  relative: false
 autoThumbnailImage: false
 thumbnailImagePosition: top
 ---

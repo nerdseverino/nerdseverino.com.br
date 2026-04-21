@@ -38,7 +38,10 @@ keywords:
   - monitoramento aws
   - sre aws
   - métricas cloudwatch
-coverImage: /images/uploads/cover-observabilidade-aws.png
+cover:
+  image: "/images/uploads/cover-observabilidade-aws.png"
+  alt: "Cover"
+  relative: false
 autoThumbnailImage: false
 thumbnailImagePosition: top
 ---

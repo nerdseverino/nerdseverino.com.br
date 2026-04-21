@@ -39,7 +39,10 @@ keywords:
   - workflow sre
   - skills kiro
   - contexto ia
-coverImage: /images/uploads/cover-kiro-steering.png
+cover:
+  image: "/images/uploads/cover-kiro-steering.png"
+  alt: "Cover"
+  relative: false
 autoThumbnailImage: false
 thumbnailImagePosition: top
 ---
