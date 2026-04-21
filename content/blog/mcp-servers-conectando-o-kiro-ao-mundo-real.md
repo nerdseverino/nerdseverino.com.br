@@ -18,7 +18,10 @@ description: |
   🔗 https://nerdseverino.com.br/blog/mcp-servers-conectando-o-kiro-ao-mundo-real/
 
   #KiroCLI #MCP #AI #DevTools #Automação #SRE
-coverImage: /images/uploads/cover-mcp-servers.png
+cover:
+  image: "/images/uploads/cover-mcp-servers.png"
+  alt: "Cover"
+  relative: false
 categories:
   - DevOps
   - Ferramentas
@@ -34,9 +37,11 @@ keywords:
   - model context protocol
   - kiro cli
   - integração ia
-coverImage: /images/uploads/cover-mcp-servers.png
+cover:
+  image: "/images/uploads/cover-mcp-servers.png"
+  alt: "Cover"
+  relative: false
 autoThumbnailImage: false
-coverImage: /images/uploads/cover-mcp-servers.png
 thumbnailImagePosition: top
 ---
 
