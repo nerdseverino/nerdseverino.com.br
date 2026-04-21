@@ -24,6 +24,7 @@ categories:
   - DevOps
   - Ferramentas
 tags:
+  - serie-kiro-cli
   - kiro
   - cicd
   - deploy
