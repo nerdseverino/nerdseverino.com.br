@@ -9,6 +9,7 @@ description: |
   🔗 https://nerdseverino.com.br/blog/zabbix-dashboards/
 
   #Zabbix #Monitoramento #SRE #DevOps
+coverImage: /images/uploads/cover-zabbix-dashboards.png
 categories:
   - SRE
   - Monitoramento
@@ -19,7 +20,9 @@ tags:
   - serie-zabbix-na-pratica
 keywords:
   - zabbix dashboards operação gestão
+coverImage: /images/uploads/cover-zabbix-dashboards.png
 autoThumbnailImage: false
+coverImage: /images/uploads/cover-zabbix-dashboards.png
 thumbnailImagePosition: top
 ---
 
