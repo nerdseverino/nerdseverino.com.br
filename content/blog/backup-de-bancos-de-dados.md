@@ -18,6 +18,7 @@ description: |
   🔗 https://nerdseverino.com.br/blog/backup-de-bancos-de-dados/
 
   #Backup #Database #MySQL #PostgreSQL #MongoDB #AWS #SRE
+coverImage: /images/uploads/cover-backup-db.png
 categories:
   - SRE
 tags:
@@ -34,7 +35,9 @@ keywords:
   - pg_dump
   - point in time recovery
   - aws backup
+coverImage: /images/uploads/cover-backup-db.png
 autoThumbnailImage: false
+coverImage: /images/uploads/cover-backup-db.png
 thumbnailImagePosition: top
 ---
 
