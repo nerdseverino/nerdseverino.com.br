@@ -20,7 +20,10 @@ description: |
   🔗 https://nerdseverino.com.br/blog/engenharia-de-prompt/
 
   #PromptEngineering #AI #Produtividade #KiroCLI #DevTools
-coverImage: /images/uploads/cover-prompt-eng.png
+cover:
+  image: "/images/uploads/cover-prompt-eng.png"
+  alt: "Cover"
+  relative: false
 categories:
   - DevOps
   - Ferramentas
@@ -34,9 +37,11 @@ keywords:
   - engenharia de prompt
   - prompt engineering
   - prompt estruturado
-coverImage: /images/uploads/cover-prompt-eng.png
+cover:
+  image: "/images/uploads/cover-prompt-eng.png"
+  alt: "Cover"
+  relative: false
 autoThumbnailImage: false
-coverImage: /images/uploads/cover-prompt-eng.png
 thumbnailImagePosition: top
 ---
 
