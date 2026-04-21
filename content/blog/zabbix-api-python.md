@@ -9,6 +9,7 @@ description: |
   🔗 https://nerdseverino.com.br/blog/zabbix-api-python/
 
   #Zabbix #Monitoramento #SRE #DevOps
+coverImage: /images/uploads/cover-zabbix-api.png
 categories:
   - SRE
   - Monitoramento
@@ -19,7 +20,9 @@ tags:
   - serie-zabbix-na-pratica
 keywords:
   - zabbix api python automação
+coverImage: /images/uploads/cover-zabbix-api.png
 autoThumbnailImage: false
+coverImage: /images/uploads/cover-zabbix-api.png
 thumbnailImagePosition: top
 ---
 
