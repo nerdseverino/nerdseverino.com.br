@@ -19,7 +19,10 @@ description: |
   🔗 https://nerdseverino.com.br/blog/on-call-sem-burnout/
 
   #SRE #OnCall #DevOps #Burnout #Operação #Plantão
-coverImage: /images/uploads/cover-oncall.png
+cover:
+  image: "/images/uploads/cover-oncall.png"
+  alt: "Cover"
+  relative: false
 categories:
   - SRE
 tags:
@@ -33,9 +36,11 @@ keywords:
   - plantão ti
   - burnout sre
   - rotação on-call
-coverImage: /images/uploads/cover-oncall.png
+cover:
+  image: "/images/uploads/cover-oncall.png"
+  alt: "Cover"
+  relative: false
 autoThumbnailImage: false
-coverImage: /images/uploads/cover-oncall.png
 thumbnailImagePosition: top
 ---
 
