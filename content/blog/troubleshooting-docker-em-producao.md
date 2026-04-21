@@ -26,6 +26,7 @@ categories:
   - DevOps
   - SRE
 tags:
+  - serie-sre-na-pratica
   - docker
   - containers
   - troubleshooting

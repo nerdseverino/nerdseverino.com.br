@@ -25,6 +25,7 @@ categories:
   - SRE
   - AWS
 tags:
+  - serie-sre-na-pratica
   - aws
   - cloudwatch
   - monitoramento

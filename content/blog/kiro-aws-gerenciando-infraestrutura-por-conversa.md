@@ -9,6 +9,7 @@ categories:
   - DevOps
   - AWS
 tags:
+  - serie-kiro-cli
   - kiro
   - aws
   - cli

@@ -25,6 +25,7 @@ categories:
   - Linux
   - SRE
 tags:
+  - serie-sre-na-pratica
   - linux
   - sre
   - troubleshooting
