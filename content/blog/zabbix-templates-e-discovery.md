@@ -15,6 +15,7 @@ description: |
   🔗 https://nerdseverino.com.br/blog/zabbix-templates-e-discovery/
 
   #Zabbix #Discovery #Templates #Monitoramento #SRE #Automação
+coverImage: /images/uploads/cover-zabbix-templates.png
 categories:
   - SRE
   - Monitoramento
@@ -29,7 +30,9 @@ keywords:
   - zabbix templates
   - lld zabbix
   - auto registration
+coverImage: /images/uploads/cover-zabbix-templates.png
 autoThumbnailImage: false
+coverImage: /images/uploads/cover-zabbix-templates.png
 thumbnailImagePosition: top
 ---
 
