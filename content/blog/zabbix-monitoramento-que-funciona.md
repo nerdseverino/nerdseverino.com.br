@@ -17,6 +17,7 @@ description: |
   🔗 https://nerdseverino.com.br/blog/zabbix-monitoramento-que-funciona/
 
   #Zabbix #Monitoramento #SRE #Observabilidade #DevOps
+coverImage: /images/uploads/cover-zabbix-monitoramento.png
 categories:
   - SRE
   - Monitoramento
@@ -30,7 +31,9 @@ keywords:
   - zabbix monitoramento
   - zabbix sre
   - monitoramento produção
+coverImage: /images/uploads/cover-zabbix-monitoramento.png
 autoThumbnailImage: false
+coverImage: /images/uploads/cover-zabbix-monitoramento.png
 thumbnailImagePosition: top
 ---
 
