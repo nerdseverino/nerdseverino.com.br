@@ -18,6 +18,7 @@ description: |
   🔗 https://nerdseverino.com.br/blog/knowledge-bases-no-kiro/
 
   #KiroCLI #AI #KnowledgeBase #RAG #Produtividade #SRE
+coverImage: /images/uploads/cover-kiro-kb.png
 categories:
   - DevOps
   - Ferramentas
@@ -31,7 +32,9 @@ keywords:
   - kiro knowledge base
   - rag local
   - contexto ia
+coverImage: /images/uploads/cover-kiro-kb.png
 autoThumbnailImage: false
+coverImage: /images/uploads/cover-kiro-kb.png
 thumbnailImagePosition: top
 ---
 
