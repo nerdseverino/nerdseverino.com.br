@@ -21,6 +21,7 @@ categories:
   - DevOps
   - Ferramentas
 tags:
+  - serie-kiro-cli
   - kiro
   - tangent-mode
   - produtividade
