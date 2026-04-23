@@ -6,7 +6,17 @@ public/
 
 # Kiro CLI
 context.json
+contexto.json
 *.context.json
+.kiro/
+
+# Temp/work files
+*.xlsx
+*.bkp-*
+image-prompts.md
+linkedin-posts.md
+linkedin-template.md
+relatorio_*.md
 
 # Backups
 *.backup
