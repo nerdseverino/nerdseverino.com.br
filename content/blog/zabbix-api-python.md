@@ -23,10 +23,6 @@ tags:
   - serie-zabbix-na-pratica
 keywords:
   - zabbix api python automação
-cover:
-  image: "/images/uploads/cover-zabbix-api.png"
-  alt: "Cover"
-  relative: false
 autoThumbnailImage: false
 thumbnailImagePosition: top
 ---
