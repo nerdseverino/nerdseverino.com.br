@@ -37,10 +37,6 @@ keywords:
   - engenharia confiabilidade
   - toil
   - error budget
-cover:
-  image: "/images/uploads/cover-dashboards-sre.png"
-  alt: "Cover"
-  relative: false
 autoThumbnailImage: false
 thumbnailImagePosition: top
 ---
