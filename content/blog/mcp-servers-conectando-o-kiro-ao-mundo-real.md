@@ -37,10 +37,6 @@ keywords:
   - model context protocol
   - kiro cli
   - integração ia
-cover:
-  image: "/images/uploads/cover-mcp-servers.png"
-  alt: "Cover"
-  relative: false
 autoThumbnailImage: false
 thumbnailImagePosition: top
 ---
