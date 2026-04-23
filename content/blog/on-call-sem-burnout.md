@@ -36,10 +36,6 @@ keywords:
   - plantão ti
   - burnout sre
   - rotação on-call
-cover:
-  image: "/images/uploads/cover-oncall.png"
-  alt: "Cover"
-  relative: false
 autoThumbnailImage: false
 thumbnailImagePosition: top
 ---
