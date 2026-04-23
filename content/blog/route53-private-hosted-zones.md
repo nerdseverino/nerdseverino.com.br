@@ -37,10 +37,6 @@ keywords:
   - route53 private hosted zone
   - dns interno aws
   - dns local vpc
-cover:
-  image: "/images/uploads/cover-route53.png"
-  alt: "Cover"
-  relative: false
 autoThumbnailImage: false
 thumbnailImagePosition: top
 ---
