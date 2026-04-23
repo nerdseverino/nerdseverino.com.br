@@ -38,10 +38,6 @@ keywords:
   - pg_dump
   - point in time recovery
   - aws backup
-cover:
-  image: "/images/uploads/cover-backup-db.png"
-  alt: "Cover"
-  relative: false
 autoThumbnailImage: false
 thumbnailImagePosition: top
 ---
