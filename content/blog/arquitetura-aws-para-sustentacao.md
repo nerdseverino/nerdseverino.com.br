@@ -37,10 +37,6 @@ keywords:
   - multi account aws
   - vpc design
   - alta disponibilidade
-cover:
-  image: "/images/uploads/cover-arquitetura-aws.png"
-  alt: "Cover"
-  relative: false
 autoThumbnailImage: false
 thumbnailImagePosition: top
 ---
