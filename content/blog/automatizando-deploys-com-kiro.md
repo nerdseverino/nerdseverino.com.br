@@ -39,10 +39,6 @@ keywords:
   - github actions
   - automação deploy
   - ci cd
-cover:
-  image: "/images/uploads/cover-kiro-deploys.png"
-  alt: "Cover"
-  relative: false
 autoThumbnailImage: false
 thumbnailImagePosition: top
 ---
