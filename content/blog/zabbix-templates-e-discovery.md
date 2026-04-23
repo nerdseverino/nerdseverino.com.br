@@ -33,10 +33,6 @@ keywords:
   - zabbix templates
   - lld zabbix
   - auto registration
-cover:
-  image: "/images/uploads/cover-zabbix-templates.png"
-  alt: "Cover"
-  relative: false
 autoThumbnailImage: false
 thumbnailImagePosition: top
 ---
