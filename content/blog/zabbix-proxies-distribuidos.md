@@ -23,10 +23,6 @@ tags:
   - serie-zabbix-na-pratica
 keywords:
   - zabbix proxy distribuído multi-account
-cover:
-  image: "/images/uploads/cover-zabbix-proxies.png"
-  alt: "Cover"
-  relative: false
 autoThumbnailImage: false
 thumbnailImagePosition: top
 ---
