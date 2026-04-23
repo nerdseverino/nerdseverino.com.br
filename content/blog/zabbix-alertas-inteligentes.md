@@ -23,10 +23,6 @@ tags:
   - serie-zabbix-na-pratica
 keywords:
   - zabbix alertas triggers escalation
-cover:
-  image: "/images/uploads/cover-zabbix-alertas.png"
-  alt: "Cover"
-  relative: false
 autoThumbnailImage: false
 thumbnailImagePosition: top
 ---
