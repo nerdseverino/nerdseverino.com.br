@@ -37,10 +37,6 @@ keywords:
   - engenharia de prompt
   - prompt engineering
   - prompt estruturado
-cover:
-  image: "/images/uploads/cover-prompt-eng.png"
-  alt: "Cover"
-  relative: false
 autoThumbnailImage: false
 thumbnailImagePosition: top
 ---
