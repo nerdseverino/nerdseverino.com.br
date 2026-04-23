@@ -40,10 +40,6 @@ keywords:
   - rightsizing
   - savings plans
   - sre custos
-cover:
-  image: "/images/uploads/cover-finops.png"
-  alt: "Cover"
-  relative: false
 autoThumbnailImage: false
 thumbnailImagePosition: top
 ---
