@@ -36,10 +36,6 @@ keywords:
   - automação sre
   - eliminar toil
   - scripts operação
-cover:
-  image: "/images/uploads/cover-automacao-sre.png"
-  alt: "Cover"
-  relative: false
 autoThumbnailImage: false
 thumbnailImagePosition: top
 ---
