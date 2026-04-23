@@ -37,10 +37,6 @@ keywords:
   - incident management
   - root cause analysis
   - sre
-cover:
-  image: "/images/uploads/cover-postmortem.png"
-  alt: "Cover"
-  relative: false
 autoThumbnailImage: false
 thumbnailImagePosition: top
 ---
