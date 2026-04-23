@@ -37,10 +37,6 @@ keywords:
   - segurança aplicações
   - vulnerabilidades web
   - devsecops
-cover:
-  image: "/images/uploads/cover-owasp.png"
-  alt: "Cover"
-  relative: false
 autoThumbnailImage: false
 thumbnailImagePosition: top
 ---
