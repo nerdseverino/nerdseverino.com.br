@@ -33,10 +33,6 @@ keywords:
   - kiro tangent mode
   - contexto ia
   - conversa paralela
-cover:
-  image: "/images/uploads/cover-tangent.png"
-  alt: "Cover"
-  relative: false
 autoThumbnailImage: false
 thumbnailImagePosition: top
 ---
