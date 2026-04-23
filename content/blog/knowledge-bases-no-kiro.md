@@ -35,10 +35,6 @@ keywords:
   - kiro knowledge base
   - rag local
   - contexto ia
-cover:
-  image: "/images/uploads/cover-kiro-kb.png"
-  alt: "Cover"
-  relative: false
 autoThumbnailImage: false
 thumbnailImagePosition: top
 ---
