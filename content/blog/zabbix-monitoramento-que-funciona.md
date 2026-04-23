@@ -34,10 +34,6 @@ keywords:
   - zabbix monitoramento
   - zabbix sre
   - monitoramento produção
-cover:
-  image: "/images/uploads/cover-zabbix-monitoramento.png"
-  alt: "Cover"
-  relative: false
 autoThumbnailImage: false
 thumbnailImagePosition: top
 ---
