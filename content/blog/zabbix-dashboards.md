@@ -23,10 +23,6 @@ tags:
   - serie-zabbix-na-pratica
 keywords:
   - zabbix dashboards operação gestão
-cover:
-  image: "/images/uploads/cover-zabbix-dashboards.png"
-  alt: "Cover"
-  relative: false
 autoThumbnailImage: false
 thumbnailImagePosition: top
 ---
