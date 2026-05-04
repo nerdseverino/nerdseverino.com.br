@@ -1,7 +1,9 @@
 ---
 title: "MCP Servers: Conectando o Kiro ao Mundo Real"
 date: 2026-05-04T17:30:00-03:00
-
+cover:
+  image: /images/uploads/mcp-servers-conectando-o-kiro-ao-mundo-real.jpeg
+  alt: "Kiro conectado a serviços externos via MCP"
 description: |
   O Kiro CLI sozinho é poderoso. Conectado a sistemas externos, é transformador.
 
