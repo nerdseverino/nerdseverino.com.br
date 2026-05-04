@@ -53,7 +53,7 @@ Quando você pergunta "quais alarmes estão ativos no Zabbix?", o Kiro não adiv
 
 Gerencio chamados de suporte sem sair do terminal:
 
-```
+```text
 "lista meus chamados abertos"
 → Kiro chama list_my_tickets do MCP GLPI
 → Retorna tabela com ID, título, prioridade, status
@@ -69,7 +69,7 @@ Gerencio chamados de suporte sem sair do terminal:
 
 Consulto hosts, problemas e métricas:
 
-```
+```text
 "quais problemas estão ativos agora?"
 → problem_get com filtro de severidade
 
@@ -84,7 +84,7 @@ Consulto hosts, problemas e métricas:
 
 Leio mensagens de grupos de operação e envio notificações:
 
-```
+```text
 "o que falaram no grupo de operações nas últimas 2 horas?"
 → whatsapp_read_messages com group_id e hours
 
@@ -96,7 +96,7 @@ Leio mensagens de grupos de operação e envio notificações:
 
 O Kiro já vem com ferramentas AWS integradas:
 
-```
+```text
 "quais alarmes estão em ALARM no CloudWatch?"
 → get_active_alarms
 
@@ -172,7 +172,7 @@ if __name__ == "__main__":
 
 Registre no `mcp.json` e o Kiro já consegue usar:
 
-```
+```text
 "quais containers estão rodando?"
 → Kiro chama listar_containers do seu MCP server
 ```
