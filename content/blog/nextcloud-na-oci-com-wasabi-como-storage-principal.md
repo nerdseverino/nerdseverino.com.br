@@ -69,7 +69,7 @@ Para esse post a intenção é falar mais sobre as características dele do que 
 
 Para usar o bucket wasabi como storage principal uma vez que a máquia na OCI tinha apenas 50 Gb de espaço foi necessário criar um arquivo chamado storage.config.php que vai dentro da pasta config do Nextcloud.
 
-```
+```text
 <?php
 $CONFIG = array (
 'objectstore' => array(

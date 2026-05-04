@@ -394,7 +394,7 @@ sudo umount /mnt
 sudo vim /etc/fstab
 ```
 
-```
+```text
 # <device>    <mount>    <type>  <options>       <dump> <pass>
 /dev/sdb1     /dados     ext4    defaults        0      2
 UUID=xxx      /backup    ext4    defaults,noatime 0     2
@@ -865,7 +865,7 @@ echo deadline | sudo tee /sys/block/sda/queue/scheduler
 sudo vim /etc/udev/rules.d/60-scheduler.rules
 ```
 
-```
+```text
 ACTION=="add|change", KERNEL=="sd[a-z]", ATTR{queue/scheduler}="deadline"
 ```
 
@@ -882,7 +882,7 @@ ulimit -n 65536
 sudo vim /etc/security/limits.conf
 ```
 
-```
+```text
 * soft nofile 65536
 * hard nofile 65536
 ```

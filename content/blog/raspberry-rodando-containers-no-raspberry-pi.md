@@ -64,7 +64,7 @@ Quanto aos containers, você precisa procurar imagens que sejam ARM no [Docker H
 
 Ficam aqui um exemplo:
 
-```
+```text
 version: '3'
 volumes:
   portainer_data:

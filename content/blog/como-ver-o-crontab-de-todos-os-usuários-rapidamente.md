@@ -29,7 +29,7 @@ Nesta dica mostro como com um comando simples podemos ver crontab de todos os us
 
 Copie e cole no terminal:
 
-```
+```text
 for user in $(cut -f1 -d: /etc/passwd); do echo $user; sudo crontab -u $user -l; done
 ```
 

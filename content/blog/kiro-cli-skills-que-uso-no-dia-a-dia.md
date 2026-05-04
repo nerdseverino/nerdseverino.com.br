@@ -119,7 +119,7 @@ O padrão que a skill ensina é "reconhecimento primeiro, ação depois":
 
 Skills são pastas com um `SKILL.md` dentro de `~/.kiro/skills/`:
 
-```
+```text
 ~/.kiro/skills/
 ├── gsd/
 │   └── SKILL.md

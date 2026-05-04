@@ -21,13 +21,13 @@ Fonte: <https://www.vivaolinux.com.br/artigo/Atributos-de-arquivos-no-Linux>
 
 vou falar um pouco de "atributos de arquivos", além de alterar as permissões de um arquivo, um usuário também pode fazer o mesmo com seus atributos. Os atributos de um arquivo são alterados com um comando:
 
-```
+```text
 chattr [atributo] [arquivo]
 ```
 
 E listados com os comando:
 
-```
+```text
 lsattr \[arquivo]
 ```
 
@@ -57,7 +57,7 @@ Bom, esses são os tipos de atributos que podem ser alterados:
 
 Mais opções de flags de comandos você pode ver com o comando:
 
-```
+```text
 man chattr
 ```
 
@@ -67,25 +67,25 @@ EXEMPLOS DE USO DE ATRIBUTOS
 
 Aqui está um exemplo simples de como usar os atributos, primeiro crie um arquivo com o comando:
 
-```
+```text
 touch teste.txt
 ```
 
 Agora vamos colocar os atributos com o comando:
 
-```
+```text
 chattr +u teste.txt
 ```
 
 e para visualizar o atributo basta você dar o comando:
 
-```
+```text
 lsattr teste.txt
 ```
 
 Repare que o arquivo teste.txt ficou assim:
 
-```
+```text
 -u----------- teste.txt
 ```
 
@@ -93,19 +93,19 @@ Você deu a este arquivo a opção de que, quando ele for excluído, irá salvar
 
 Agora vamos tirar esse atributo com o comando:
 
-```
+```text
 chattr -u teste.txt
 ```
 
 Depois novamente dê o comando:
 
-```
+```text
 lsattr teste.txt
 ```
 
 Repare que o arquivo está assim agora:
 
-```
+```text
 ------------- teste.txt
 ```
 

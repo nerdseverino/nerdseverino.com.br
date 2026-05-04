@@ -166,7 +166,7 @@ Lista tarefas por prioridade, destaca as paradas há mais de 7 dias e sugere aç
 
 Essa é a parte que mais me economiza tempo. Toda vez que resolvo um problema não trivial, o Kiro adiciona no runbook:
 
-```
+```text
 | Problema | Solução | Data |
 |----------|---------|------|
 | Proxy Zabbix offline | Verificar EC2 + SSM. docker-compose pull/down/up. Checar IP público. | 2026-03 |

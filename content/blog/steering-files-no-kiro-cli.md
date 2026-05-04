@@ -139,7 +139,7 @@ Exemplo real de lição aprendida que acabou no meu steering:
 
 Você pode ter steering files específicos para projetos ou contextos:
 
-```
+```text
 ~/.kiro/steering/
   default.md          # carregado sempre
   marketing.md        # carregado quando contexto de marketing

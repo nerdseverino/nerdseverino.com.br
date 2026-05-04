@@ -68,7 +68,7 @@ ID     | Login user               | Date and time    | Action(s)      | Altered
 
 - - -
 
-```
+```text
 17 | root <root>              | 2020-02-19 09:24 | Install        |    1
 
 16 | root <root>              | 2020-02-19 08:55 | Install        |    1

@@ -35,7 +35,7 @@ O terminal (ou shell) é uma das ferramentas mais poderosas do Linux. Enquanto i
 
 Diferente do Windows (C:\, D:\), Linux usa uma estrutura hierárquica única:
 
-```
+```text
 /                    (raiz - root)
 ├── bin/            (binários essenciais)
 ├── boot/           (arquivos de boot)
@@ -110,7 +110,7 @@ ls -R
 ```
 
 **Saída de `ls -lh`:**
-```
+```text
 drwxr-xr-x 2 usuario grupo 4.0K fev  2 10:30 Documentos
 -rw-r--r-- 1 usuario grupo 1.5M fev  1 15:20 foto.jpg
 -rwxr-xr-x 1 usuario grupo  12K jan 30 09:15 script.sh

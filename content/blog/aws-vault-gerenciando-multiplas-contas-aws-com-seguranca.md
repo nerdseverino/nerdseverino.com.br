@@ -178,7 +178,7 @@ aws-vault list
 
 Saída:
 
-```
+```text
 Profile                  Credentials              Sessions
 =======                  ===========              ========
 meu-perfil-pessoal       meu-perfil-pessoal       -
@@ -303,7 +303,7 @@ PS1='$(aws_prompt)\u@\h:\w\$ '
 
 Resultado:
 
-```
+```text
  ☁️ projeto-alpha-prod fabricio@deck:~$
 ```
 
@@ -343,7 +343,7 @@ Uma key por finalidade. Se uma vazar, você revoga só aquela.
 
 ### "NoCredentialProviders"
 
-```
+```text
 NoCredentialProviders: no valid providers in chain
 ```
 
@@ -351,7 +351,7 @@ Verifique se o `source_profile` no `~/.aws/config` bate com o nome usado no `aws
 
 ### "AccessDenied ao assumir role"
 
-```
+```text
 An error occurred (AccessDenied) when calling the AssumeRole operation
 ```
 
@@ -362,7 +362,7 @@ Verifique:
 
 ### "Token expirado"
 
-```
+```text
 ExpiredToken: The security token included in the request is expired
 ```
 

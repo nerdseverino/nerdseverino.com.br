@@ -10,7 +10,7 @@ keywords:
   - teste
 thumbnailImagePosition: top
 ---
-```
+```text
 Este é um post de testes 
 ```
 

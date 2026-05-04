@@ -54,7 +54,7 @@ Tem mais de uma maneira de dar acesso à instância do EC2 para serviço AWS, ma
 
 Crie uma nova police com o conteúdo abaixo:
 
-```
+```text
 {
 
     "Version": "2012-10-17",
@@ -94,7 +94,7 @@ Agora vem a parte mais mão na massa dessa dica, como ativar o pluguin do docker
 
 O que vamos fazer é dizer ao docker daemon para falar com o AWS CloudWatch Logs. Primeiro edite /etc/docker/daemon.json para que tenha esta informação:
 
-```
+```text
 {
   "log-driver": "awslogs",
   "log-opts": {

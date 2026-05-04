@@ -61,7 +61,7 @@ Depois a gente configura a resolução de nomes do servidor, vai ser importante 
 
 **vim /etc/resolv.conf**
 
-```
+```text
 domain home.local
 nameserver 192.168.2.22
 search srvdc01.home.local
@@ -106,7 +106,7 @@ _'build' finished successfully (20m34.783s)_
 Pra facilitar criamos um script que ajusta PATH para os comandos do samba: 
 
 **vim /etc/profile.d/samba4.sh**
-```
+```text
 if [ $(id -u) -eq 0 ]
 then
 PATH="/usr/local/samba/sbin:$PATH"
@@ -124,7 +124,7 @@ Agora vem a parte mais importante do processo: Provisionamento do Domínio
 
 Onde:
 
-```
+```text
 domain provision = para elevar o SAMBA a controlador de domínio;
 –use-rfc2307 = ativa o Network Information Server (NIS);
 –interactive = Modo interativo que permite realizar as configurações do domínio.
@@ -176,7 +176,7 @@ Agora só precisamos fazer um script para manejar o samba através do SystemD
 
 **vim /lib/systemd/system/samba-dc.service**
 
-```
+```text
 [Unit]
 Description= Samba 4 Active Directory
 After=syslog.target network.target remote-fs.target nss-lookup.target

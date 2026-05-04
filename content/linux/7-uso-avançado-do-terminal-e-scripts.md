@@ -965,7 +965,7 @@ crontab -r
 
 ### Formato do Crontab
 
-```
+```text
 ┌───────────── minuto (0-59)
 │ ┌───────────── hora (0-23)
 │ │ ┌───────────── dia do mês (1-31)

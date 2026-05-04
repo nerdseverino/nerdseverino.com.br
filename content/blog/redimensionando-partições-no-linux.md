@@ -38,7 +38,7 @@ Depois disso o interessante é identificar as partições do sistema, aqui cabe 
 
 Para identificarmos os discos usaremos o comando **fdisk** e o comando **df** do linux:
 
-```
+```text
 [user@lab1 ~]$ sudo fdisk -l
 Disk /dev/sda: 85.9 GB, 85899345920 bytes, 167772160 sectors
 Units = sectors of 1 * 512 = 512 bytes
@@ -51,7 +51,7 @@ Dispositivo Boot      Start         End      Blocks   Id  System
 /dev/sda2         2099200   167772159    82836480   8e  Linux LVM
 ```
 
-```
+```text
 [user@lab1 ~]$ df -h
 Sist. Arq.               Tam. Usado Disp. Uso% Montado em
 devtmpfs                 484M     0  484M   0% /dev
@@ -69,7 +69,7 @@ Primeira coisa a fazer é editar o tamanho do seu VHD, essa etapa varia de virtu
 
 Depois de religar a VM se vocês notarem ao usar o **fdisk -l** ele já mostra o tamanho de **100Gb**, porém na partição ainda consta como **80Gb**. 
 
-```
+```text
 [user@lab1 ~]$ sudo fdisk -l
 Disk /dev/sda: 107.4 GB, 107374182400 bytes, 209715200 sectors
 Units = sectors of 1 * 512 = 512 bytes
@@ -82,7 +82,7 @@ Dispositivo Boot      Start         End      Blocks   Id  System
 /dev/sda2         2099200   167772159    82836480   8e  Linux LVM
 ```
 
-```
+```text
 [user@lab1 ~]$ df -h
 Sist. Arq.               Tam. Usado Disp. Uso% Montado em
 devtmpfs                 484M     0  484M   0% /dev
@@ -107,7 +107,7 @@ Vamos a versão resumida:
 
 **(Sim, parece louco excluir uma partição, mas não, os dados não serão apagados ao fazer isso e vc terá acesso ao espaço livre)**
 
-```
+```text
 fdisk /dev/sda
 Command (m for help): d
 Partition number (1-4): 2
@@ -117,7 +117,7 @@ Obs.: Nesse momento é extremamente importante que você não feche o fdisk e n�
 
 2 - Agora vamos recriar a partição novamente com todo o espaço disponível
 
-```
+```text
 Command (m for help): n
 Partition type:
    p   primary (1 primary, 0 extended, 3 free)
@@ -128,7 +128,7 @@ Partition number (2-4, default 2): 2
 
 3 - Depois disso vc deve mudar o tipo da partição para LVM para que tudo fique como era antes
 
-```
+```text
 Command (m for help): t
 Partition number (1,2, default 2): 2
 Hex code (type L to list all codes): 8e
@@ -137,7 +137,7 @@ Changed type of partition 'Linux' to 'Linux LVM'
 
 4 - Se tudo deu certo até aqui podemos então gravar as alterações na nossa nova partição com mais espaço livre :D
 
-```
+```text
 Command (m for help): w
 The partition table has been altered!
 Calling ioctl() to re-read partition table.
@@ -152,7 +152,7 @@ Nesse ponto eu recomendaria que vc reiniciasse o servidor para evitar problemas 
 
 Depois de reiniciado e com as partições físicas com os tamanhos corretos, agora é hora de ajustar os Volumes LVM adicionando o espaço, isso é feito em 2 etapas, a primeira vc "informa" pro LVM que possui mais espaço Físico e na segunda atribui ela para um Volume. 
 
-```
+```text
 [root@lab1 ~]#  pvresize /dev/sda2
 
   Physical volume "/dev/sda2" changed
@@ -160,7 +160,7 @@ Depois de reiniciado e com as partições físicas com os tamanhos corretos, ago
   1 physical volume(s) resized or updated / 0 physical volume(s) not resized
 ```
 
-```
+```text
 [root@lab1 ~]# lvresize /dev/mapper/centos-home /dev/sda2
 
   Size of logical volume centos/home changed from 26,99 GiB (6910 extents) to <27,00 GiB (6911 extents).
@@ -170,7 +170,7 @@ Depois de reiniciado e com as partições físicas com os tamanhos corretos, ago
 
 Agora estamos prontos pra aumentar o volume lógico o escolhido é o que contém o /home
 
-```
+```text
 \[root@lab1 ~]# xfs_growfs /dev/centos/home 
 
 meta-data=/dev/mapper/centos-home isize=512    agcount=4, agsize=1768960 blks
@@ -196,7 +196,7 @@ realtime =none                   extsz=4096   blocks=0, rtextents=0
 
 Depois de tudo isso podemos verificar o novo tamanho da partição com o comando df
 
-```
+```text
 [root@lab1 ~]# df -h
 
 Sist. Arq.               Tam. Usado Disp. Uso% Montado em

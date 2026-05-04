@@ -42,7 +42,7 @@ Depois de liberar algum espaço vamos iniciar a instalação de pacotes que vamo
 
 **sudo vim /etc/dhcpcd.conf**
 
-```
+```text
 # explicitely use eth0 and set static IPs, as well as domain specifics
 interface eth0
 static routers=192.168.1.1
@@ -90,7 +90,7 @@ Depois de provisionar o domínio você vai precisar ajustar o Kinit:
 **sudo ln -sf /var/lib/samba/private/krb5.conf /etc/krb5.conf**
 **sudo vim /etc/krb5.conf**
 
-```
+```text
 [libdefaults]
         default_realm = MY.DOMAIN.LOCAL
         dns_lookup_realm = false
@@ -125,7 +125,7 @@ Tudo certo até aqui podemos reativar o serviço do samba no sistema:
 
 **sudo netstat -tulpn | egrep 'smbd|samba'**
 
-```
+```text
 tcp        0      0 0.0.0.0:636             0.0.0.0:*               OUÇA       3092/samba
 tcp        0      0 0.0.0.0:445             0.0.0.0:*               OUÇA       3104/smbd
 tcp        0      0 0.0.0.0:1024            0.0.0.0:*               OUÇA       3089/samba

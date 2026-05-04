@@ -29,7 +29,7 @@ No Linux, diferente do Windows, você não precisa de nenhum programa adicional 
 
 Primeiro abra o Terminal (Se for Ubuntu ou Linux Mint: Menu Principal / Acessórios / Terminal), e vire root. Entre na pasta onde está a imagem iso e digite o comando:
 
-```
+```text
 dd if=linuxmint-13-mate-dvd-32bit.iso of=/dev/sdc oflag=direct bs=1048576
 ```
 

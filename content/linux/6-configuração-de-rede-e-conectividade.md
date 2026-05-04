@@ -353,13 +353,13 @@ sudo vim /etc/network/interfaces
 ```
 
 **DHCP:**
-```
+```text
 auto eth0
 iface eth0 inet dhcp
 ```
 
 **IP Estático:**
-```
+```text
 auto eth0
 iface eth0 inet static
     address 192.168.1.100
@@ -407,7 +407,7 @@ sudo systemctl start systemd-networkd
 sudo vim /etc/resolv.conf
 ```
 
-```
+```text
 nameserver 8.8.8.8
 nameserver 8.8.4.4
 nameserver 1.1.1.1
@@ -434,7 +434,7 @@ sudo systemctl restart systemd-resolved
 sudo vim /etc/hosts
 ```
 
-```
+```text
 127.0.0.1       localhost
 192.168.1.10    servidor.local servidor
 192.168.1.20    web.local
@@ -501,7 +501,7 @@ sudo vim /etc/ssh/sshd_config
 ```
 
 **Configurações importantes:**
-```
+```text
 Port 22
 PermitRootLogin no
 PasswordAuthentication no
@@ -521,7 +521,7 @@ sudo systemctl restart sshd
 vim ~/.ssh/config
 ```
 
-```
+```text
 Host servidor
     HostName servidor.com
     User usuario

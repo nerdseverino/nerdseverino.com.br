@@ -62,7 +62,7 @@ O primeiro passo é ensinar o Kiro a usar `aws-vault`. No steering file:
 
 Com isso configurado, a interação fica natural:
 
-```
+```text
 Eu: "verifica as instâncias EC2 na conta cliente-prod"
 
 Kiro: [verifica ~/.aws/config, encontra o profile]
@@ -83,7 +83,7 @@ O Kiro faz o trabalho chato: montar o comando, executar com as credenciais certa
 
 Uma das integrações mais úteis é com o Cost Explorer. Em vez de abrir o console, navegar até Billing, configurar filtros e esperar carregar:
 
-```
+```text
 Eu: "quanto gastamos na conta cliente-prod no último mês?"
 
 Kiro: [usa get_cost_and_usage com as datas corretas]
@@ -102,7 +102,7 @@ Kiro: [usa get_cost_and_usage com as datas corretas]
 
 E a conversa continua naturalmente:
 
-```
+```text
 Eu: "compara com fevereiro"
 
 Kiro: [usa get_cost_and_usage_comparisons]
@@ -120,7 +120,7 @@ Em 30 segundos tenho uma análise que levaria 10 minutos no console. E posso con
 
 Monitoramento é outra área onde a conversa acelera o trabalho:
 
-```
+```text
 Eu: "mostra o CPU das instâncias da conta cliente-prod nas últimas 6 horas"
 
 Kiro: [usa get_metric_data com namespace AWS/EC2]
@@ -141,7 +141,7 @@ O Kiro não só busca os dados — ele interpreta. Identifica anomalias, sugere 
 
 ## Alarmes ativos: visão geral rápida
 
-```
+```text
 Eu: "tem algum alarme disparando?"
 
 Kiro: [usa get_active_alarms]
@@ -163,7 +163,7 @@ Sem abrir console, sem navegar entre regiões, sem filtrar manualmente.
 
 Quando preciso investigar um problema, a integração com CloudWatch Logs Insights é poderosa:
 
-```
+```text
 Eu: "busca erros no log do lambda auth-service na última hora"
 
 Kiro: [descobre o log group]
@@ -184,7 +184,7 @@ Kiro: [descobre o log group]
 
 A query que o Kiro monta seria algo como:
 
-```
+```text
 filter @message like /(?i)(error|exception|fail|timeout)/
 | stats count(*) as cnt by @message
 | sort cnt desc
@@ -207,7 +207,7 @@ aws-vault exec conta3 -- aws ec2 describe-instances --query '...'
 
 Com o Kiro:
 
-```
+```text
 Eu: "verifica se tem Security Group com 0.0.0.0/0 na porta 22 
      nas contas cliente-prod, cliente-staging e cliente-dev"
 

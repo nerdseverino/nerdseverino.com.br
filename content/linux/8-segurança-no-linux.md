@@ -126,7 +126,7 @@ sudo visudo
 ```
 
 **Exemplos:**
-```
+```text
 # Usuário com sudo total
 usuario ALL=(ALL:ALL) ALL
 
@@ -175,7 +175,7 @@ sudo apt install libpam-pwquality
 sudo vim /etc/security/pwquality.conf
 ```
 
-```
+```text
 # Tamanho mínimo
 minlen = 12
 
@@ -219,7 +219,7 @@ sudo vim /etc/pam.d/sshd
 ```
 
 Adicionar:
-```
+```text
 auth required pam_google_authenticator.so
 ```
 
@@ -228,7 +228,7 @@ auth required pam_google_authenticator.so
 sudo vim /etc/ssh/sshd_config
 ```
 
-```
+```text
 ChallengeResponseAuthentication yes
 AuthenticationMethods publickey,keyboard-interactive
 ```
@@ -245,7 +245,7 @@ sudo systemctl restart sshd
 sudo vim /etc/ssh/sshd_config
 ```
 
-```
+```text
 # Porta não padrão
 Port 2222
 
@@ -372,7 +372,7 @@ sudo setenforce 1  # Enforcing
 sudo vim /etc/selinux/config
 ```
 
-```
+```text
 SELINUX=enforcing
 ```
 
@@ -487,7 +487,7 @@ sudo apt install auditd
 sudo vim /etc/audit/rules.d/audit.rules
 ```
 
-```
+```text
 # Monitorar arquivo
 -w /etc/passwd -p wa -k passwd_changes
 
@@ -612,7 +612,7 @@ sudo sysctl -p /etc/sysctl.d/99-hardening.conf
 sudo vim /etc/security/limits.conf
 ```
 
-```
+```text
 * hard core 0
 ```
 
@@ -626,7 +626,7 @@ grub-mkpasswd-pbkdf2
 sudo vim /etc/grub.d/40_custom
 ```
 
-```
+```text
 set superusers="admin"
 password_pbkdf2 admin HASH_GERADO
 ```

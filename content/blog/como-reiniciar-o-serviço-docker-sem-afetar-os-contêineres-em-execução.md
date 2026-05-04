@@ -30,7 +30,7 @@ P﻿rimeiro, vamos listar os containers em execução:
 
 **`docker ps`**
 
-```
+```text
 CONTAINER ID   IMAGE                          COMMAND                  CREATED       STATUS                 PORTS                    NAMES
 4c644b887440   archivebox/archivebox:master   "dumb-init -- /app/b…"   2 weeks ago   Up 2 weeks (healthy)   0.0.0.0:8000->8000/tcp   archivebox_archivebox_1
 ```
@@ -43,7 +43,7 @@ Observe que o contêiner em execução também foi reiniciado.
 
 **`docker ps`**
 
-```
+```text
 CONTAINER ID   IMAGE                          COMMAND                  CREATED              STATUS                        PORTS                    NAMES
 46e33e628976   archivebox/archivebox:master   "dumb-init -- /app/b…"   About a minute ago   Up About a minute (healthy)   0.0.0.0:8000->8000/tcp   archivebox_archivebox_1
 ```
@@ -52,7 +52,7 @@ Vamos ativar a funcionalidade de restauração ao vivo.
 
 **`vim  /etc/docker/daemon.json`**
 
-```
+```text
 {
   "live-restore": true
 }
@@ -70,7 +70,7 @@ Observe que o contêiner ainda está em execução. O status dele continua e nã
 
 **`docker ps`** 
 
-```
+```text
 CONTAINER ID   IMAGE                          COMMAND                  CREATED         STATUS                   PORTS                    NAMES
 46e33e628976   archivebox/archivebox:master   "dumb-init -- /app/b…"   4 minutes ago   Up 4 minutes (healthy)   0.0.0.0:8000->8000/tcp   archivebox_archivebox_1
 ```

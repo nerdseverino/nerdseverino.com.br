@@ -68,7 +68,7 @@ Vamos ter a seguinte configuração, sua máquina tem um endereço privado qualq
 
 No Linux, basta executar o seguinte comando:
 
-```
+```text
 ssh –L 1000:www.stato.blog.br:80 usuario@200.0.0.1
 ```
 
@@ -76,7 +76,7 @@ ssh –L 1000:www.stato.blog.br:80 usuario@200.0.0.1
 
 Abre-se uma conexão na porta 22 do endereço 200.0.0.1, e cria-se um túnel da sua máquina até o servidor ssh, onde a porta local é a 1000, com destino até www.stato.blog.br na porta 80. O sintaxe do comando é:
 
-```
+```text
 ssh –L host_local:portalocal:host_remoto:portaremota usuário@servidor_ssh
 ```
 
@@ -114,7 +114,7 @@ Imagine a situação do banco de dados rodando no próprio servidor SSH, na port
 
 Vamos ver o comando para o servidor de banco de dados mysql:
 
-```
+```text
 ssh –L 1000:192.168.0.1:3306 usuario@200.0.0.1
 ```
 
@@ -124,7 +124,7 @@ Mas internamente, a rede 192.168.0.0/24 pode acessar o serviço mysql sem proble
 
 E agora depois de estabelecida a conexão, basta abrir o cliente, e manda-lo conectar em localhost:1000. No cliente mysql bastaria executar :
 
-```
+```text
 mysql –p 1000 –u root
 ```
 
@@ -132,7 +132,7 @@ Onde –p é a porta que seja usada para conectar no banco. Como não estamos in
 
 A segunda situação, é quando você deseja acessar um servidor interno, como por exemplo, 192.168.0.10, e um serviço que não está sendo tratado pelo firewall com DNAT (O que se diga de passagem, é menos seguro). Podemos então usar o mesmo artificio:
 
-```
+```text
 ssh –L 1000:192.168.0.10:3389 usuario@200.0.0.1
 ```
 
@@ -158,7 +158,7 @@ O procedimento é o mesmo visto anteriormente em relação à conexão ssh, mas 
 
 No Linux o comando ficará da seguinte forma:
 
-```
+```text
 ssh –D 1515 usuario@200.0.0.1
 ```
 
@@ -174,7 +174,7 @@ Depois disso, basta configurar o browser para acessar esse SOCKS, veja abaixo a 
 
 Como podemos ver basta configura pra usar o Socks na porta que foi utilizada no túnel ssh, e apontar pra localhost, desta forma a navegação passará pelo proxy sem maiores problemas. Mas tenha atenção no seguinte, se seu proxy, firewall, não permite a saída para a porta 22, basta mudar no servidor ssh, para uma porta que seja permitida, e quando for estabelecer à conexão muda a porta. No putty , basta alterar o valor de port, e no Linux use a opção –p  no comando ssh. Por exemplo, estabelecer uma conexão ssh, onde o servidor está escutando a porta 110 ( A porta originalmente destina a conexões pop):
 
-```
+```text
 ssh –p 110 –D 1515 usuario@200.0.0.1
 ```
 

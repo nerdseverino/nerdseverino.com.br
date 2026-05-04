@@ -40,13 +40,13 @@ Uma forma mais confiável de listar quais portas estão escutando a rede é usar
 
 O comando a seguir, submetido em um console, determina quais portas estão escutando conexões FTP pela rede:
 
-```
+```text
 nmap -sT -O localhost
 ```
 
 O output deste comando se parece com o seguinte:
 
-```
+```text
 Starting nmap 3.55 ( http://www.insecure.org/nmap/ ) at 2004-09-24 13:49 EDT
 Interesting ports on localhost.localdomain (127.0.0.1):
 (The 1653 ports scanned but not shown below are in state: closed)
@@ -69,7 +69,7 @@ Nmap run completed -- 1 IP address (1 host up) scanned in 5.190 seconds
 
 Este output mostra que o sistema está rodando o portmap devido à presença do serviço sunrpc. No entanto, também há um serviço misterioso na porta 834. Para verificar se a porta está associada à lista oficial de serviços conhecidos, digite:
 
-```
+```text
 cat /etc/services | grep 834
 ```
 
@@ -77,13 +77,13 @@ Este comando não retorna nenhum output. Isto indica que enquanto a porta está 
 
 Em seguida, verifique as informações sobre a porta usando netstat ou lsof. Para verificar a porta 834 usando netstat, use o seguinte comando:
 
-```
+```text
 netstat -anp | grep 834
 ```
 
 O comando retorna o seguinte output:
 
-```
+```text
 tcp   0    0 0.0.0.0:834    0.0.0.0:*   LISTEN   653/ypbind
 ```
 
@@ -91,13 +91,13 @@ A presença da porta aberta em netstat afirma que um cracker que abrir clandesti
 
 O comando lsof revela informações similares já que é capaz de ligar portas abertas a serviços:
 
-```
+```text
 lsof -i | grep 834
 ```
 
 Veja abaixo a parte relevante do output deste comando:
 
-```
+```text
 ypbind      653        0    7u  IPv4       1319                 TCP *:834 (LISTEN)
 ypbind      655        0    7u  IPv4       1319                 TCP *:834 (LISTEN)
 ypbind      656        0    7u  IPv4       1319                 TCP *:834 (LISTEN)

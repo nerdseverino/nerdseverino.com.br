@@ -58,7 +58,7 @@ ls -l arquivo.txt
 
 ### Representação Numérica (Octal)
 
-```
+```text
 r = 4
 w = 2
 x = 1
