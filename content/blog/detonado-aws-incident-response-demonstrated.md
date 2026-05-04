@@ -1,6 +1,9 @@
 ---
 title: "Detonado: AWS Incident Response Demonstrated"
 date: 2026-04-28T16:00:00-03:00
+cover:
+  image: /images/uploads/detonado-aws-incident-response-demonstrated.png
+  alt: "AWS Incident Response Demonstrated"
 description: |
   Passei na microcredencial AWS Incident Response Demonstrated e documentei tudo.
 
