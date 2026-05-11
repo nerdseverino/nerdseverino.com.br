@@ -120,13 +120,13 @@ O Kiro processa os arquivos, divide em chunks, gera embeddings e armazena localm
 ## Exemplo prático
 
 Sem KB:
-```
+```text
 Pergunta: "como verificar se o proxy Zabbix está online?"
 Resposta: procedimento genérico do Zabbix docs oficial
 ```
 
 Com KB indexada com seus runbooks:
-```
+```text
 Pergunta: "como verificar se o proxy Zabbix está online?"
 Resposta: "Conforme o runbook, verificar EC2 running + SSM online,
           depois cd /opt/zabbix && docker-compose ps.
