@@ -1,6 +1,6 @@
 ---
 title: "Automatizando Deploys com Kiro CLI: Case Real"
-date: 2026-05-15T08:00:00-03:00
+date: 2026-05-13T01:00:00-03:00
 cover:
   image: /images/uploads/automatizando-deploys-com-kiro.jpeg
   alt: "Automatizando Deploys com Kiro CLI"
