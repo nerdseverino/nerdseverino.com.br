@@ -3,7 +3,7 @@ title: "Tangent Mode no Kiro CLI: Consultas sem Poluir o Contexto"
 cover:
   image: /images/uploads/tangent-mode-kiro.jpeg
   alt: "Tangent Mode no Kiro CLI: Consultas sem Poluir o Contexto"
-date: 2026-05-18T12:40:00-03:00
+date: 2026-05-18T12:50:00-03:00
 description: |
   Você está no meio de um troubleshooting complexo e precisa pesquisar algo rápido. Abre uma nova aba? Perde o contexto.
 
