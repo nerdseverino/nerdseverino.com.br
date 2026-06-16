@@ -1,5 +1,5 @@
 ---
-title: "On-Call sem Burnout: Organizando Plantão em Times Pequenos"
+title: "On-Call sem Burnout: organizando plantão em times pequenos"
 cover:
   image: /images/uploads/on-call-sem-burnout.jpeg
   alt: "On-Call sem Burnout: Organizando Plantão em Times Pequenos"

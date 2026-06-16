@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Docker em Produção: Guia de Sobrevivência"
+title: "Troubleshooting Docker em Produção: guia de sobrevivência"
 date: 2026-03-27T13:00:00-03:00
 description: |
   Container reiniciando em loop e você não sabe por quê?

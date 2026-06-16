@@ -1,5 +1,5 @@
 ---
-title: "Automação SRE: Eliminando Toil com Scripts e CI/CD"
+title: "Automação SRE: eliminando toil com scripts e CI/CD"
 cover:
   image: /images/uploads/automacao-sre-eliminando-toil.jpeg
   alt: "Automação SRE: Eliminando Toil com Scripts e CI/CD"

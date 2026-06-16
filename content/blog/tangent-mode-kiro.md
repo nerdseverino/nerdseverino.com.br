@@ -1,5 +1,5 @@
 ---
-title: "Tangent Mode no Kiro CLI: Consultas sem Poluir o Contexto"
+title: "Tangent Mode no Kiro CLI: consultas sem poluir o contexto"
 cover:
   image: /images/uploads/tangent-mode-kiro.jpeg
   alt: "Tangent Mode no Kiro CLI: Consultas sem Poluir o Contexto"

@@ -1,5 +1,5 @@
 ---
-title: "FinOps para SREs: Controlando Custos AWS sem Perder Performance"
+title: "FinOps para SREs: controlando custos AWS sem perder performance"
 cover:
   image: /images/uploads/finops-para-sres.jpeg
   alt: "FinOps para SREs: Controlando Custos AWS sem Perder Performance"

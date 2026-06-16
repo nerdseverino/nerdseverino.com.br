@@ -1,5 +1,5 @@
 ---
-title: "Knowledge Bases no Kiro CLI: Dando Contexto Especializado"
+title: "Knowledge Bases no Kiro CLI: dando contexto especializado"
 date: 2026-05-11T11:30:00-03:00
 cover:
   image: /images/uploads/knowledge-bases-no-kiro.jpeg

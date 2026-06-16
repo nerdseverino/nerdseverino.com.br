@@ -1,5 +1,5 @@
 ---
-title: "aws-vault: Gerenciando Múltiplas Contas AWS com Segurança"
+title: "aws-vault: gerenciando múltiplas contas AWS com segurança"
 description: |
   Se você trabalha com mais de uma conta AWS — e se é SRE ou DevOps, provavelmente trabalha com várias — já deve ter sentido o medo de rodar um terraform destroy na conta errada. O aws-vault resolve esse problema e mais alguns.
 

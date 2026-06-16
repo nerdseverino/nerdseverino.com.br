@@ -1,5 +1,5 @@
 ---
-title: "Observabilidade na AWS: O que Monitorar Primeiro"
+title: "Observabilidade na AWS: o que monitorar primeiro"
 date: 2026-04-21T01:15:00-03:00
 description: |
   Seu CloudWatch tem 200 alarmes e nenhum deles te acorda quando realmente importa?

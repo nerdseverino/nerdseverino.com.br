@@ -1,5 +1,5 @@
 ---
-title: "MCP Servers: Conectando o Kiro ao Mundo Real"
+title: "MCP Servers: conectando o Kiro ao mundo real"
 date: 2026-05-04T17:30:00-03:00
 cover:
   image: /images/uploads/mcp-servers-conectando-o-kiro-ao-mundo-real.jpeg

@@ -1,5 +1,5 @@
 ---
-title: "Steering Files no Kiro CLI: Personalizando a IA para Seu Workflow"
+title: "Steering Files no Kiro CLI: personalizando a IA para seu workflow"
 date: 2026-04-01T10:30:00-03:00
 description: |
   Toda vez que abro o ChatGPT preciso explicar: "responda em português, seja técnico, não explique o óbvio".

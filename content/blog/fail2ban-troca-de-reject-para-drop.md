@@ -1,5 +1,5 @@
 ---
-title: 'Fail2ban: Troca de REJECT para DROP '
+title: 'Fail2ban: troca de REJECT para DROP'
 description: |
   \#blocktype = REJECT --reject-with icmp-port-unreachable\ blocktype = DROP
 

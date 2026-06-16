@@ -1,5 +1,5 @@
 ---
-title: "Kiro CLI 2.0: Windows, Headless Mode e a Nova Terminal UI"
+title: "Kiro CLI 2.0: windows, headless mode e a nova terminal UI"
 date: 2026-04-23T08:00:00-03:00
 description: |
   O Kiro CLI 2.0 chegou com 3 mudanças que mudam o jogo:

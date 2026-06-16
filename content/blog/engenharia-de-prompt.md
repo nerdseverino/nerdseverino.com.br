@@ -1,5 +1,5 @@
 ---
-title: "Engenharia de Prompt: Estruturando Prompts como Algoritmos"
+title: "Engenharia de Prompt: estruturando prompts como algoritmos"
 cover:
   image: /images/uploads/engenharia-de-prompt.jpeg
   alt: "Engenharia de Prompt: Estruturando Prompts como Algoritmos"

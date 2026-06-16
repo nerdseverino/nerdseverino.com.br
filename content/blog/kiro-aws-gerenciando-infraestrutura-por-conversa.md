@@ -1,5 +1,5 @@
 ---
-title: "Kiro + AWS: Gerenciando Infraestrutura por Conversa"
+title: "Kiro + AWS: gerenciando infraestrutura por conversa"
 description: |
   Gerenciar infraestrutura AWS pelo terminal é o dia a dia de qualquer SRE. Mas entre lembrar a sintaxe exata do aws cli, montar filtros JSON, interpretar saídas gigantes e alternar entre dezenas de contas, o trabalho operacional consome tempo demais. Integrar o Kiro CLI com AWS transformou a forma como eu opero — e vou mostrar como.
 

@@ -1,5 +1,5 @@
 ---
-title: "S3 Files: Agora Você Pode Montar um Bucket S3 como Filesystem"
+title: "S3 Files: agora você pode montar um bucket S3 como filesystem"
 description: |
   A AWS acabou de lançar o S3 Files — e se você é SRE, isso muda bastante coisa. Em resumo: agora você pode montar um bucket S3 como filesystem NFS em qualquer compute da AWS. Sem gambiarras, sem FUSE, sem sync manual.
 

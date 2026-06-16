@@ -1,5 +1,5 @@
 ---
-title: "Kiro CLI: Dicas e Truques para Aumentar sua Produtividade"
+title: "Kiro CLI: dicas e truques para aumentar sua produtividade"
 description: |
   O Kiro CLI é uma ferramenta de IA da AWS que funciona como um assistente inteligente no terminal. Depois de alguns meses usando diariamente, compilei as melhores dicas para aproveitar ao máximo essa ferramenta.
 

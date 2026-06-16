@@ -1,5 +1,5 @@
 ---
-title: "Postmortem Blameless: Aprendendo com o Caos sem Procurar Culpado"
+title: "Postmortem Blameless: aprendendo com o caos sem procurar culpado"
 cover:
   image: /images/uploads/postmortem-blameless.jpeg
   alt: "Postmortem Blameless: Aprendendo com o Caos sem Procurar Culpado"

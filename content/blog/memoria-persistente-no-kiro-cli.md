@@ -1,5 +1,5 @@
 ---
-title: "Memória Persistente no Kiro CLI: Contexto que Sobrevive Entre Sessões"
+title: "Memória Persistente no Kiro CLI: contexto que sobrevive entre sessões"
 date: 2026-03-30T16:30:00-03:00
 description: |
   O maior problema de assistentes AI no terminal: cada sessão começa do zero.
