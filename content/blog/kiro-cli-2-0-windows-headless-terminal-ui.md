@@ -18,7 +18,7 @@ description: |
 
   #KiroCLI #AI #DevTools #Windows #CICD #SRE
 cover:
-  image: "/images/uploads/cover-kiro-2.png"
+  image: "/images/uploads/cover-kiro-2.jpg"
   alt: "Cover"
   relative: false
 categories:

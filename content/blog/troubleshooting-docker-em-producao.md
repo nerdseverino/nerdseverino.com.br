@@ -40,7 +40,7 @@ keywords:
   - docker exec
   - overlay2
 cover:
-  image: "/images/uploads/cover-docker-troubleshooting.png"
+  image: "/images/uploads/cover-docker-troubleshooting.jpg"
   alt: "Cover"
   relative: false
 autoThumbnailImage: false

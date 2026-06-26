@@ -40,7 +40,7 @@ keywords:
   - ss
   - dmesg
 cover:
-  image: "/images/uploads/cover-linux-sre-commands.png"
+  image: "/images/uploads/cover-linux-sre-commands.jpg"
   alt: "Cover"
   relative: false
 autoThumbnailImage: false

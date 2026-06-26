@@ -33,7 +33,7 @@ coverImage: ''
 
 <p align="center">
 
-<img src="/images/uploads/nextcloud-logo.wine.png" width="240" title="Nextcloud logo">
+<img src="/images/uploads/nextcloud-logo.wine.jpg" width="240" title="Nextcloud logo">
 
 </p>
 

@@ -40,7 +40,7 @@ keywords:
   - skills kiro
   - contexto ia
 cover:
-  image: "/images/uploads/cover-kiro-steering.png"
+  image: "/images/uploads/cover-kiro-steering.jpg"
   alt: "Cover"
   relative: false
 autoThumbnailImage: false

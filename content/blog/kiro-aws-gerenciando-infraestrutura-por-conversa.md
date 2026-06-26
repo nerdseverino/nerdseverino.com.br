@@ -24,7 +24,7 @@ keywords:
   - gerenciar aws terminal
   - sre aws
 cover:
-  image: "/images/uploads/cover-kiro-aws.png"
+  image: "/images/uploads/cover-kiro-aws.jpg"
   alt: "Cover"
   relative: false
 autoThumbnailImage: false

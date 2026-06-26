@@ -18,7 +18,7 @@ autoThumbnailImage: false
 thumbnailImagePosition: top
 coverImage: ''
 ---
-![Samba4 Logo](/images/uploads/logo-samba-4.png)
+![Samba4 Logo](/images/uploads/logo-samba-4.jpg)
 
 Bom depois de fazer o[ tutorial do Samba 4](https://nerdseverino.com.br/2020/10/06/instalando-samba-4-no-raspberry-pi-3-model-b-rev-1.2/) e depois de mexer com Docker no pequeno PI, eu pensei porque não tentar colocar o Samba4 no Debian que é a base do Raspbian.
 

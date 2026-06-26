@@ -88,13 +88,13 @@ Depois de criado o túnel, basta abrir o browser, e colocar o endereço 127.0.0.
 
 Vamos ver isso graficamente, para podermos entender melhor:
 
-![exemplo de tunel ssh](/images/uploads/78306760-7b22-441f-88e6-0225056ac9d0.png)
+![exemplo de tunel ssh](/images/uploads/78306760-7b22-441f-88e6-0225056ac9d0.jpg)
 
 É possível ainda sim, criar a mesma conexão usando no Microsoft Windows, o programa cliente ssh chamado putty. O processo no final é o mesmo, deve-se abrir uma conexão ssh normalmente, e depois de estabelecida, basta ir ao menu, e entrar em “Change Settings…” . Neste menu deverá ser localizado o item Conection->SSH->Tunnels, e então adicionar a porta de origem, o destino já com a porta configurada.
 
 Veja abaixo as figuras. Neste primeiro item vamos estabelecer a conexão normalmente:
 
-![putty para conexão ssh ](/images/uploads/de255a5e-987e-4502-9a59-d8f3291787fb.png)
+![putty para conexão ssh ](/images/uploads/de255a5e-987e-4502-9a59-d8f3291787fb.jpg)
 
 Já na segunda parte, depois de irmos ao menu change settings dever ser criado o túnel .
 
@@ -140,11 +140,11 @@ Como podemos ver acima, a sintaxe ainda é a mesma, mas o túnel (-L) tem como d
 
 
 
-![dnat para outro servidor](/images/uploads/60a6b23c-f7ad-4236-a382-a84c666737d0.png)
+![dnat para outro servidor](/images/uploads/60a6b23c-f7ad-4236-a382-a84c666737d0.jpg)
 
 No cliente bastaria agora aportar o Remote Desktop, ou Desktop (Linux) para Localhost na porta 1000, veja figura abaixo:
 
-![cliente rdp windows](/images/uploads/8727508f-2ff8-4ea2-a7e3-9bfa3140fd3e.png)
+![cliente rdp windows](/images/uploads/8727508f-2ff8-4ea2-a7e3-9bfa3140fd3e.jpg)
 
 
 
@@ -166,7 +166,7 @@ Esse comando irá criar um conexão ssh, e um SOCKS na porta 1515 da sua máquin
 
 Agora basta configurar o cliente web ( Firefox, mozilla, etc) , com proxy apontando para socks localhost na porta 1515. Já no Windows, deve-se estabelecer a conexão usando normalmente o putty, mas em SSH->Tunnels, teremos algumas diferenças, vejamos a imagem abaixo:
 
-![configurando putty para proxy dinâmico](/images/uploads/1b500fa0-982b-43ba-9bf8-b444c816aa73.png)
+![configurando putty para proxy dinâmico](/images/uploads/1b500fa0-982b-43ba-9bf8-b444c816aa73.jpg)
 
 Podemos ver acima, que agora em nosso túnel , iremos usar a porta 1515 (poderia ser qualquer uma , como a 1000 que estávamos usando), e mudamos Destination para Dynamic, já que nosso destino de fato irá variar.
 

@@ -39,7 +39,7 @@ keywords:
   - assistente terminal
   - sre
 cover:
-  image: "/images/uploads/cover-kiro-memoria.png"
+  image: "/images/uploads/cover-kiro-memoria.jpg"
   alt: "Cover"
   relative: false
 autoThumbnailImage: false

@@ -23,7 +23,7 @@ autoThumbnailImage: false
 thumbnailImagePosition: top
 coverImage: ''
 ---
-![samba4 logo](/images/uploads/logo-samba-4.png)
+![samba4 logo](/images/uploads/logo-samba-4.jpg)
 
 Vamos começar essa jornada com uma instalação limpa do Raspbian e logo em seguida liberando algum espaço adicional no disco:
 

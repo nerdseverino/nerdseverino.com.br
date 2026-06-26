@@ -20,7 +20,7 @@ keywords:
   - linux
 autoThumbnailImage: false
 thumbnailImagePosition: top
-thumbnailImage: /images/uploads/xenserver_logo_original.png
+thumbnailImage: /images/uploads/xenserver_logo_original.jpg
 coverImage: ''
 ---
 1 - Logue no Console do xenserver e rode o seguinte comando:
