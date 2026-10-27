@@ -3,7 +3,7 @@ title: "Todo sistema vai cair. A diferença é se ele afunda junto ou não"
 cover:
   image: /images/uploads/padroes-de-resiliencia-como-sistemas-sobrevivem.jpeg
   alt: "Todo sistema vai cair. A diferença é se ele afunda junto ou não"
-date: 2026-10-27T01:25:00-03:00
+date: 2026-10-27T01:00:00-03:00
 description: |
   Todo sistema vai falhar. A diferença entre um bom e um ruim é como ele falha.
 
