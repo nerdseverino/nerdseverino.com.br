@@ -5,17 +5,19 @@ cover:
   alt: "A AWS enterrou o onboarding que te fez sofrer no primeiro dia"
 date: 2026-11-04T17:03:00-03:00
 description: |
-  Lembra do seu primeiro dia na AWS? Cartão de crédito, IAM incompreensível, uma VPC pra montar antes de subir um "hello world". A AWS resolveu enterrar isso.
+  Todo mundo lembra do primeiro dia na AWS. Poucos lembram com carinho.
 
-  O novo onboarding inverte a lógica tradicional:
+  Se o seu começo foi tipo o meu:
+  ❌ Cadastrar cartão de crédito com medo da fatura surpresa
+  ❌ Apanhar do IAM antes de subir um "hello world"
+  ❌ Montar VPC, subnet e route table pra rodar UMA instância
+  ❌ Descobrir no fim do mês um recurso esquecido ligado
 
-  🚪 Login com Google/GitHub/Apple, sem cartão de crédito
-  💰 US$ 100 em créditos grátis
-  📦 Conceito de "Project" (conta + sharing, sem IAM manual)
-  🤖 Integração nativa com coding agent (gera CLAUDE.md)
-  🛑 Spend limit que PAUSA o projeto ao atingir o teto
+  Isso não era aprendizado. Era pedágio.
 
-  Para quem já tem anos de AWS, isso levanta uma pergunta: a nuvem está ficando mais simples ou escondendo complexidade?
+  A AWS acabou de enterrar esse onboarding: login social, sem cartão, projeto com um clique, spend limit que PAUSA em vez de te assustar na fatura.
+
+  Facilita a entrada de quem chega agora. Mas levanta a dúvida: a nuvem está ficando mais simples ou só escondendo a complexidade pra te cobrar o boleto depois?
 
   Conta aí: como foi seu primeiro dia sofrido na AWS?
 
