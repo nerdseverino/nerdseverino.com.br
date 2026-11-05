@@ -1,5 +1,5 @@
 ---
-title: Ubuntu - COMO Iniciar em modo de emergência
+title: "Ubuntu: como iniciar em modo de emergência"
 description: |
   Existem algumas situações quando você esquece a senha do seu usuário ou mesmo precisa efetuar uma manutenção de disco você pode recorrer ao modo de inicialização de recuperação do ubuntu para efetuar esses procedimentos.
 

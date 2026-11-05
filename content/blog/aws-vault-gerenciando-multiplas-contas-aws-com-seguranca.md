@@ -309,7 +309,7 @@ Resultado:
 
 Isso evita aquele momento de pânico: "em qual conta eu estou mesmo?"
 
-## O que NÃO fazer
+## O que não fazer
 
 ### ❌ Nunca exporte credenciais permanentes
 
