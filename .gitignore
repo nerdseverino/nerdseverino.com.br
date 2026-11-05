@@ -8,6 +8,8 @@ public/
 context.json
 contexto.json
 *.context.json
+*_server.json
+nerdseverino_server.json
 .kiro/
 
 # Temp/work files
@@ -42,3 +44,7 @@ relatorio_*.md
 Thumbs.dbdados_pub/
 themes/
 drafts-fixed/
+DIRETRIZES-POSTAGENS.md
+PROXIMO-POST.md
+Melhores Práticas no LinkedIn.md
+PAUTA-POST-*.md
